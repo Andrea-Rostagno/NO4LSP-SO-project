@@ -1,0 +1,2901 @@
+extendedRosenbrock
+
+=================================================
+ TEST SU EXTENDED ROSENBROCK IN DIMENSIONE 1000 
+=================================================
+
+
+=================================================
+ TEST SU DERIVATE APPROSSIMATE CON DIFFERENZE FINITE 
+=================================================
+
+
+----------------------------------------------------
+Default increment h = 1.000000e-02 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.096124
+ | iter = 118 | tempo = 0.03s
+rho ≈ 0.8856
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.096124
+ | iter = 121 | tempo = 0.03s
+rho ≈ 0.8856
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.096124
+ | iter = 123 | tempo = 0.04s
+rho ≈ 0.8856
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.096124
+ | iter = 123 | tempo = 0.04s
+rho ≈ 0.8856
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.096125
+ | iter = 122 | tempo = 0.03s
+rho ≈ 0.8856
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.096124
+ | iter = 123 | tempo = 0.03s
+rho ≈ 0.8856
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.096125
+ | iter = 122 | tempo = 0.04s
+rho ≈ 0.8856
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.096124
+ | iter = 122 | tempo = 0.03s
+rho ≈ 0.8856
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.096124
+ | iter = 122 | tempo = 0.04s
+rho ≈ 0.8856
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.096124
+ | iter = 123 | tempo = 0.04s
+rho ≈ 0.8856
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.096124
+ | iter = 122 | tempo = 0.03s
+rho ≈ 0.8856
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-02*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.089196
+ | iter = 110 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.089196
+ | iter = 113 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.089196
+ | iter = 113 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.089196
+ | iter = 115 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.089196
+ | iter = 113 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.089195
+ | iter = 114 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.089196
+ | iter = 113 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.089196
+ | iter = 114 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.089196
+ | iter = 113 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.089196
+ | iter = 114 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.089196
+ | iter = 113 | tempo = 0.03s
+rho ≈ 0.8794
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-04 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 21 | tempo = 0.01s
+rho ≈ 1.1640
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.5064
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3041
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.4906
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3795
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.2486
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.2606
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.4239
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.1854
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.5267
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3915
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-04*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 21 | tempo = 0.01s
+rho ≈ 1.1476
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.5460
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3125
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.5174
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3083
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3118
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.2895
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.6095
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.2921
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.4944
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.5451
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-06 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.01s
+rho ≈ 2.4144
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1524
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.4077
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3605
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2491
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2121
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1162
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1441
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2874
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3699
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1812
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-06*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.00s
+rho ≈ 2.4464
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1481
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.4208
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3524
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2531
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1861
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1187
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1260
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2738
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3752
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1679
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-08 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.01s
+rho ≈ 2.1463
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1997
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3458
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3877
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2174
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2958
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1194
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1967
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3149
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3556
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2386
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-08*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.00s
+rho ≈ 2.1468
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1996
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3460
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3877
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2176
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2956
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1194
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1966
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3149
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3557
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2385
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-10 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.01s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2002
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3452
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3880
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2171
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2965
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1196
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1972
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3151
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3555
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2391
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-10*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.00s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2002
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3452
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3880
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2171
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2965
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1196
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1972
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3151
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3555
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2391
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-12 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.01s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2002
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3451
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3880
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2171
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2965
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1196
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1972
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3151
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3555
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2391
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-12*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.00s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2002
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3451
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3880
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2171
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2965
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1196
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1972
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3151
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3555
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2391
+
+
+Successi: 10 su 10
+
+=================================================
+ TEST SU DERIVATE ESATTE 
+=================================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.00s
+rho ≈ 2.1432
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3592
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.1410
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3651
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.01s
+rho ≈ 1.3212
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.0968
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.01s
+rho ≈ 1.5804
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.3590
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2556
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.0682
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 25 | tempo = 0.01s
+rho ≈ 2.2282
+
+Successi: 10 su 10
+
+Tempo (incl. plotting) per n = 1000     :  2.55  s
+
+=================================================
+ TEST SU EXTENDED ROSENBROCK IN DIMENSIONE 10000 
+=================================================
+
+
+=================================================
+ TEST SU DERIVATE APPROSSIMATE CON DIFFERENZE FINITE 
+=================================================
+
+
+----------------------------------------------------
+Default increment h = 1.000000e-02 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.961238
+ | iter = 118 | tempo = 0.23s
+rho ≈ 0.8856
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.961223
+ | iter = 125 | tempo = 0.26s
+rho ≈ 0.8856
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.961220
+ | iter = 126 | tempo = 0.26s
+rho ≈ 0.8856
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.961219
+ | iter = 126 | tempo = 0.26s
+rho ≈ 0.8856
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.961220
+ | iter = 126 | tempo = 0.27s
+rho ≈ 0.8856
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.961222
+ | iter = 126 | tempo = 0.27s
+rho ≈ 0.8856
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.961220
+ | iter = 126 | tempo = 0.27s
+rho ≈ 0.8856
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.961220
+ | iter = 126 | tempo = 0.27s
+rho ≈ 0.8856
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.961220
+ | iter = 126 | tempo = 0.27s
+rho ≈ 0.8856
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.961220
+ | iter = 126 | tempo = 0.27s
+rho ≈ 0.8856
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.961223
+ | iter = 125 | tempo = 0.26s
+rho ≈ 0.8856
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-02*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.891955
+ | iter = 110 | tempo = 0.21s
+rho ≈ 0.8794
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.891943
+ | iter = 114 | tempo = 0.24s
+rho ≈ 0.8794
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.891943
+ | iter = 114 | tempo = 0.24s
+rho ≈ 0.8794
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.891943
+ | iter = 114 | tempo = 0.24s
+rho ≈ 0.8794
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.891943
+ | iter = 114 | tempo = 0.24s
+rho ≈ 0.8794
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.891944
+ | iter = 114 | tempo = 0.24s
+rho ≈ 0.8794
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.891942
+ | iter = 115 | tempo = 0.24s
+rho ≈ 0.8794
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.891942
+ | iter = 115 | tempo = 0.25s
+rho ≈ 0.8794
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.891943
+ | iter = 114 | tempo = 0.24s
+rho ≈ 0.8794
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.891942
+ | iter = 115 | tempo = 0.23s
+rho ≈ 0.8794
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.891942
+ | iter = 115 | tempo = 0.24s
+rho ≈ 0.8794
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-04 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 21 | tempo = 0.04s
+rho ≈ 1.1640
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2656
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2698
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2663
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2649
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2616
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.08s
+rho ≈ 1.2713
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2740
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2758
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2653
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2755
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-04*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 21 | tempo = 0.04s
+rho ≈ 1.1476
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2364
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2267
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2297
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2304
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2090
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2416
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2234
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2184
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2198
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.07s
+rho ≈ 1.2335
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-06 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.04s
+rho ≈ 2.4144
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2780
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2822
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.3590
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1576
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2593
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2011
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1992
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2575
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1691
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1885
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-06*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.04s
+rho ≈ 2.4464
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2802
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2833
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.3487
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1524
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2574
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2015
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2041
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2615
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1718
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1819
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-08 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.04s
+rho ≈ 2.1463
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2679
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2814
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1884
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1850
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2675
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2097
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1946
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2525
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1756
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2163
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-08*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.04s
+rho ≈ 2.1468
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2679
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2814
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1884
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1850
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2675
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2097
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1946
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2525
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1756
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2162
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-10 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.04s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2678
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2813
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1885
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1853
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2675
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2098
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1946
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2525
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1757
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2166
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-10*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.04s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2678
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2813
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1885
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1853
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2675
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2098
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1946
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2525
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1757
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2166
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-12 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.04s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2678
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2813
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1885
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1853
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2675
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2098
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1946
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2525
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1757
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2166
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-12*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.04s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2678
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2813
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1885
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1853
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2675
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2098
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1946
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.07s
+rho ≈ 1.2525
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.1757
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.07s
+rho ≈ 2.2166
+
+
+Successi: 10 su 10
+
+=================================================
+ TEST SU DERIVATE ESATTE 
+=================================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.02s
+rho ≈ 2.1432
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.05s
+rho ≈ 2.2400
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.05s
+rho ≈ 2.1852
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.05s
+rho ≈ 2.1204
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.05s
+rho ≈ 2.1448
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.05s
+rho ≈ 2.1838
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.05s
+rho ≈ 1.2517
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.05s
+rho ≈ 1.1983
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.05s
+rho ≈ 2.2297
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.05s
+rho ≈ 1.3297
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000001
+ | iter = 25 | tempo = 0.05s
+rho ≈ 2.2056
+
+Successi: 10 su 10
+
+Tempo (incl. plotting) per n = 10000    :  14.13  s
+
+=================================================
+ TEST SU EXTENDED ROSENBROCK IN DIMENSIONE 100000 
+=================================================
+
+
+=================================================
+ TEST SU DERIVATE APPROSSIMATE CON DIFFERENZE FINITE 
+=================================================
+
+
+----------------------------------------------------
+Default increment h = 1.000000e-02 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 9.612375
+ | iter = 118 | tempo = 2.66s
+rho ≈ 0.8856
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.26s
+rho ≈ 0.8856
+
+
+--- Test 2 (x0 #2) ---
+f_min = 9.612195
+ | iter = 126 | tempo = 3.27s
+rho ≈ 0.8856
+
+
+--- Test 3 (x0 #3) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.25s
+rho ≈ 0.8856
+
+
+--- Test 4 (x0 #4) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.26s
+rho ≈ 0.8856
+
+
+--- Test 5 (x0 #5) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.26s
+rho ≈ 0.8856
+
+
+--- Test 6 (x0 #6) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.23s
+rho ≈ 0.8856
+
+
+--- Test 7 (x0 #7) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.33s
+rho ≈ 0.8856
+
+
+--- Test 8 (x0 #8) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.26s
+rho ≈ 0.8856
+
+
+--- Test 9 (x0 #9) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.24s
+rho ≈ 0.8856
+
+
+--- Test 10 (x0 #10) ---
+f_min = 9.612196
+ | iter = 126 | tempo = 3.22s
+rho ≈ 0.8856
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-02*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 8.919555
+ | iter = 110 | tempo = 2.41s
+rho ≈ 0.8794
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 8.919431
+ | iter = 114 | tempo = 2.90s
+rho ≈ 0.8794
+
+
+--- Test 2 (x0 #2) ---
+f_min = 8.919431
+ | iter = 114 | tempo = 2.95s
+rho ≈ 0.8794
+
+
+--- Test 3 (x0 #3) ---
+f_min = 8.919431
+ | iter = 114 | tempo = 2.95s
+rho ≈ 0.8794
+
+
+--- Test 4 (x0 #4) ---
+f_min = 8.919421
+ | iter = 115 | tempo = 2.97s
+rho ≈ 0.8794
+
+
+--- Test 5 (x0 #5) ---
+f_min = 8.919431
+ | iter = 114 | tempo = 2.95s
+rho ≈ 0.8794
+
+
+--- Test 6 (x0 #6) ---
+f_min = 8.919430
+ | iter = 114 | tempo = 2.99s
+rho ≈ 0.8794
+
+
+--- Test 7 (x0 #7) ---
+f_min = 8.919431
+ | iter = 114 | tempo = 3.03s
+rho ≈ 0.8794
+
+
+--- Test 8 (x0 #8) ---
+f_min = 8.919430
+ | iter = 114 | tempo = 2.97s
+rho ≈ 0.8794
+
+
+--- Test 9 (x0 #9) ---
+f_min = 8.919431
+ | iter = 114 | tempo = 2.96s
+rho ≈ 0.8794
+
+
+--- Test 10 (x0 #10) ---
+f_min = 8.919431
+ | iter = 114 | tempo = 2.97s
+rho ≈ 0.8794
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-04 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 22 | tempo = 0.49s
+rho ≈ 0.9324
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2756
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.93s
+rho ≈ 1.2686
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.91s
+rho ≈ 1.2778
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2765
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.93s
+rho ≈ 1.2709
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.91s
+rho ≈ 1.2737
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.93s
+rho ≈ 1.2690
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2748
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2700
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2769
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-04*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 22 | tempo = 0.49s
+rho ≈ 0.9453
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2276
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.90s
+rho ≈ 1.2332
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.90s
+rho ≈ 1.2292
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.91s
+rho ≈ 1.2304
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2332
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.93s
+rho ≈ 1.2271
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.91s
+rho ≈ 1.2347
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.91s
+rho ≈ 1.2295
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2278
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 27 | tempo = 0.92s
+rho ≈ 1.2296
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-06 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.44s
+rho ≈ 2.4144
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3517
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3980
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3527
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3551
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3757
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3570
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3366
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3862
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3851
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3802
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-06*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.44s
+rho ≈ 2.4464
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3518
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3968
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3508
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3537
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3753
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3589
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3367
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3839
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3855
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3800
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-08 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.44s
+rho ≈ 2.1463
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3510
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.4027
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.91s
+rho ≈ 1.3581
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.94s
+rho ≈ 1.3551
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.92s
+rho ≈ 1.3756
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.92s
+rho ≈ 1.3520
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3365
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3922
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3846
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3817
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-08*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.44s
+rho ≈ 2.1468
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3510
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.91s
+rho ≈ 1.4027
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.91s
+rho ≈ 1.3581
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3551
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3756
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3520
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.91s
+rho ≈ 1.3365
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3922
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3846
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3817
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-10 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.45s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3510
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.4027
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3582
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3550
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3756
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3520
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3365
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3922
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3846
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3817
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-10*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.44s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3510
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.4027
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3582
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3550
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3756
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3520
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3365
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.92s
+rho ≈ 1.3922
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.92s
+rho ≈ 1.3846
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.91s
+rho ≈ 1.3817
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-12 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.44s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3510
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.4027
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3582
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3550
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3756
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3520
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3365
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3922
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3846
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3817
+
+
+Successi: 10 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-12*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.44s
+rho ≈ 2.1432
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.87s
+rho ≈ 1.3510
+
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.4027
+
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.87s
+rho ≈ 1.3582
+
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3550
+
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3756
+
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3520
+
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.89s
+rho ≈ 1.3365
+
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.88s
+rho ≈ 1.3922
+
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3846
+
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.90s
+rho ≈ 1.3817
+
+
+Successi: 10 su 10
+
+=================================================
+ TEST SU DERIVATE ESATTE 
+=================================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.000000
+ | iter = 20 | tempo = 0.34s
+rho ≈ 2.1432
+
+--- Test 1 (x0 #1) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.74s
+rho ≈ 1.3709
+
+--- Test 2 (x0 #2) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.74s
+rho ≈ 1.3927
+
+--- Test 3 (x0 #3) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.76s
+rho ≈ 1.3116
+
+--- Test 4 (x0 #4) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.74s
+rho ≈ 1.3909
+
+--- Test 5 (x0 #5) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.75s
+rho ≈ 1.3796
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.75s
+rho ≈ 1.3636
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.73s
+rho ≈ 1.3971
+
+--- Test 8 (x0 #8) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.74s
+rho ≈ 1.3654
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.74s
+rho ≈ 1.3728
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000000
+ | iter = 26 | tempo = 0.75s
+rho ≈ 1.3446
+
+Successi: 10 su 10
+
+Tempo (incl. plotting) per n = 100000   :  170.30  s
+
+=================================================
+ TABELLA TEMPISTICHE ALGORITMO EXTENDED ROSENBROCK 
+=================================================
+
+
+Tempo (incl. plotting) per n = 1000     :  2.55  s
+
+Tempo (incl. plotting) per n = 10000    :  14.13  s
+
+Tempo (incl. plotting) per n = 100000   :  170.30  s
+
+Tempo TOTALE (tutte le dimensioni) :  186.99  s
+diary off

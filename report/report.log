@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.4)  20 MAY 2025 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.4)  21 MAY 2025 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,7 +537,7 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [3]
 
 [4]
-<../immagini/rosen3D_A.png, id=165, 578.16pt x 433.62pt>
+<../immagini/rosen3D_A.png, id=170, 578.16pt x 433.62pt>
 File: ../immagini/rosen3D_A.png Graphic file (type png)
 <use ../immagini/rosen3D_A.png>
 Package pdftex.def Info: ../immagini/rosen3D_A.png  used on input line 136.
@@ -545,7 +545,7 @@ Package pdftex.def Info: ../immagini/rosen3D_A.png  used on input line 136.
 
 
 [5 <../immagini/rosen3D_A.png>]
-<../immagini/grafrosennewton.png, id=174, 1156.32pt x 650.43pt>
+<../immagini/grafrosennewton.png, id=179, 1156.32pt x 650.43pt>
 File: ../immagini/grafrosennewton.png Graphic file (type png)
 <use ../immagini/grafrosennewton.png>
 Package pdftex.def Info: ../immagini/grafrosennewton.png  used on input line 15
@@ -554,7 +554,7 @@ Package pdftex.def Info: ../immagini/grafrosennewton.png  used on input line 15
 
 
 [6 <../immagini/grafrosennewton.png (PNG copy)>]
-<../immagini/grafrosennelder.png, id=180, 421.575pt x 316.18124pt>
+<../immagini/grafrosennelder.png, id=185, 421.575pt x 316.18124pt>
 File: ../immagini/grafrosennelder.png Graphic file (type png)
 <use ../immagini/grafrosennelder.png>
 Package pdftex.def Info: ../immagini/grafrosennelder.png  used on input line 17
@@ -563,8 +563,149 @@ Package pdftex.def Info: ../immagini/grafrosennelder.png  used on input line 17
 
 
 [7 <../immagini/grafrosennelder.png (PNG copy)>]
+<../immagini/ext_rosen_3d.png, id=191, 433.62pt x 361.35pt>
+File: ../immagini/ext_rosen_3d.png Graphic file (type png)
+<use ../immagini/ext_rosen_3d.png>
+Package pdftex.def Info: ../immagini/ext_rosen_3d.png  used on input line 214.
+(pdftex.def)             Requested size: 234.00238pt x 195.00479pt.
 
-[8] (report.aux)
+
+[8 <../immagini/ext_rosen_3d.png>]
+
+[9]
+<../immagini/ext_1k.png, id=204, 1156.32pt x 650.43pt>
+File: ../immagini/ext_1k.png Graphic file (type png)
+<use ../immagini/ext_1k.png>
+Package pdftex.def Info: ../immagini/ext_1k.png  used on input line 308.
+(pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
+<../immagini/ext_10k.png, id=205, 1156.32pt x 650.43pt>
+File: ../immagini/ext_10k.png Graphic file (type png)
+<use ../immagini/ext_10k.png>
+Package pdftex.def Info: ../immagini/ext_10k.png  used on input line 315.
+(pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
+<../immagini/ext_100k.png, id=206, 1156.32pt x 650.43pt>
+File: ../immagini/ext_100k.png Graphic file (type png)
+<use ../immagini/ext_100k.png>
+Package pdftex.def Info: ../immagini/ext_100k.png  used on input line 322.
+(pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
+<../immagini/ext_time.png, id=207, 421.575pt x 316.18124pt>
+File: ../immagini/ext_time.png Graphic file (type png)
+<use ../immagini/ext_time.png>
+Package pdftex.def Info: ../immagini/ext_time.png  used on input line 329.
+(pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
+
+
+[10]
+
+[11 <../immagini/ext_1k.png (PNG copy)> <../immagini/ext_10k.png (PNG copy)>]
+
+[12 <../immagini/ext_100k.png (PNG copy)> <../immagini/ext_time.png (PNG copy)>
+]
+Overfull \hbox (12.95001pt too wide) detected at line 364
+[] \OMS/lmsy/m/n/12 ^^Y []
+ []
+
+
+
+[13]
+Overfull \hbox (49.00887pt too wide) in paragraph at lines 393--394
+\T1/lmr/m/n/12 tion us-ing fi-nite dif-fer-ence deriva-tives across six in-cre-
+ment val-ues $\OML/lmm/m/it/12 h \OMS/lmsy/m/n/12 2 f\OT1/lmr/m/n/12 10[]\OML/l
+mm/m/it/12 ; \OT1/lmr/m/n/12 10[]\OML/lmm/m/it/12 ; \OT1/lmr/m/n/12 10[]\OML/lm
+m/m/it/12 ; [] 
+ []
+
+
+
+[14]
+
+[15]
+<../immagini/ext_1k_h2.png, id=247, 1503.36656pt x 672.26157pt>
+File: ../immagini/ext_1k_h2.png Graphic file (type png)
+<use ../immagini/ext_1k_h2.png>
+Package pdftex.def Info: ../immagini/ext_1k_h2.png  used on input line 457.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/ext_1k_h12.png, id=248, 1503.36656pt x 672.26157pt>
+File: ../immagini/ext_1k_h12.png Graphic file (type png)
+<use ../immagini/ext_1k_h12.png>
+Package pdftex.def Info: ../immagini/ext_1k_h12.png  used on input line 464.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+
+
+[16 <../immagini/ext_1k_h2.png (PNG copy)>]
+
+[17 <../immagini/ext_1k_h12.png (PNG copy)>]
+
+[18]
+<../immagini/ext_10k_h2.png, id=266, 1503.36656pt x 672.26157pt>
+File: ../immagini/ext_10k_h2.png Graphic file (type png)
+<use ../immagini/ext_10k_h2.png>
+Package pdftex.def Info: ../immagini/ext_10k_h2.png  used on input line 524.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/ext_10k_h12.png, id=267, 1503.36656pt x 672.26157pt>
+File: ../immagini/ext_10k_h12.png Graphic file (type png)
+<use ../immagini/ext_10k_h12.png>
+Package pdftex.def Info: ../immagini/ext_10k_h12.png  used on input line 531.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+
+
+[19 <../immagini/ext_10k_h2.png (PNG copy)>]
+<../immagini/ext_100k_h2.png, id=273, 1503.36656pt x 672.26157pt>
+File: ../immagini/ext_100k_h2.png Graphic file (type png)
+<use ../immagini/ext_100k_h2.png>
+Package pdftex.def Info: ../immagini/ext_100k_h2.png  used on input line 591.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/ext_100k_h12.png, id=274, 1503.36656pt x 672.26157pt>
+File: ../immagini/ext_100k_h12.png Graphic file (type png)
+<use ../immagini/ext_100k_h12.png>
+Package pdftex.def Info: ../immagini/ext_100k_h12.png  used on input line 598.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+
+
+[20 <../immagini/ext_10k_h12.png (PNG copy)>]
+
+[21]
+
+[22 <../immagini/ext_100k_h2.png (PNG copy)> <../immagini/ext_100k_h12.png (PNG
+ copy)>]
+Overfull \hbox (21.59277pt too wide) in paragraph at lines 603--603
+[]\T1/lmr/bx/n/14.4 Nelder^^UMead Method on Ex-tended Rosen-brock Func-
+ []
+
+
+
+[23]
+<../immagini/ext_10.png, id=298, 1156.32pt x 650.43pt>
+File: ../immagini/ext_10.png Graphic file (type png)
+<use ../immagini/ext_10.png>
+Package pdftex.def Info: ../immagini/ext_10.png  used on input line 661.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/ext_26.png, id=299, 1156.32pt x 650.43pt>
+File: ../immagini/ext_26.png Graphic file (type png)
+<use ../immagini/ext_26.png>
+Package pdftex.def Info: ../immagini/ext_26.png  used on input line 668.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/ext_50.png, id=300, 1156.32pt x 650.43pt>
+File: ../immagini/ext_50.png Graphic file (type png)
+<use ../immagini/ext_50.png>
+Package pdftex.def Info: ../immagini/ext_50.png  used on input line 675.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/ext_time_nelder.png, id=301, 421.575pt x 316.18124pt>
+File: ../immagini/ext_time_nelder.png Graphic file (type png)
+<use ../immagini/ext_time_nelder.png>
+Package pdftex.def Info: ../immagini/ext_time_nelder.png  used on input line 68
+2.
+(pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
+
+
+[24]
+
+[25 <../immagini/ext_10.png (PNG copy)> <../immagini/ext_26.png (PNG copy)>]
+
+[26 <../immagini/ext_50.png (PNG copy)> <../immagini/ext_time_nelder.png (PNG c
+opy)>]
+
+[27] (report.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -577,30 +718,33 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E45EDDE77A6DC59DB0086EF676FCAA44;4962.
+(rerunfilecheck)             Checksum: 994E9266A1BCF9461DC7B339BE094B07;5402.
  ) 
 Here is how much of TeX's memory you used:
- 12389 strings out of 473904
- 190011 string characters out of 5726601
- 1936908 words of memory out of 5000000
- 35040 multiletter control sequences out of 15000+600000
+ 12570 strings out of 473904
+ 194289 string characters out of 5726601
+ 1953908 words of memory out of 5000000
+ 35169 multiletter control sequences out of 15000+600000
  614775 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,583b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,583b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pf
 b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pf
-b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb
-><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-<C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C
-:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
-:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:
-/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:
-/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb>
-Output written on report.pdf (10 pages, 414235 bytes).
+b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb
+><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb>
+<C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><
+C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:
+/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
+sers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/U
+sers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Us
+ers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Use
+rs/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Use
+rs/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb>
+Output written on report.pdf (29 pages, 1812630 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

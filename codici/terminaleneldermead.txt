@@ -1,0 +1,644 @@
+PartI
+
+==============================================
+ TEST SU ROSENBROCK IN DUE DIMENSIONI      
+==============================================
+
+Starting point: [1.2, 1.2]
+Minimum found: [0.999741, 0.999441]
+Function value: 0.000000
+Iterations: 58
+
+Starting point: [-1.2, 1.0]
+Minimum found: [1.222612, 1.488895]
+Function value: 0.053018
+Iterations: 29
+
+
+==============================================
+ TEST SU EXTENDED ROSENBROCK IN DIMENSIONE 10 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 4.755805
+ | iter = 1807 | tempo = 0.03s
+rho ≈ 0.4349
+
+--- Test 1 (x0 #1) ---
+f_min = 6.482344
+ | iter = 1299 | tempo = 0.02s
+rho ≈ 0.4839
+
+--- Test 2 (x0 #2) ---
+f_min = 4.321345
+ | iter = 1206 | tempo = 0.02s
+rho ≈ 2.6690
+
+--- Test 3 (x0 #3) ---
+f_min = 3.578830
+ | iter = 2061 | tempo = 0.02s
+rho ≈ 0.4957
+
+--- Test 4 (x0 #4) ---
+f_min = 7.482371
+ | iter = 781 | tempo = 0.01s
+rho ≈ 0.1187
+
+--- Test 5 (x0 #5) ---
+f_min = 6.381703
+ | iter = 1797 | tempo = 0.02s
+rho ≈ 0.4146
+
+--- Test 6 (x0 #6) ---
+f_min = 8.312174
+ | iter = 716 | tempo = 0.01s
+rho ≈ 0.2829
+
+--- Test 7 (x0 #7) ---
+f_min = 6.127557
+ | iter = 888 | tempo = 0.01s
+rho ≈ 2.4482
+
+--- Test 8 (x0 #8) ---
+f_min = 7.767789
+ | iter = 930 | tempo = 0.01s
+rho ≈ 1.8128
+
+--- Test 9 (x0 #9) ---
+f_min = 22.681312
+ | iter = 1504 | tempo = 0.02s
+rho ≈ 4.1627
+
+--- Test 10 (x0 #10) ---
+f_min = 7.610927
+ | iter = 1128 | tempo = 0.01s
+rho ≈ 0.8326
+
+Successi: 0 su 10
+
+Tempo (incl. plotting) per n = 10       :  0.29  s
+
+==============================================
+ TEST SU EXTENDED ROSENBROCK IN DIMENSIONE 26 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 21.632097
+ | iter = 13592 | tempo = 0.19s
+rho ≈ 1.6873
+
+--- Test 1 (x0 #1) ---
+f_min = 24.381660
+ | iter = 8555 | tempo = 0.12s
+rho ≈ 2.6513
+
+--- Test 2 (x0 #2) ---
+f_min = 33.167264
+ | iter = 11575 | tempo = 0.17s
+rho ≈ 0.2648
+
+--- Test 3 (x0 #3) ---
+f_min = 226.149184
+ | iter = 17833 | tempo = 0.25s
+rho ≈ 1.9632
+
+--- Test 4 (x0 #4) ---
+f_min = 32.733140
+ | iter = 11675 | tempo = 0.16s
+rho ≈ 0.2155
+
+--- Test 5 (x0 #5) ---
+f_min = 25.951144
+ | iter = 8620 | tempo = 0.12s
+rho ≈ 0.7368
+
+--- Test 6 (x0 #6) ---
+f_min = 29.757551
+ | iter = 9773 | tempo = 0.14s
+rho ≈ 5.7896
+
+--- Test 7 (x0 #7) ---
+f_min = 21.716362
+ | iter = 7404 | tempo = 0.10s
+rho ≈ 3.7932
+
+--- Test 8 (x0 #8) ---
+f_min = 42.835401
+ | iter = 9270 | tempo = 0.13s
+rho ≈ 0.0306
+
+--- Test 9 (x0 #9) ---
+f_min = 23.466941
+ | iter = 7049 | tempo = 0.10s
+rho ≈ 0.8530
+
+--- Test 10 (x0 #10) ---
+f_min = 48.343512
+ | iter = 6824 | tempo = 0.10s
+rho ≈ 12.2028
+
+Successi: 0 su 10
+
+Tempo (incl. plotting) per n = 26       :  1.69  s
+
+==============================================
+ TEST SU EXTENDED ROSENBROCK IN DIMENSIONE 50 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 36.483857
+ | iter = 49703 | tempo = 1.18s
+rho ≈ 0.6874
+
+--- Test 1 (x0 #1) ---
+f_min = 44.240372
+ | iter = 30172 | tempo = 0.72s
+rho ≈ 0.5927
+
+--- Test 2 (x0 #2) ---
+f_min = 56.843050
+ | iter = 46124 | tempo = 1.10s
+rho ≈ 0.5016
+
+--- Test 3 (x0 #3) ---
+f_min = 166.018273
+ | iter = 45205 | tempo = 1.08s
+rho ≈ 4.5810
+
+--- Test 4 (x0 #4) ---
+f_min = 128.577253
+ | iter = 54052 | tempo = 1.28s
+rho ≈ 0.0787
+
+--- Test 5 (x0 #5) ---
+f_min = 292.341810
+ | iter = 51097 | tempo = 1.22s
+rho ≈ 0.6211
+
+--- Test 6 (x0 #6) ---
+f_min = 50.621923
+ | iter = 33780 | tempo = 0.81s
+rho ≈ 1.6323
+
+--- Test 7 (x0 #7) ---
+f_min = 74.614248
+ | iter = 41332 | tempo = 0.99s
+rho ≈ 0.4894
+
+--- Test 8 (x0 #8) ---
+f_min = 76.138990
+ | iter = 63735 | tempo = 1.52s
+rho ≈ 52.5570
+
+--- Test 9 (x0 #9) ---
+f_min = 340.272106
+ | iter = 42741 | tempo = 1.02s
+rho ≈ 0.6848
+
+--- Test 10 (x0 #10) ---
+f_min = 43.016040
+ | iter = 46360 | tempo = 1.12s
+rho ≈ 1.7941
+
+Successi: 0 su 10
+
+Tempo (incl. plotting) per n = 50       :  12.15  s
+
+=================================================
+ TABELLA TEMPISTICHE ALGORITMO EXTENDED ROSENBROCK 
+=================================================
+
+
+Tempo (incl. plotting) per n = 10       :  0.29  s
+
+Tempo (incl. plotting) per n = 26       :  1.69  s
+
+Tempo (incl. plotting) per n = 50       :  12.15  s
+
+Tempo TOTALE (tutte le dimensioni) :  14.14  s
+
+==============================================
+ TEST SU GENERALYZED BROYDEN TRIDIAGONAL IN DIMENSIONE 10 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.036184
+ | iter = 1510 | tempo = 0.02s
+rho ≈ 2.9705
+
+--- Test 1 (x0 #1) ---
+f_min = 0.317752
+ | iter = 2489 | tempo = 0.03s
+rho ≈ 1.0965
+
+--- Test 2 (x0 #2) ---
+f_min = 15.732724
+ | iter = 2242 | tempo = 0.02s
+rho ≈ 0.2721
+
+--- Test 3 (x0 #3) ---
+f_min = 5.158799
+ | iter = 2310 | tempo = 0.02s
+rho ≈ 2.2499
+
+--- Test 4 (x0 #4) ---
+f_min = 11.894105
+ | iter = 1993 | tempo = 0.02s
+rho ≈ 3.3853
+
+--- Test 5 (x0 #5) ---
+f_min = 0.257824
+ | iter = 900 | tempo = 0.01s
+rho ≈ 2.4304
+
+--- Test 6 (x0 #6) ---
+f_min = 0.000003
+ | iter = 651 | tempo = 0.01s
+rho ≈ 0.0192
+
+--- Test 7 (x0 #7) ---
+f_min = 0.000005
+ | iter = 1034 | tempo = 0.01s
+rho ≈ 0.3024
+
+--- Test 8 (x0 #8) ---
+f_min = 12.383149
+ | iter = 2292 | tempo = 0.02s
+rho ≈ 0.0391
+
+--- Test 9 (x0 #9) ---
+f_min = 0.000014
+ | iter = 494 | tempo = 0.01s
+rho ≈ 0.1251
+
+--- Test 10 (x0 #10) ---
+f_min = 0.000002
+ | iter = 1268 | tempo = 0.01s
+rho ≈ 0.2580
+
+Successi: 6 su 10
+
+Tempo (incl. plotting) per n = 10       :  0.28  s
+
+==============================================
+ TEST SU GENERALYZED BROYDEN TRIDIAGONAL IN DIMENSIONE 26 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.187379
+ | iter = 7040 | tempo = 0.10s
+rho ≈ 15.2816
+
+--- Test 1 (x0 #1) ---
+f_min = 45.647064
+ | iter = 11816 | tempo = 0.16s
+rho ≈ 1.1643
+
+--- Test 2 (x0 #2) ---
+f_min = 31.538578
+ | iter = 11796 | tempo = 0.17s
+rho ≈ 0.5003
+
+--- Test 3 (x0 #3) ---
+f_min = 45.859863
+ | iter = 10586 | tempo = 0.15s
+rho ≈ 9.0931
+
+--- Test 4 (x0 #4) ---
+f_min = 48.990813
+ | iter = 8322 | tempo = 0.12s
+rho ≈ 0.7797
+
+--- Test 5 (x0 #5) ---
+f_min = 51.412916
+ | iter = 11832 | tempo = 0.16s
+rho ≈ 0.6892
+
+--- Test 6 (x0 #6) ---
+f_min = 60.421972
+ | iter = 12986 | tempo = 0.18s
+rho ≈ 1.4155
+
+--- Test 7 (x0 #7) ---
+f_min = 28.433621
+ | iter = 11901 | tempo = 0.16s
+rho ≈ 1.2902
+
+--- Test 8 (x0 #8) ---
+f_min = 85.689432
+ | iter = 15032 | tempo = 0.21s
+rho ≈ 0.1480
+
+--- Test 9 (x0 #9) ---
+f_min = 39.279019
+ | iter = 11023 | tempo = 0.15s
+rho ≈ 1.2118
+
+--- Test 10 (x0 #10) ---
+f_min = 16.305727
+ | iter = 9333 | tempo = 0.13s
+rho ≈ 1.5357
+
+Successi: 0 su 10
+
+Tempo (incl. plotting) per n = 26       :  1.79  s
+
+==============================================
+ TEST SU GENERALYZED BROYDEN TRIDIAGONAL IN DIMENSIONE 50 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = 0.206557
+ | iter = 36027 | tempo = 0.97s
+rho ≈ 9.5768
+
+--- Test 1 (x0 #1) ---
+f_min = 54.354739
+ | iter = 43920 | tempo = 1.16s
+rho ≈ 12.5409
+
+--- Test 2 (x0 #2) ---
+f_min = 80.949492
+ | iter = 43077 | tempo = 1.16s
+rho ≈ 1.9666
+
+--- Test 3 (x0 #3) ---
+f_min = 76.654109
+ | iter = 62533 | tempo = 1.67s
+rho ≈ 1.0445
+
+--- Test 4 (x0 #4) ---
+f_min = 61.556607
+ | iter = 78487 | tempo = 2.10s
+rho ≈ 0.1432
+
+--- Test 5 (x0 #5) ---
+f_min = 93.730024
+ | iter = 41581 | tempo = 1.13s
+rho ≈ 1.5622
+
+--- Test 6 (x0 #6) ---
+f_min = 70.467313
+ | iter = 61361 | tempo = 1.62s
+rho ≈ 0.9143
+
+--- Test 7 (x0 #7) ---
+f_min = 60.504022
+ | iter = 64638 | tempo = 1.71s
+rho ≈ 128.2173
+
+--- Test 8 (x0 #8) ---
+f_min = 106.620571
+ | iter = 47143 | tempo = 1.27s
+rho ≈ 14.0171
+
+--- Test 9 (x0 #9) ---
+f_min = 153.460994
+ | iter = 39398 | tempo = 1.05s
+rho ≈ 0.5166
+
+--- Test 10 (x0 #10) ---
+f_min = 167.819560
+ | iter = 47644 | tempo = 1.28s
+rho ≈ 7.9547
+
+Successi: 0 su 10
+
+Tempo (incl. plotting) per n = 50       :  15.21  s
+
+=================================================
+ TABELLA TEMPISTICHE ALGORITMO GENERALIZED BROYDEN 
+=================================================
+
+
+Tempo (incl. plotting) per n = 10       :  0.28  s
+
+Tempo (incl. plotting) per n = 26       :  1.79  s
+
+Tempo (incl. plotting) per n = 50       :  15.21  s
+
+Tempo TOTALE (tutte le dimensioni) :  17.28  s
+
+==============================================
+ TEST SU BANDED TRIGONOMETRIC IN DIMENSIONE 10 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = -2.180187
+ | iter = 187 | tempo = 0.01s
+rho ≈ 1.1601
+
+--- Test 1 (x0 #1) ---
+f_min = -5.889563
+ | iter = 653 | tempo = 0.01s
+rho ≈ 61.1600
+
+--- Test 2 (x0 #2) ---
+f_min = -1.360915
+ | iter = 168 | tempo = 0.00s
+rho ≈ 1.2610
+
+--- Test 3 (x0 #3) ---
+f_min = -16.505532
+ | iter = 2746 | tempo = 0.03s
+rho ≈ 2.2966
+
+--- Test 4 (x0 #4) ---
+f_min = -7.449276
+ | iter = 1324 | tempo = 0.02s
+rho ≈ 1.5090
+
+--- Test 5 (x0 #5) ---
+f_min = -11.429749
+ | iter = 1138 | tempo = 0.01s
+rho ≈ 1.7608
+
+--- Test 6 (x0 #6) ---
+f_min = -16.439861
+ | iter = 1199 | tempo = 0.01s
+rho ≈ 2.8219
+
+--- Test 7 (x0 #7) ---
+f_min = -12.495841
+ | iter = 3438 | tempo = 0.04s
+rho ≈ 7.5006
+
+--- Test 8 (x0 #8) ---
+f_min = -15.656472
+ | iter = 1320 | tempo = 0.01s
+rho ≈ 0.5772
+
+--- Test 9 (x0 #9) ---
+f_min = -0.889543
+ | iter = 311 | tempo = 0.00s
+rho ≈ 0.0996
+
+--- Test 10 (x0 #10) ---
+f_min = -9.317763
+ | iter = 1673 | tempo = 0.02s
+rho ≈ 3.1970
+
+Successi: 2 su 10
+
+Tempo (incl. plotting) per n = 10       :  0.27  s
+
+==============================================
+ TEST SU BANDED TRIGONOMETRIC IN DIMENSIONE 26 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = -6.731719
+ | iter = 1376 | tempo = 0.04s
+rho ≈ 0.2174
+
+--- Test 1 (x0 #1) ---
+f_min = -0.323032
+ | iter = 2373 | tempo = 0.07s
+rho ≈ 6.2574
+
+--- Test 2 (x0 #2) ---
+f_min = -2.391288
+ | iter = 9422 | tempo = 0.15s
+rho ≈ 0.8093
+
+--- Test 3 (x0 #3) ---
+f_min = -7.640434
+ | iter = 2812 | tempo = 0.09s
+rho ≈ 0.0606
+
+--- Test 4 (x0 #4) ---
+f_min = -2.223964
+ | iter = 5443 | tempo = 0.09s
+rho ≈ 169.1400
+
+--- Test 5 (x0 #5) ---
+f_min = -5.937319
+ | iter = 23546 | tempo = 1.44s
+rho ≈ 0.0381
+
+--- Test 6 (x0 #6) ---
+f_min = 18.222353
+ | iter = 100000 | tempo = 6.39s
+rho ≈ 2.4231
+
+--- Test 7 (x0 #7) ---
+f_min = 27.545821
+ | iter = 10843 | tempo = 0.16s
+rho ≈ 0.1948
+
+--- Test 8 (x0 #8) ---
+f_min = 0.254285
+ | iter = 830 | tempo = 0.02s
+rho ≈ 9.3196
+
+--- Test 9 (x0 #9) ---
+f_min = 0.128966
+ | iter = 100000 | tempo = 6.97s
+rho ≈ 0.3357
+
+--- Test 10 (x0 #10) ---
+f_min = -3.994535
+ | iter = 2364 | tempo = 0.05s
+rho ≈ 0.4155
+
+Successi: 5 su 10
+
+Tempo (incl. plotting) per n = 26       :  15.58  s
+
+==============================================
+ TEST SU BANDED TRIGONOMETRIC IN DIMENSIONE 50 
+==============================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = -5.995540
+ | iter = 4955 | tempo = 0.29s
+rho ≈ 0.7031
+
+--- Test 1 (x0 #1) ---
+f_min = -1.388662
+ | iter = 8746 | tempo = 0.60s
+rho ≈ 38.3946
+
+--- Test 2 (x0 #2) ---
+f_min = -0.588646
+ | iter = 5307 | tempo = 0.22s
+rho ≈ 0.9879
+
+--- Test 3 (x0 #3) ---
+f_min = -0.391836
+ | iter = 3366 | tempo = 0.11s
+rho ≈ 1.0148
+
+--- Test 4 (x0 #4) ---
+f_min = -0.620186
+ | iter = 6114 | tempo = 0.45s
+rho ≈ 0.0112
+
+--- Test 5 (x0 #5) ---
+f_min = -1.609354
+ | iter = 5556 | tempo = 0.22s
+rho ≈ 0.5188
+
+--- Test 6 (x0 #6) ---
+f_min = -0.213212
+ | iter = 7829 | tempo = 0.64s
+rho ≈ 3.2991
+
+--- Test 7 (x0 #7) ---
+f_min = -7.742817
+ | iter = 16578 | tempo = 1.58s
+rho ≈ 1.1333
+
+--- Test 8 (x0 #8) ---
+f_min = -0.170538
+ | iter = 7110 | tempo = 0.28s
+rho ≈ 1.5253
+
+--- Test 9 (x0 #9) ---
+f_min = -2.896619
+ | iter = 4197 | tempo = 0.16s
+rho ≈ 1.8436
+
+--- Test 10 (x0 #10) ---
+f_min = -4.525621
+ | iter = 4880 | tempo = 0.38s
+rho ≈ 0.5716
+
+Successi: 8 su 10
+
+Tempo (incl. plotting) per n = 50       :  5.03  s
+
+=================================================
+ TABELLA TEMPISTICHE ALGORITMO BANDED TRIDIAGONAL 
+=================================================
+
+
+Tempo (incl. plotting) per n = 10       :  0.27  s
+
+Tempo (incl. plotting) per n = 26       :  15.58  s
+
+Tempo (incl. plotting) per n = 50       :  5.03  s
+
+Tempo TOTALE (tutte le dimensioni) :  20.88  s
+[Warning: Negative data ignored] 
+[> In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate>calculateLooseInset
+In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate>updateStartingLayoutPosition
+In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate] 
+[Warning: Negative data ignored] 
+[> In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate>calculateLooseInset
+In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate>updateStartingLayoutPosition
+In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate] 
+[Warning: Negative data ignored] 
+[> In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate>calculateLooseInset
+In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate>updateStartingLayoutPosition
+In matlab.graphics.shape.internal.AxesLayoutManager/doUpdate] 
+diary off
