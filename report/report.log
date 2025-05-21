@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.4)  21 MAY 2025 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.4)  21 MAY 2025 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -384,6 +384,9 @@ LaTeX Warning: Label `fig:rosennewton' multiply defined.
 
 LaTeX Warning: Label `fig:rosennewton' multiply defined.
 
+
+LaTeX Warning: Label `fig:broyden3D' multiply defined.
+
 )
 \openout1 = `report.aux'.
 
@@ -537,7 +540,7 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [3]
 
 [4]
-<../immagini/rosen3D_A.png, id=170, 578.16pt x 433.62pt>
+<../immagini/rosen3D_A.png, id=125, 578.16pt x 433.62pt>
 File: ../immagini/rosen3D_A.png Graphic file (type png)
 <use ../immagini/rosen3D_A.png>
 Package pdftex.def Info: ../immagini/rosen3D_A.png  used on input line 136.
@@ -545,7 +548,7 @@ Package pdftex.def Info: ../immagini/rosen3D_A.png  used on input line 136.
 
 
 [5 <../immagini/rosen3D_A.png>]
-<../immagini/grafrosennewton.png, id=179, 1156.32pt x 650.43pt>
+<../immagini/grafrosennewton.png, id=134, 1156.32pt x 650.43pt>
 File: ../immagini/grafrosennewton.png Graphic file (type png)
 <use ../immagini/grafrosennewton.png>
 Package pdftex.def Info: ../immagini/grafrosennewton.png  used on input line 15
@@ -554,7 +557,7 @@ Package pdftex.def Info: ../immagini/grafrosennewton.png  used on input line 15
 
 
 [6 <../immagini/grafrosennewton.png (PNG copy)>]
-<../immagini/grafrosennelder.png, id=185, 421.575pt x 316.18124pt>
+<../immagini/grafrosennelder.png, id=140, 421.575pt x 316.18124pt>
 File: ../immagini/grafrosennelder.png Graphic file (type png)
 <use ../immagini/grafrosennelder.png>
 Package pdftex.def Info: ../immagini/grafrosennelder.png  used on input line 17
@@ -563,7 +566,7 @@ Package pdftex.def Info: ../immagini/grafrosennelder.png  used on input line 17
 
 
 [7 <../immagini/grafrosennelder.png (PNG copy)>]
-<../immagini/ext_rosen_3d.png, id=191, 433.62pt x 361.35pt>
+<../immagini/ext_rosen_3d.png, id=146, 433.62pt x 361.35pt>
 File: ../immagini/ext_rosen_3d.png Graphic file (type png)
 <use ../immagini/ext_rosen_3d.png>
 Package pdftex.def Info: ../immagini/ext_rosen_3d.png  used on input line 214.
@@ -573,22 +576,22 @@ Package pdftex.def Info: ../immagini/ext_rosen_3d.png  used on input line 214.
 [8 <../immagini/ext_rosen_3d.png>]
 
 [9]
-<../immagini/ext_1k.png, id=204, 1156.32pt x 650.43pt>
+<../immagini/ext_1k.png, id=159, 1156.32pt x 650.43pt>
 File: ../immagini/ext_1k.png Graphic file (type png)
 <use ../immagini/ext_1k.png>
 Package pdftex.def Info: ../immagini/ext_1k.png  used on input line 308.
 (pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
-<../immagini/ext_10k.png, id=205, 1156.32pt x 650.43pt>
+<../immagini/ext_10k.png, id=160, 1156.32pt x 650.43pt>
 File: ../immagini/ext_10k.png Graphic file (type png)
 <use ../immagini/ext_10k.png>
 Package pdftex.def Info: ../immagini/ext_10k.png  used on input line 315.
 (pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
-<../immagini/ext_100k.png, id=206, 1156.32pt x 650.43pt>
+<../immagini/ext_100k.png, id=161, 1156.32pt x 650.43pt>
 File: ../immagini/ext_100k.png Graphic file (type png)
 <use ../immagini/ext_100k.png>
 Package pdftex.def Info: ../immagini/ext_100k.png  used on input line 322.
 (pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
-<../immagini/ext_time.png, id=207, 421.575pt x 316.18124pt>
+<../immagini/ext_time.png, id=162, 421.575pt x 316.18124pt>
 File: ../immagini/ext_time.png Graphic file (type png)
 <use ../immagini/ext_time.png>
 Package pdftex.def Info: ../immagini/ext_time.png  used on input line 329.
@@ -620,12 +623,12 @@ m/m/it/12 ; []
 [14]
 
 [15]
-<../immagini/ext_1k_h2.png, id=247, 1503.36656pt x 672.26157pt>
+<../immagini/ext_1k_h2.png, id=202, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_1k_h2.png Graphic file (type png)
 <use ../immagini/ext_1k_h2.png>
 Package pdftex.def Info: ../immagini/ext_1k_h2.png  used on input line 457.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/ext_1k_h12.png, id=248, 1503.36656pt x 672.26157pt>
+<../immagini/ext_1k_h12.png, id=203, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_1k_h12.png Graphic file (type png)
 <use ../immagini/ext_1k_h12.png>
 Package pdftex.def Info: ../immagini/ext_1k_h12.png  used on input line 464.
@@ -637,12 +640,12 @@ Package pdftex.def Info: ../immagini/ext_1k_h12.png  used on input line 464.
 [17 <../immagini/ext_1k_h12.png (PNG copy)>]
 
 [18]
-<../immagini/ext_10k_h2.png, id=266, 1503.36656pt x 672.26157pt>
+<../immagini/ext_10k_h2.png, id=221, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_10k_h2.png Graphic file (type png)
 <use ../immagini/ext_10k_h2.png>
 Package pdftex.def Info: ../immagini/ext_10k_h2.png  used on input line 524.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/ext_10k_h12.png, id=267, 1503.36656pt x 672.26157pt>
+<../immagini/ext_10k_h12.png, id=222, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_10k_h12.png Graphic file (type png)
 <use ../immagini/ext_10k_h12.png>
 Package pdftex.def Info: ../immagini/ext_10k_h12.png  used on input line 531.
@@ -650,12 +653,12 @@ Package pdftex.def Info: ../immagini/ext_10k_h12.png  used on input line 531.
 
 
 [19 <../immagini/ext_10k_h2.png (PNG copy)>]
-<../immagini/ext_100k_h2.png, id=273, 1503.36656pt x 672.26157pt>
+<../immagini/ext_100k_h2.png, id=228, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_100k_h2.png Graphic file (type png)
 <use ../immagini/ext_100k_h2.png>
 Package pdftex.def Info: ../immagini/ext_100k_h2.png  used on input line 591.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/ext_100k_h12.png, id=274, 1503.36656pt x 672.26157pt>
+<../immagini/ext_100k_h12.png, id=229, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_100k_h12.png Graphic file (type png)
 <use ../immagini/ext_100k_h12.png>
 Package pdftex.def Info: ../immagini/ext_100k_h12.png  used on input line 598.
@@ -675,22 +678,22 @@ Overfull \hbox (21.59277pt too wide) in paragraph at lines 603--603
 
 
 [23]
-<../immagini/ext_10.png, id=298, 1156.32pt x 650.43pt>
+<../immagini/ext_10.png, id=253, 1156.32pt x 650.43pt>
 File: ../immagini/ext_10.png Graphic file (type png)
 <use ../immagini/ext_10.png>
 Package pdftex.def Info: ../immagini/ext_10.png  used on input line 661.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/ext_26.png, id=299, 1156.32pt x 650.43pt>
+<../immagini/ext_26.png, id=254, 1156.32pt x 650.43pt>
 File: ../immagini/ext_26.png Graphic file (type png)
 <use ../immagini/ext_26.png>
 Package pdftex.def Info: ../immagini/ext_26.png  used on input line 668.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/ext_50.png, id=300, 1156.32pt x 650.43pt>
+<../immagini/ext_50.png, id=255, 1156.32pt x 650.43pt>
 File: ../immagini/ext_50.png Graphic file (type png)
 <use ../immagini/ext_50.png>
 Package pdftex.def Info: ../immagini/ext_50.png  used on input line 675.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/ext_time_nelder.png, id=301, 421.575pt x 316.18124pt>
+<../immagini/ext_time_nelder.png, id=256, 421.575pt x 316.18124pt>
 File: ../immagini/ext_time_nelder.png Graphic file (type png)
 <use ../immagini/ext_time_nelder.png>
 Package pdftex.def Info: ../immagini/ext_time_nelder.png  used on input line 68
@@ -704,8 +707,185 @@ Package pdftex.def Info: ../immagini/ext_time_nelder.png  used on input line 68
 
 [26 <../immagini/ext_50.png (PNG copy)> <../immagini/ext_time_nelder.png (PNG c
 opy)>]
+<../immagini/broyden.png, id=276, 462.528pt x 346.896pt>
+File: ../immagini/broyden.png Graphic file (type png)
+<use ../immagini/broyden.png>
+Package pdftex.def Info: ../immagini/broyden.png  used on input line 710.
+(pdftex.def)             Requested size: 253.49762pt x 190.12643pt.
 
-[27] (report.aux)
+
+[27 <../immagini/broyden.png>]
+Overfull \hbox (0.80878pt too wide) in paragraph at lines 733--734
+ []\T1/lmr/bx/n/12 Hessian struc-ture.[] \T1/lmr/m/n/12 The Hes-sian ma-trix ha
+s a pen-ta-di-ag-o-nal banded struc-
+ []
+
+
+
+[28]
+
+[29]
+<../immagini/broyden_1k.png, id=297, 1156.32pt x 650.43pt>
+File: ../immagini/broyden_1k.png Graphic file (type png)
+<use ../immagini/broyden_1k.png>
+Package pdftex.def Info: ../immagini/broyden_1k.png  used on input line 785.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+
+
+[30 <../immagini/broyden_1k.png (PNG copy)>]
+<../immagini/broyden_10k.png, id=303, 1156.32pt x 650.43pt>
+File: ../immagini/broyden_10k.png Graphic file (type png)
+<use ../immagini/broyden_10k.png>
+Package pdftex.def Info: ../immagini/broyden_10k.png  used on input line 792.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+
+
+[31 <../immagini/broyden_10k.png (PNG copy)>]
+<../immagini/broyden_100k.png, id=309, 1156.32pt x 650.43pt>
+File: ../immagini/broyden_100k.png Graphic file (type png)
+<use ../immagini/broyden_100k.png>
+Package pdftex.def Info: ../immagini/broyden_100k.png  used on input line 799.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+
+
+[32 <../immagini/broyden_100k.png (PNG copy)>]
+<../immagini/broyden_time_exact.png, id=315, 421.575pt x 316.18124pt>
+File: ../immagini/broyden_time_exact.png Graphic file (type png)
+<use ../immagini/broyden_time_exact.png>
+Package pdftex.def Info: ../immagini/broyden_time_exact.png  used on input line
+ 806.
+(pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
+
+
+[33 <../immagini/broyden_time_exact.png (PNG copy)>]
+
+[34]
+
+[35]
+<../immagini/broyden_1k_h2.png, id=333, 1503.36656pt x 672.26157pt>
+File: ../immagini/broyden_1k_h2.png Graphic file (type png)
+<use ../immagini/broyden_1k_h2.png>
+Package pdftex.def Info: ../immagini/broyden_1k_h2.png  used on input line 884.
+
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/broyden_1k_h12.png, id=334, 1503.36656pt x 672.26157pt>
+File: ../immagini/broyden_1k_h12.png Graphic file (type png)
+<use ../immagini/broyden_1k_h12.png>
+Package pdftex.def Info: ../immagini/broyden_1k_h12.png  used on input line 891
+.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+
+
+[36 <../immagini/broyden_1k_h2.png (PNG copy)>]
+<../immagini/broyden_10k_h2.png, id=340, 1503.36656pt x 672.26157pt>
+File: ../immagini/broyden_10k_h2.png Graphic file (type png)
+<use ../immagini/broyden_10k_h2.png>
+Package pdftex.def Info: ../immagini/broyden_10k_h2.png  used on input line 943
+.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/broyden_10k_h12.png, id=341, 1503.36656pt x 672.26157pt>
+File: ../immagini/broyden_10k_h12.png Graphic file (type png)
+<use ../immagini/broyden_10k_h12.png>
+Package pdftex.def Info: ../immagini/broyden_10k_h12.png  used on input line 95
+0.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/broyden_100k_h2.png, id=342, 1503.36656pt x 672.26157pt>
+File: ../immagini/broyden_100k_h2.png Graphic file (type png)
+<use ../immagini/broyden_100k_h2.png>
+Package pdftex.def Info: ../immagini/broyden_100k_h2.png  used on input line 10
+01.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/broyden_100k_h12.png, id=343, 1503.36656pt x 672.26157pt>
+File: ../immagini/broyden_100k_h12.png Graphic file (type png)
+<use ../immagini/broyden_100k_h12.png>
+Package pdftex.def Info: ../immagini/broyden_100k_h12.png  used on input line 1
+008.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+
+
+[37 <../immagini/broyden_1k_h12.png (PNG copy)>]
+
+[38]
+
+[39 <../immagini/broyden_10k_h2.png (PNG copy)> <../immagini/broyden_10k_h12.pn
+g (PNG copy)>]
+
+[40]
+
+[41 <../immagini/broyden_100k_h2.png (PNG copy)> <../immagini/broyden_100k_h12.
+png (PNG copy)>]
+Overfull \hbox (12.11577pt too wide) in paragraph at lines 1021--1021
+[]\T1/lmr/bx/n/14.4 Nelder^^UMead Re-sults on Gen-er-al-ized Broy-den Func-
+ []
+
+<../immagini/broyden_10.png, id=373, 1156.32pt x 650.43pt>
+File: ../immagini/broyden_10.png Graphic file (type png)
+<use ../immagini/broyden_10.png>
+Package pdftex.def Info: ../immagini/broyden_10.png  used on input line 1059.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/broyden_26.png, id=374, 1156.32pt x 650.43pt>
+File: ../immagini/broyden_26.png Graphic file (type png)
+<use ../immagini/broyden_26.png>
+Package pdftex.def Info: ../immagini/broyden_26.png  used on input line 1066.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/broyden_50.png, id=375, 1156.32pt x 650.43pt>
+File: ../immagini/broyden_50.png Graphic file (type png)
+<use ../immagini/broyden_50.png>
+Package pdftex.def Info: ../immagini/broyden_50.png  used on input line 1073.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/broyden_time_nelder.png, id=376, 421.575pt x 316.18124pt>
+File: ../immagini/broyden_time_nelder.png Graphic file (type png)
+<use ../immagini/broyden_time_nelder.png>
+Package pdftex.def Info: ../immagini/broyden_time_nelder.png  used on input lin
+e 1080.
+(pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
+
+
+[42]
+
+[43 <../immagini/broyden_10.png (PNG copy)> <../immagini/broyden_26.png (PNG co
+py)>]
+
+[44 <../immagini/broyden_50.png (PNG copy)> <../immagini/broyden_time_nelder.pn
+g (PNG copy)>]
+<../immagini/banded_3D.png, id=396, 722.7pt x 433.62pt>
+File: ../immagini/banded_3D.png Graphic file (type png)
+<use ../immagini/banded_3D.png>
+Package pdftex.def Info: ../immagini/banded_3D.png  used on input line 1105.
+(pdftex.def)             Requested size: 253.49762pt x 152.1001pt.
+
+
+[45 <../immagini/banded_3D.png>]
+<../immagini/banded_1k.png, id=403, 1156.32pt x 650.43pt>
+File: ../immagini/banded_1k.png Graphic file (type png)
+<use ../immagini/banded_1k.png>
+Package pdftex.def Info: ../immagini/banded_1k.png  used on input line 1176.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/banded_10k.png, id=404, 1156.32pt x 650.43pt>
+File: ../immagini/banded_10k.png Graphic file (type png)
+<use ../immagini/banded_10k.png>
+Package pdftex.def Info: ../immagini/banded_10k.png  used on input line 1183.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/banded_100k.png, id=405, 1156.32pt x 650.43pt>
+File: ../immagini/banded_100k.png Graphic file (type png)
+<use ../immagini/banded_100k.png>
+Package pdftex.def Info: ../immagini/banded_100k.png  used on input line 1190.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/banded_time.png, id=406, 421.575pt x 316.18124pt>
+File: ../immagini/banded_time.png Graphic file (type png)
+<use ../immagini/banded_time.png>
+Package pdftex.def Info: ../immagini/banded_time.png  used on input line 1197.
+(pdftex.def)             Requested size: 214.50119pt x 160.8788pt.
+
+
+[46]
+
+[47 <../immagini/banded_1k.png (PNG copy)>]
+
+[48 <../immagini/banded_10k.png (PNG copy)> <../immagini/banded_100k.png (PNG c
+opy)>]
+
+[49 <../immagini/banded_time.png (PNG copy)>] (report.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -718,16 +898,16 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 994E9266A1BCF9461DC7B339BE094B07;5402.
+(rerunfilecheck)             Checksum: E5CC9CBA32424895318889C4AC099056;3856.
  ) 
 Here is how much of TeX's memory you used:
- 12570 strings out of 473904
- 194289 string characters out of 5726601
- 1953908 words of memory out of 5000000
- 35169 multiletter control sequences out of 15000+600000
- 614775 words of font info for 83 fonts, out of 8000000 for 9000
+ 12776 strings out of 473904
+ 199898 string characters out of 5726601
+ 1968908 words of memory out of 5000000
+ 35327 multiletter control sequences out of 15000+600000
+ 619037 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,583b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,807b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pf
 b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pf
@@ -736,15 +916,16 @@ b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb
 <C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><
 C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:
 /Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
+sers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/U
 sers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/U
 sers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Us
 ers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Use
 rs/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Use
 rs/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb>
-Output written on report.pdf (29 pages, 1812630 bytes).
+Output written on report.pdf (51 pages, 4031478 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 299 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

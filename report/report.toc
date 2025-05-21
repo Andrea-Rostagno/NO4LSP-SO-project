@@ -17,19 +17,18 @@
 \contentsline {paragraph}{Results.}{24}{section*.13}%
 \contentsline {paragraph}{Discussion.}{24}{section*.14}%
 \contentsline {section}{\numberline {4}Generalized Broyden Tridiagonal Function}{27}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Exact Gradient and Hessian}{27}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Finite Differences Gradient and Hessian}{27}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Banded Trigonometric Function}{27}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Exact Gradient and Hessian}{27}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Finite Differences Gradient and Hessian}{27}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Conclusions}{27}{section.6}%
-\contentsline {section}{\numberline {A}Code snippets}{27}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Code for Method Implementations}{27}{subsection.A.1}%
-\contentsline {subsubsection}{\numberline {A.1.1}Modified Newton Method}{27}{subsubsection.A.1.1}%
-\contentsline {subsubsection}{\numberline {A.1.2}Truncated Newton Method}{27}{subsubsection.A.1.2}%
-\contentsline {subsection}{\numberline {A.2}Code for Objective Functions}{27}{subsection.A.2}%
-\contentsline {subsubsection}{\numberline {A.2.1}Rosenbrock Function}{27}{subsubsection.A.2.1}%
-\contentsline {subsubsection}{\numberline {A.2.2}Extended Rosenbrock Function}{27}{subsubsection.A.2.2}%
-\contentsline {subsubsection}{\numberline {A.2.3}Generalized Broyden Tridiagonal Function}{27}{subsubsection.A.2.3}%
-\contentsline {subsubsection}{\numberline {A.2.4}Banded Trigonometric Problem}{27}{subsubsection.A.2.4}%
-\contentsline {subsection}{\numberline {A.3}Utility Code for Running Experiments}{27}{subsection.A.3}%
+\contentsline {subsection}{\numberline {4.1}Modified Newton Exact Gradient and Hessian}{28}{subsection.4.1}%
+\contentsline {paragraph}{Gradient structure.}{28}{section*.15}%
+\contentsline {paragraph}{Hessian structure.}{28}{section*.16}%
+\contentsline {paragraph}{Results.}{29}{section*.17}%
+\contentsline {paragraph}{Discussion.}{29}{section*.18}%
+\contentsline {subsection}{\numberline {4.2}Newton Method Finite Differences Gradient and Hessian}{33}{subsection.4.2}%
+\contentsline {paragraph}{Finite difference formulas.}{33}{section*.19}%
+\contentsline {paragraph}{Results.}{34}{section*.20}%
+\contentsline {paragraph}{Discussion.}{37}{section*.21}%
+\contentsline {subsection}{\numberline {4.3}Nelder–Mead Results on Generalized Broyden Function}{42}{subsection.4.3}%
+\contentsline {paragraph}{Discussion.}{42}{section*.22}%
+\contentsline {section}{\numberline {5}Banded Trigonometric Function}{45}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Exact Gradient and Hessian}{46}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Finite Differences Gradient and Hessian}{49}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusions}{49}{section.6}%

@@ -1,0 +1,2900 @@
+BandedTrigonometric
+
+=================================================
+ TEST SU BANDED TRIGONOMETRIC IN DIMENSIONE 1000 
+=================================================
+
+
+=================================================
+ TEST SU DERIVATE APPROSSIMATE CON DIFFERENZE FINITE 
+=================================================
+
+
+----------------------------------------------------
+Default increment h = 1.000000e-02 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -718.382637
+ | iter = 3 | tempo = 0.08s
+rho ≈ 5.6355
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -459.424027
+ | iter = 8 | tempo = 0.02s
+rho ≈ 3.5440
+
+
+--- Test 2 (x0 #2) ---
+f_min = -190.756120
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.0083
+
+
+--- Test 3 (x0 #3) ---
+f_min = -188.092042
+ | iter = 6 | tempo = 0.01s
+rho ≈ 2.1057
+
+
+--- Test 4 (x0 #4) ---
+f_min = -552.503800
+ | iter = 9 | tempo = 0.01s
+rho ≈ 6.4749
+
+
+--- Test 5 (x0 #5) ---
+f_min = -61.348207
+ | iter = 6 | tempo = 0.01s
+rho ≈ 0.7024
+
+
+--- Test 6 (x0 #6) ---
+f_min = -339.345147
+ | iter = 11 | tempo = 0.01s
+rho ≈ 0.7460
+
+
+--- Test 7 (x0 #7) ---
+f_min = -491.368036
+ | iter = 10 | tempo = 0.01s
+rho ≈ 3.4165
+
+
+--- Test 8 (x0 #8) ---
+f_min = -529.091841
+ | iter = 8 | tempo = 0.01s
+rho ≈ 3.6290
+
+
+--- Test 9 (x0 #9) ---
+f_min = -326.843546
+ | iter = 10 | tempo = 0.01s
+rho ≈ 1.9723
+
+
+--- Test 10 (x0 #10) ---
+f_min = -212.698263
+ | iter = 10 | tempo = 0.01s
+rho ≈ 3.6427
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-02*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 230919.325427
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -182.300917
+ | iter = 10 | tempo = 0.01s
+rho ≈ 1.9144
+
+
+--- Test 2 (x0 #2) ---
+f_min = -213.502794
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.9075
+
+
+--- Test 3 (x0 #3) ---
+f_min = -285.544718
+ | iter = 7 | tempo = 0.01s
+rho ≈ 2.2959
+
+
+--- Test 4 (x0 #4) ---
+f_min = -50.937760
+ | iter = 5 | tempo = 0.01s
+rho ≈ 1.7811
+
+
+--- Test 5 (x0 #5) ---
+f_min = -638.514578
+ | iter = 5 | tempo = 0.01s
+rho ≈ 2.6195
+
+
+--- Test 6 (x0 #6) ---
+f_min = -182.331236
+ | iter = 7 | tempo = 0.01s
+rho ≈ 2.6554
+
+
+--- Test 7 (x0 #7) ---
+f_min = -63.316275
+ | iter = 8 | tempo = 0.01s
+rho ≈ 3.5135
+
+
+--- Test 8 (x0 #8) ---
+f_min = 444.034556
+ | iter = 2000 | tempo = 0.83s
+rho ≈ 1.0001
+
+
+--- Test 9 (x0 #9) ---
+f_min = -394.270375
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.2509
+
+
+--- Test 10 (x0 #10) ---
+f_min = -484.107530
+ | iter = 9 | tempo = 0.01s
+rho ≈ 2.3283
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-04 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -713.179344
+ | iter = 3 | tempo = 0.00s
+rho ≈ 5.9620
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -312.186590
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.6737
+
+
+--- Test 2 (x0 #2) ---
+f_min = -394.587315
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.2410
+
+
+--- Test 3 (x0 #3) ---
+f_min = -252.663891
+ | iter = 14 | tempo = 0.01s
+rho ≈ 4.8991
+
+
+--- Test 4 (x0 #4) ---
+f_min = -4.101513
+ | iter = 7 | tempo = 0.01s
+rho ≈ 2.8313
+
+
+--- Test 5 (x0 #5) ---
+f_min = -315.196389
+ | iter = 7 | tempo = 0.01s
+rho ≈ 2.5468
+
+
+--- Test 6 (x0 #6) ---
+f_min = -135.372644
+ | iter = 11 | tempo = 0.01s
+rho ≈ 4.1245
+
+
+--- Test 7 (x0 #7) ---
+f_min = -366.066716
+ | iter = 9 | tempo = 0.01s
+rho ≈ 2.2117
+
+
+--- Test 8 (x0 #8) ---
+f_min = -383.520234
+ | iter = 6 | tempo = 0.01s
+rho ≈ 2.4748
+
+
+--- Test 9 (x0 #9) ---
+f_min = -236.177697
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.0125
+
+
+--- Test 10 (x0 #10) ---
+f_min = -166.251050
+ | iter = 9 | tempo = 0.01s
+rho ≈ 0.9368
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-04*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 230919.325427
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -517.067938
+ | iter = 10 | tempo = 0.01s
+rho ≈ 4.9870
+
+
+--- Test 2 (x0 #2) ---
+f_min = -377.112249
+ | iter = 7 | tempo = 0.01s
+rho ≈ 7.4839
+
+
+--- Test 3 (x0 #3) ---
+f_min = -183.172006
+ | iter = 10 | tempo = 0.01s
+rho ≈ 9.8852
+
+
+--- Test 4 (x0 #4) ---
+f_min = -20.091060
+ | iter = 8 | tempo = 0.01s
+rho ≈ 0.4308
+
+
+--- Test 5 (x0 #5) ---
+f_min = -454.299573
+ | iter = 9 | tempo = 0.01s
+rho ≈ 5.3295
+
+
+--- Test 6 (x0 #6) ---
+f_min = -539.503081
+ | iter = 18 | tempo = 0.02s
+rho ≈ 3.1109
+
+
+--- Test 7 (x0 #7) ---
+f_min = -230.311534
+ | iter = 9 | tempo = 0.01s
+rho ≈ 4.2016
+
+
+--- Test 8 (x0 #8) ---
+f_min = -266.395574
+ | iter = 7 | tempo = 0.01s
+rho ≈ 1.6291
+
+
+--- Test 9 (x0 #9) ---
+f_min = -388.985718
+ | iter = 7 | tempo = 0.01s
+rho ≈ 5.6935
+
+
+--- Test 10 (x0 #10) ---
+f_min = -169.616726
+ | iter = 9 | tempo = 0.01s
+rho ≈ 0.9421
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-06 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -713.155456
+ | iter = 3 | tempo = 0.00s
+rho ≈ 5.9690
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -234.795307
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.0868
+
+
+--- Test 2 (x0 #2) ---
+f_min = -402.400943
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.2137
+
+
+--- Test 3 (x0 #3) ---
+f_min = -234.683314
+ | iter = 10 | tempo = 0.01s
+rho ≈ 1.1551
+
+
+--- Test 4 (x0 #4) ---
+f_min = -230.094640
+ | iter = 8 | tempo = 0.01s
+rho ≈ 1.1040
+
+
+--- Test 5 (x0 #5) ---
+f_min = -453.437830
+ | iter = 11 | tempo = 0.01s
+rho ≈ 0.2168
+
+
+--- Test 6 (x0 #6) ---
+f_min = -354.230208
+ | iter = 12 | tempo = 0.01s
+rho ≈ 7.7403
+
+
+--- Test 7 (x0 #7) ---
+f_min = -685.781886
+ | iter = 9 | tempo = 0.01s
+rho ≈ 0.9250
+
+
+--- Test 8 (x0 #8) ---
+f_min = -567.805707
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.8697
+
+
+--- Test 9 (x0 #9) ---
+f_min = -439.717678
+ | iter = 7 | tempo = 0.01s
+rho ≈ 0.7638
+
+
+--- Test 10 (x0 #10) ---
+f_min = -74.234937
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.5557
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-06*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 230919.325427
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -234.784423
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.1199
+
+
+--- Test 2 (x0 #2) ---
+f_min = -326.090288
+ | iter = 9 | tempo = 0.01s
+rho ≈ 64.5840
+
+
+--- Test 3 (x0 #3) ---
+f_min = -267.511448
+ | iter = 8 | tempo = 0.01s
+rho ≈ 2.9502
+
+
+--- Test 4 (x0 #4) ---
+f_min = -229.846263
+ | iter = 8 | tempo = 0.01s
+rho ≈ 1.4287
+
+
+--- Test 5 (x0 #5) ---
+f_min = -562.932744
+ | iter = 10 | tempo = 0.01s
+rho ≈ 2.3396
+
+
+--- Test 6 (x0 #6) ---
+f_min = -354.444926
+ | iter = 12 | tempo = 0.01s
+rho ≈ 10.0594
+
+
+--- Test 7 (x0 #7) ---
+f_min = -233.331698
+ | iter = 7 | tempo = 0.01s
+rho ≈ 2.2740
+
+
+--- Test 8 (x0 #8) ---
+f_min = -567.813138
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.8696
+
+
+--- Test 9 (x0 #9) ---
+f_min = -438.463866
+ | iter = 7 | tempo = 0.01s
+rho ≈ 0.7649
+
+
+--- Test 10 (x0 #10) ---
+f_min = -380.906475
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.9735
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-08 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -713.155217
+ | iter = 3 | tempo = 0.00s
+rho ≈ 5.9690
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -234.814242
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.1122
+
+
+--- Test 2 (x0 #2) ---
+f_min = -403.000733
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.2013
+
+
+--- Test 3 (x0 #3) ---
+f_min = -322.446698
+ | iter = 9 | tempo = 0.01s
+rho ≈ 4.9938
+
+
+--- Test 4 (x0 #4) ---
+f_min = -217.993569
+ | iter = 8 | tempo = 0.01s
+rho ≈ 0.6982
+
+
+--- Test 5 (x0 #5) ---
+f_min = -54.768389
+ | iter = 8 | tempo = 0.01s
+rho ≈ 2.2082
+
+
+--- Test 6 (x0 #6) ---
+f_min = -75.770823
+ | iter = 12 | tempo = 0.01s
+rho ≈ 2.3195
+
+
+--- Test 7 (x0 #7) ---
+f_min = -304.536679
+ | iter = 9 | tempo = 0.01s
+rho ≈ 0.0210
+
+
+--- Test 8 (x0 #8) ---
+f_min = -567.717396
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.8699
+
+
+--- Test 9 (x0 #9) ---
+f_min = -439.918583
+ | iter = 7 | tempo = 0.01s
+rho ≈ 0.7544
+
+
+--- Test 10 (x0 #10) ---
+f_min = -325.569394
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.7599
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-08*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 230919.325427
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -234.814181
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.1117
+
+
+--- Test 2 (x0 #2) ---
+f_min = -402.973890
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.3209
+
+
+--- Test 3 (x0 #3) ---
+f_min = -322.446661
+ | iter = 9 | tempo = 0.01s
+rho ≈ 4.9926
+
+
+--- Test 4 (x0 #4) ---
+f_min = -218.562831
+ | iter = 8 | tempo = 0.01s
+rho ≈ 0.7019
+
+
+--- Test 5 (x0 #5) ---
+f_min = -103.663971
+ | iter = 8 | tempo = 0.01s
+rho ≈ 2.2285
+
+
+--- Test 6 (x0 #6) ---
+f_min = -75.770764
+ | iter = 12 | tempo = 0.01s
+rho ≈ 2.2996
+
+
+--- Test 7 (x0 #7) ---
+f_min = -244.490002
+ | iter = 9 | tempo = 0.01s
+rho ≈ 0.0900
+
+
+--- Test 8 (x0 #8) ---
+f_min = -567.717471
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.8698
+
+
+--- Test 9 (x0 #9) ---
+f_min = -439.918898
+ | iter = 7 | tempo = 0.01s
+rho ≈ 0.7545
+
+
+--- Test 10 (x0 #10) ---
+f_min = -325.571548
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.7617
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-10 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -713.155215
+ | iter = 3 | tempo = 0.00s
+rho ≈ 5.9690
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -234.814422
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.1128
+
+
+--- Test 2 (x0 #2) ---
+f_min = -403.006999
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.2449
+
+
+--- Test 3 (x0 #3) ---
+f_min = -322.446755
+ | iter = 9 | tempo = 0.01s
+rho ≈ 4.9963
+
+
+--- Test 4 (x0 #4) ---
+f_min = -217.292787
+ | iter = 8 | tempo = 0.01s
+rho ≈ 0.6939
+
+
+--- Test 5 (x0 #5) ---
+f_min = -451.767474
+ | iter = 9 | tempo = 0.01s
+rho ≈ 9.7288
+
+
+--- Test 6 (x0 #6) ---
+f_min = -75.770913
+ | iter = 12 | tempo = 0.01s
+rho ≈ 2.3412
+
+
+--- Test 7 (x0 #7) ---
+f_min = -360.563038
+ | iter = 11 | tempo = 0.01s
+rho ≈ 4.4979
+
+
+--- Test 8 (x0 #8) ---
+f_min = -567.716512
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.8699
+
+
+--- Test 9 (x0 #9) ---
+f_min = -439.918239
+ | iter = 7 | tempo = 0.01s
+rho ≈ 0.7543
+
+
+--- Test 10 (x0 #10) ---
+f_min = -325.565966
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.7578
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-10*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 230919.325427
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -234.814422
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.1128
+
+
+--- Test 2 (x0 #2) ---
+f_min = -403.006962
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.2435
+
+
+--- Test 3 (x0 #3) ---
+f_min = -322.446754
+ | iter = 9 | tempo = 0.01s
+rho ≈ 4.9962
+
+
+--- Test 4 (x0 #4) ---
+f_min = -217.298934
+ | iter = 8 | tempo = 0.01s
+rho ≈ 0.6940
+
+
+--- Test 5 (x0 #5) ---
+f_min = -452.022940
+ | iter = 9 | tempo = 0.01s
+rho ≈ 9.8385
+
+
+--- Test 6 (x0 #6) ---
+f_min = -75.770913
+ | iter = 12 | tempo = 0.01s
+rho ≈ 2.3410
+
+
+--- Test 7 (x0 #7) ---
+f_min = -534.665277
+ | iter = 12 | tempo = 0.01s
+rho ≈ 52.5723
+
+
+--- Test 8 (x0 #8) ---
+f_min = -567.716513
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.8699
+
+
+--- Test 9 (x0 #9) ---
+f_min = -439.918242
+ | iter = 7 | tempo = 0.01s
+rho ≈ 0.7543
+
+
+--- Test 10 (x0 #10) ---
+f_min = -325.566000
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.7578
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-12 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -713.155215
+ | iter = 3 | tempo = 0.00s
+rho ≈ 5.9690
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -234.814424
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.1128
+
+
+--- Test 2 (x0 #2) ---
+f_min = -403.007106
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.2466
+
+
+--- Test 3 (x0 #3) ---
+f_min = -322.446755
+ | iter = 9 | tempo = 0.01s
+rho ≈ 4.9963
+
+
+--- Test 4 (x0 #4) ---
+f_min = -217.285585
+ | iter = 8 | tempo = 0.01s
+rho ≈ 0.6939
+
+
+--- Test 5 (x0 #5) ---
+f_min = -451.505321
+ | iter = 9 | tempo = 0.01s
+rho ≈ 9.6245
+
+
+--- Test 6 (x0 #6) ---
+f_min = -75.770912
+ | iter = 12 | tempo = 0.01s
+rho ≈ 2.3414
+
+
+--- Test 7 (x0 #7) ---
+f_min = -486.101462
+ | iter = 11 | tempo = 0.01s
+rho ≈ 15.3276
+
+
+--- Test 8 (x0 #8) ---
+f_min = -567.716504
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.8699
+
+
+--- Test 9 (x0 #9) ---
+f_min = -439.918235
+ | iter = 7 | tempo = 0.01s
+rho ≈ 0.7543
+
+
+--- Test 10 (x0 #10) ---
+f_min = -325.565927
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.7577
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-12*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 230919.325427
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -234.814424
+ | iter = 9 | tempo = 0.01s
+rho ≈ 1.1128
+
+
+--- Test 2 (x0 #2) ---
+f_min = -403.007105
+ | iter = 6 | tempo = 0.01s
+rho ≈ 1.2466
+
+
+--- Test 3 (x0 #3) ---
+f_min = -322.446755
+ | iter = 9 | tempo = 0.01s
+rho ≈ 4.9963
+
+
+--- Test 4 (x0 #4) ---
+f_min = -217.285647
+ | iter = 8 | tempo = 0.01s
+rho ≈ 0.6939
+
+
+--- Test 5 (x0 #5) ---
+f_min = -451.507924
+ | iter = 9 | tempo = 0.01s
+rho ≈ 9.6255
+
+
+--- Test 6 (x0 #6) ---
+f_min = -75.770912
+ | iter = 12 | tempo = 0.01s
+rho ≈ 2.3414
+
+
+--- Test 7 (x0 #7) ---
+f_min = -522.437201
+ | iter = 11 | tempo = 0.01s
+rho ≈ 15.1974
+
+
+--- Test 8 (x0 #8) ---
+f_min = -567.716504
+ | iter = 7 | tempo = 0.01s
+rho ≈ 4.8699
+
+
+--- Test 9 (x0 #9) ---
+f_min = -439.918235
+ | iter = 7 | tempo = 0.01s
+rho ≈ 0.7543
+
+
+--- Test 10 (x0 #10) ---
+f_min = -325.565927
+ | iter = 10 | tempo = 0.01s
+rho ≈ 0.7577
+
+
+Successi: 0 su 10
+
+=================================================
+ TEST SU DERIVATE ESATTE 
+=================================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = -426.024308
+ | iter = 3 | tempo = 0.01s
+rho ≈ 4.3228
+
+--- Test 1 (x0 #1) ---
+f_min = -59.130474
+ | iter = 8 | tempo = 0.01s
+rho ≈ 0.2802
+
+--- Test 2 (x0 #2) ---
+f_min = -933.513123
+ | iter = 11 | tempo = 0.01s
+rho ≈ 1.6916
+
+--- Test 3 (x0 #3) ---
+f_min = -467.214995
+ | iter = 8 | tempo = 0.01s
+rho ≈ 4.9590
+
+--- Test 4 (x0 #4) ---
+f_min = -94.750632
+ | iter = 10 | tempo = 0.01s
+rho ≈ 132.8131
+
+--- Test 5 (x0 #5) ---
+f_min = -624.419884
+ | iter = 9 | tempo = 0.01s
+rho ≈ 2.7597
+
+--- Test 6 (x0 #6) ---
+f_min = -563.533883
+ | iter = 8 | tempo = 0.01s
+rho ≈ 1.8204
+
+--- Test 7 (x0 #7) ---
+f_min = 411.604011
+ | iter = 19 | tempo = 0.01s
+rho ≈ 0.0065
+
+--- Test 8 (x0 #8) ---
+f_min = -415.372788
+ | iter = 7 | tempo = 0.01s
+rho ≈ 1.3871
+
+--- Test 9 (x0 #9) ---
+f_min = -119.474676
+ | iter = 7 | tempo = 0.01s
+rho ≈ 3.5687
+
+--- Test 10 (x0 #10) ---
+f_min = -4.251025
+ | iter = 11 | tempo = 0.01s
+rho ≈ 0.9502
+
+Successi: 0 su 10
+
+Tempo (incl. plotting) per n = 1000     :  3.01  s
+
+=================================================
+ TEST SU BANDED TRIGONOMETRIC IN DIMENSIONE 10000 
+=================================================
+
+
+=================================================
+ TEST SU DERIVATE APPROSSIMATE CON DIFFERENZE FINITE 
+=================================================
+
+
+----------------------------------------------------
+Default increment h = 1.000000e-02 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -7084.970524
+ | iter = 3 | tempo = 0.01s
+rho ≈ 4.1395
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -1312.415421
+ | iter = 15 | tempo = 0.13s
+rho ≈ 3.1659
+
+
+--- Test 2 (x0 #2) ---
+f_min = -411.530144
+ | iter = 9 | tempo = 0.07s
+rho ≈ 1.0546
+
+
+--- Test 3 (x0 #3) ---
+f_min = -4361.029701
+ | iter = 10 | tempo = 0.08s
+rho ≈ 3.7155
+
+
+--- Test 4 (x0 #4) ---
+f_min = -2316.210299
+ | iter = 8 | tempo = 0.07s
+rho ≈ 0.9743
+
+
+--- Test 5 (x0 #5) ---
+f_min = -1153.611550
+ | iter = 10 | tempo = 0.08s
+rho ≈ 2.1631
+
+
+--- Test 6 (x0 #6) ---
+f_min = -2229.967477
+ | iter = 12 | tempo = 0.10s
+rho ≈ 2.2015
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2057.054809
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.0761
+
+
+--- Test 8 (x0 #8) ---
+f_min = -115.892683
+ | iter = 15 | tempo = 0.13s
+rho ≈ 2.5735
+
+
+--- Test 9 (x0 #9) ---
+f_min = -3581.637540
+ | iter = 13 | tempo = 0.10s
+rho ≈ 3.9016
+
+
+--- Test 10 (x0 #10) ---
+f_min = -833.376366
+ | iter = 11 | tempo = 0.09s
+rho ≈ 2.7696
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-02*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 22995597.063441
+ | iter = 1 | tempo = 0.01s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -781.686965
+ | iter = 9 | tempo = 0.07s
+rho ≈ 1.1220
+
+
+--- Test 2 (x0 #2) ---
+f_min = -4388.648079
+ | iter = 11 | tempo = 0.09s
+rho ≈ 2.9466
+
+
+--- Test 3 (x0 #3) ---
+f_min = -1586.423681
+ | iter = 12 | tempo = 0.10s
+rho ≈ 1.1406
+
+
+--- Test 4 (x0 #4) ---
+f_min = -212.255399
+ | iter = 9 | tempo = 0.07s
+rho ≈ 4.1031
+
+
+--- Test 5 (x0 #5) ---
+f_min = -5142.889979
+ | iter = 8 | tempo = 0.07s
+rho ≈ 23.7803
+
+
+--- Test 6 (x0 #6) ---
+f_min = -3459.412947
+ | iter = 8 | tempo = 0.06s
+rho ≈ 2.6969
+
+
+--- Test 7 (x0 #7) ---
+f_min = -1016.291562
+ | iter = 9 | tempo = 0.07s
+rho ≈ 1.1549
+
+
+--- Test 8 (x0 #8) ---
+f_min = -321.594844
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.1576
+
+
+--- Test 9 (x0 #9) ---
+f_min = -1613.985761
+ | iter = 9 | tempo = 0.07s
+rho ≈ 2.2167
+
+
+--- Test 10 (x0 #10) ---
+f_min = -4177.670794
+ | iter = 12 | tempo = 0.10s
+rho ≈ 3.5795
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-04 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -7080.831469
+ | iter = 3 | tempo = 0.01s
+rho ≈ 3.9149
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -1784.740878
+ | iter = 8 | tempo = 0.07s
+rho ≈ 0.4760
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1532.406074
+ | iter = 15 | tempo = 0.13s
+rho ≈ 0.9884
+
+
+--- Test 3 (x0 #3) ---
+f_min = -2882.809873
+ | iter = 7 | tempo = 0.06s
+rho ≈ 1.2681
+
+
+--- Test 4 (x0 #4) ---
+f_min = -2013.389695
+ | iter = 12 | tempo = 0.10s
+rho ≈ 1.3892
+
+
+--- Test 5 (x0 #5) ---
+f_min = -5691.082732
+ | iter = 11 | tempo = 0.09s
+rho ≈ 2.6464
+
+
+--- Test 6 (x0 #6) ---
+f_min = -807.838728
+ | iter = 11 | tempo = 0.10s
+rho ≈ 4.4530
+
+
+--- Test 7 (x0 #7) ---
+f_min = -4396.819611
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.4576
+
+
+--- Test 8 (x0 #8) ---
+f_min = -1269.566632
+ | iter = 13 | tempo = 0.11s
+rho ≈ 1.9759
+
+
+--- Test 9 (x0 #9) ---
+f_min = -3313.962956
+ | iter = 8 | tempo = 0.06s
+rho ≈ 1.8561
+
+
+--- Test 10 (x0 #10) ---
+f_min = -2625.495941
+ | iter = 10 | tempo = 0.08s
+rho ≈ 2.7080
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-04*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 22995597.063441
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -920.124611
+ | iter = 9 | tempo = 0.07s
+rho ≈ 1.1282
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1513.510619
+ | iter = 15 | tempo = 0.13s
+rho ≈ 1.4343
+
+
+--- Test 3 (x0 #3) ---
+f_min = -2898.173059
+ | iter = 8 | tempo = 0.07s
+rho ≈ 1.3269
+
+
+--- Test 4 (x0 #4) ---
+f_min = -5125.136148
+ | iter = 10 | tempo = 0.09s
+rho ≈ 1.5939
+
+
+--- Test 5 (x0 #5) ---
+f_min = -1038.896037
+ | iter = 9 | tempo = 0.07s
+rho ≈ 1.9210
+
+
+--- Test 6 (x0 #6) ---
+f_min = -4938.047591
+ | iter = 11 | tempo = 0.09s
+rho ≈ 6.1135
+
+
+--- Test 7 (x0 #7) ---
+f_min = -4851.495887
+ | iter = 14 | tempo = 0.12s
+rho ≈ 2.5216
+
+
+--- Test 8 (x0 #8) ---
+f_min = -1096.864472
+ | iter = 11 | tempo = 0.09s
+rho ≈ 0.7343
+
+
+--- Test 9 (x0 #9) ---
+f_min = -2380.114384
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.0328
+
+
+--- Test 10 (x0 #10) ---
+f_min = -1874.380859
+ | iter = 9 | tempo = 0.08s
+rho ≈ 0.7864
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-06 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -7080.814245
+ | iter = 3 | tempo = 0.01s
+rho ≈ 3.9128
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -224.251634
+ | iter = 9 | tempo = 0.08s
+rho ≈ 0.9981
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1047.885518
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.0059
+
+
+--- Test 3 (x0 #3) ---
+f_min = -1444.320659
+ | iter = 9 | tempo = 0.08s
+rho ≈ 0.8317
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1221.843019
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.8046
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4927.275354
+ | iter = 11 | tempo = 0.09s
+rho ≈ 2.1312
+
+
+--- Test 6 (x0 #6) ---
+f_min = -2073.107982
+ | iter = 11 | tempo = 0.09s
+rho ≈ 0.8881
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2029.566300
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.8739
+
+
+--- Test 8 (x0 #8) ---
+f_min = -5338.092670
+ | iter = 12 | tempo = 0.10s
+rho ≈ 4.3736
+
+
+--- Test 9 (x0 #9) ---
+f_min = -1269.700834
+ | iter = 7 | tempo = 0.06s
+rho ≈ 6.1828
+
+
+--- Test 10 (x0 #10) ---
+f_min = -1844.183156
+ | iter = 13 | tempo = 0.11s
+rho ≈ 1.8549
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-06*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 22995597.063441
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -4347.310451
+ | iter = 10 | tempo = 0.08s
+rho ≈ 5.3751
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1343.673069
+ | iter = 12 | tempo = 0.10s
+rho ≈ 1.0540
+
+
+--- Test 3 (x0 #3) ---
+f_min = -1639.285808
+ | iter = 10 | tempo = 0.09s
+rho ≈ 4.6040
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1221.905667
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.7613
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4544.037906
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.0461
+
+
+--- Test 6 (x0 #6) ---
+f_min = -1082.482423
+ | iter = 12 | tempo = 0.10s
+rho ≈ 2.1976
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2151.938026
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.9210
+
+
+--- Test 8 (x0 #8) ---
+f_min = -1924.659056
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.8425
+
+
+--- Test 9 (x0 #9) ---
+f_min = -1550.172339
+ | iter = 5 | tempo = 0.04s
+rho ≈ 0.2278
+
+
+--- Test 10 (x0 #10) ---
+f_min = -2281.982248
+ | iter = 10 | tempo = 0.08s
+rho ≈ 3.9710
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-08 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -7080.814073
+ | iter = 3 | tempo = 0.01s
+rho ≈ 3.9128
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -222.082354
+ | iter = 9 | tempo = 0.07s
+rho ≈ 0.9649
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1052.241976
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.0064
+
+
+--- Test 3 (x0 #3) ---
+f_min = -2883.316183
+ | iter = 7 | tempo = 0.06s
+rho ≈ 1.2668
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1221.614610
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.7557
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4618.396245
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.0991
+
+
+--- Test 6 (x0 #6) ---
+f_min = -1415.478160
+ | iter = 14 | tempo = 0.12s
+rho ≈ 3.7979
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2658.225128
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.8216
+
+
+--- Test 8 (x0 #8) ---
+f_min = -5120.186823
+ | iter = 12 | tempo = 0.10s
+rho ≈ 4.3393
+
+
+--- Test 9 (x0 #9) ---
+f_min = -4090.544570
+ | iter = 8 | tempo = 0.06s
+rho ≈ 1.9101
+
+
+--- Test 10 (x0 #10) ---
+f_min = -2371.794915
+ | iter = 12 | tempo = 0.10s
+rho ≈ 1.0218
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-08*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 22995597.063441
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -222.090874
+ | iter = 9 | tempo = 0.08s
+rho ≈ 0.9646
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1052.208401
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.0064
+
+
+--- Test 3 (x0 #3) ---
+f_min = -2883.316215
+ | iter = 7 | tempo = 0.06s
+rho ≈ 1.2682
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1221.676877
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.7580
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4618.392336
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.0989
+
+
+--- Test 6 (x0 #6) ---
+f_min = -2303.733741
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.0248
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2647.727952
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.8220
+
+
+--- Test 8 (x0 #8) ---
+f_min = -5122.017152
+ | iter = 12 | tempo = 0.10s
+rho ≈ 4.3393
+
+
+--- Test 9 (x0 #9) ---
+f_min = -4593.093327
+ | iter = 7 | tempo = 0.05s
+rho ≈ 2.6167
+
+
+--- Test 10 (x0 #10) ---
+f_min = -4465.934759
+ | iter = 14 | tempo = 0.12s
+rho ≈ 3.5879
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-10 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -7080.814071
+ | iter = 3 | tempo = 0.01s
+rho ≈ 3.9128
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -222.060690
+ | iter = 9 | tempo = 0.07s
+rho ≈ 0.9653
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1052.285154
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.0064
+
+
+--- Test 3 (x0 #3) ---
+f_min = -2883.316199
+ | iter = 7 | tempo = 0.06s
+rho ≈ 1.2660
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1221.545492
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.7534
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4618.400057
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.0994
+
+
+--- Test 6 (x0 #6) ---
+f_min = -4372.918434
+ | iter = 16 | tempo = 0.14s
+rho ≈ 16.7310
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2670.529024
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.8211
+
+
+--- Test 8 (x0 #8) ---
+f_min = -5118.085206
+ | iter = 12 | tempo = 0.10s
+rho ≈ 4.3392
+
+
+--- Test 9 (x0 #9) ---
+f_min = -1735.196425
+ | iter = 7 | tempo = 0.05s
+rho ≈ 6.9984
+
+
+--- Test 10 (x0 #10) ---
+f_min = -2371.795557
+ | iter = 12 | tempo = 0.10s
+rho ≈ 0.9610
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-10*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 22995597.063441
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -222.060775
+ | iter = 9 | tempo = 0.08s
+rho ≈ 0.9653
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1052.284818
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.0064
+
+
+--- Test 3 (x0 #3) ---
+f_min = -2883.316199
+ | iter = 7 | tempo = 0.06s
+rho ≈ 1.2660
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1221.546268
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.7534
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4618.400038
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.0994
+
+
+--- Test 6 (x0 #6) ---
+f_min = -3008.450422
+ | iter = 16 | tempo = 0.14s
+rho ≈ 117.4042
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2670.422702
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.8211
+
+
+--- Test 8 (x0 #8) ---
+f_min = -5118.103485
+ | iter = 12 | tempo = 0.10s
+rho ≈ 4.3392
+
+
+--- Test 9 (x0 #9) ---
+f_min = -585.714013
+ | iter = 8 | tempo = 0.06s
+rho ≈ 1.6597
+
+
+--- Test 10 (x0 #10) ---
+f_min = -2371.795411
+ | iter = 12 | tempo = 0.10s
+rho ≈ 0.9875
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-12 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -7080.814071
+ | iter = 3 | tempo = 0.01s
+rho ≈ 3.9128
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -222.060474
+ | iter = 9 | tempo = 0.07s
+rho ≈ 0.9653
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1052.285586
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.0064
+
+
+--- Test 3 (x0 #3) ---
+f_min = -2883.316199
+ | iter = 7 | tempo = 0.06s
+rho ≈ 1.2660
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1221.544750
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.7534
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4618.400085
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.0994
+
+
+--- Test 6 (x0 #6) ---
+f_min = -3778.849747
+ | iter = 14 | tempo = 0.12s
+rho ≈ 13.8702
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2670.652616
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.8211
+
+
+--- Test 8 (x0 #8) ---
+f_min = -5118.064200
+ | iter = 12 | tempo = 0.10s
+rho ≈ 4.3392
+
+
+--- Test 9 (x0 #9) ---
+f_min = -2416.722462
+ | iter = 7 | tempo = 0.06s
+rho ≈ 13.6466
+
+
+--- Test 10 (x0 #10) ---
+f_min = -2371.795574
+ | iter = 12 | tempo = 0.11s
+rho ≈ 0.9656
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-12*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 22995597.063441
+ | iter = 1 | tempo = 0.00s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -222.060474
+ | iter = 9 | tempo = 0.07s
+rho ≈ 0.9653
+
+
+--- Test 2 (x0 #2) ---
+f_min = -1052.285582
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.0064
+
+
+--- Test 3 (x0 #3) ---
+f_min = -2883.316199
+ | iter = 7 | tempo = 0.06s
+rho ≈ 1.2660
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1221.544757
+ | iter = 7 | tempo = 0.06s
+rho ≈ 2.7534
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4618.400085
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.0994
+
+
+--- Test 6 (x0 #6) ---
+f_min = -3632.198196
+ | iter = 14 | tempo = 0.12s
+rho ≈ 10.3624
+
+
+--- Test 7 (x0 #7) ---
+f_min = -2670.651552
+ | iter = 13 | tempo = 0.11s
+rho ≈ 2.8211
+
+
+--- Test 8 (x0 #8) ---
+f_min = -5118.064382
+ | iter = 12 | tempo = 0.10s
+rho ≈ 4.3392
+
+
+--- Test 9 (x0 #9) ---
+f_min = -2404.731590
+ | iter = 7 | tempo = 0.05s
+rho ≈ 9.6065
+
+
+--- Test 10 (x0 #10) ---
+f_min = -2371.795574
+ | iter = 12 | tempo = 0.10s
+rho ≈ 0.9656
+
+
+Successi: 0 su 10
+
+=================================================
+ TEST SU DERIVATE ESATTE 
+=================================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = -4158.371200
+ | iter = 3 | tempo = 0.01s
+rho ≈ 3.8578
+
+--- Test 1 (x0 #1) ---
+f_min = 1029.282647
+ | iter = 28 | tempo = 0.17s
+rho ≈ 0.0568
+
+--- Test 2 (x0 #2) ---
+f_min = -1737.049903
+ | iter = 5 | tempo = 0.04s
+rho ≈ 0.8239
+
+--- Test 3 (x0 #3) ---
+f_min = -3626.973013
+ | iter = 16 | tempo = 0.13s
+rho ≈ 1.8466
+
+--- Test 4 (x0 #4) ---
+f_min = -267.279791
+ | iter = 15 | tempo = 0.12s
+rho ≈ 1.3212
+
+--- Test 5 (x0 #5) ---
+f_min = -2982.155107
+ | iter = 10 | tempo = 0.08s
+rho ≈ 2.8699
+
+--- Test 6 (x0 #6) ---
+f_min = 2561.215361
+ | iter = 14 | tempo = 0.08s
+rho ≈ 0.0008
+
+--- Test 7 (x0 #7) ---
+f_min = -237.895814
+ | iter = 16 | tempo = 0.13s
+rho ≈ 3.0608
+
+--- Test 8 (x0 #8) ---
+f_min = -4973.912328
+ | iter = 11 | tempo = 0.09s
+rho ≈ 1.6214
+
+--- Test 9 (x0 #9) ---
+f_min = -1547.381695
+ | iter = 10 | tempo = 0.08s
+rho ≈ 1.2619
+
+--- Test 10 (x0 #10) ---
+f_min = 4207.634881
+ | iter = 14 | tempo = 0.08s
+rho ≈ 0.3267
+
+Successi: 0 su 10
+
+Tempo (incl. plotting) per n = 10000    :  12.38  s
+
+=================================================
+ TEST SU BANDED TRIGONOMETRIC IN DIMENSIONE 100000 
+=================================================
+
+
+=================================================
+ TEST SU DERIVATE APPROSSIMATE CON DIFFERENZE FINITE 
+=================================================
+
+
+----------------------------------------------------
+Default increment h = 1.000000e-02 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -70642.776574
+ | iter = 3 | tempo = 0.13s
+rho ≈ 4.0595
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -18422.420441
+ | iter = 18 | tempo = 1.76s
+rho ≈ 1.8255
+
+
+--- Test 2 (x0 #2) ---
+f_min = -11771.310547
+ | iter = 20 | tempo = 2.04s
+rho ≈ 2.4728
+
+
+--- Test 3 (x0 #3) ---
+f_min = -11693.952150
+ | iter = 18 | tempo = 1.85s
+rho ≈ 2.6106
+
+
+--- Test 4 (x0 #4) ---
+f_min = -24643.575470
+ | iter = 16 | tempo = 1.64s
+rho ≈ 3.4218
+
+
+--- Test 5 (x0 #5) ---
+f_min = -4775.747603
+ | iter = 14 | tempo = 1.39s
+rho ≈ 1.2570
+
+
+--- Test 6 (x0 #6) ---
+f_min = -59092.217914
+ | iter = 17 | tempo = 1.70s
+rho ≈ 2.6875
+
+
+--- Test 7 (x0 #7) ---
+f_min = -332.079627
+ | iter = 16 | tempo = 1.64s
+rho ≈ 2.2613
+
+
+--- Test 8 (x0 #8) ---
+f_min = -22242.159561
+ | iter = 10 | tempo = 0.99s
+rho ≈ 4.9308
+
+
+--- Test 9 (x0 #9) ---
+f_min = -27515.140440
+ | iter = 14 | tempo = 1.43s
+rho ≈ 0.8888
+
+
+--- Test 10 (x0 #10) ---
+f_min = -46768.165239
+ | iter = 20 | tempo = 2.02s
+rho ≈ 6.3466
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-02*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 2298595601.801018
+ | iter = 1 | tempo = 0.04s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -1383.540576
+ | iter = 32 | tempo = 3.31s
+rho ≈ 2.0244
+
+
+--- Test 2 (x0 #2) ---
+f_min = -14967.476514
+ | iter = 16 | tempo = 1.62s
+rho ≈ 1.0705
+
+
+--- Test 3 (x0 #3) ---
+f_min = 104201.494523
+ | iter = 2000 | tempo = 237.44s
+rho ≈ 0.9988
+
+
+--- Test 4 (x0 #4) ---
+f_min = -9517.188247
+ | iter = 16 | tempo = 1.64s
+rho ≈ 0.6120
+
+
+--- Test 5 (x0 #5) ---
+f_min = -56110.652011
+ | iter = 16 | tempo = 1.61s
+rho ≈ 1.9791
+
+
+--- Test 6 (x0 #6) ---
+f_min = -33398.650668
+ | iter = 17 | tempo = 1.72s
+rho ≈ 1.0936
+
+
+--- Test 7 (x0 #7) ---
+f_min = -40857.459884
+ | iter = 16 | tempo = 1.63s
+rho ≈ 2.8830
+
+
+--- Test 8 (x0 #8) ---
+f_min = -43293.848317
+ | iter = 15 | tempo = 1.56s
+rho ≈ 2.0698
+
+
+--- Test 9 (x0 #9) ---
+f_min = -60482.147912
+ | iter = 15 | tempo = 1.51s
+rho ≈ 2.5465
+
+
+--- Test 10 (x0 #10) ---
+f_min = -25312.200690
+ | iter = 14 | tempo = 1.50s
+rho ≈ 3.0676
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-04 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -70696.964237
+ | iter = 3 | tempo = 0.15s
+rho ≈ 3.8313
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -22218.243795
+ | iter = 15 | tempo = 1.58s
+rho ≈ 4.1442
+
+
+--- Test 2 (x0 #2) ---
+f_min = -19195.013568
+ | iter = 16 | tempo = 1.61s
+rho ≈ 1.2068
+
+
+--- Test 3 (x0 #3) ---
+f_min = -6968.444823
+ | iter = 15 | tempo = 1.53s
+rho ≈ 1.1533
+
+
+--- Test 4 (x0 #4) ---
+f_min = -57142.997402
+ | iter = 14 | tempo = 1.45s
+rho ≈ 1.8460
+
+
+--- Test 5 (x0 #5) ---
+f_min = -21626.313064
+ | iter = 15 | tempo = 1.58s
+rho ≈ 3.7418
+
+
+--- Test 6 (x0 #6) ---
+f_min = -57369.167955
+ | iter = 15 | tempo = 1.56s
+rho ≈ 1.9574
+
+
+--- Test 7 (x0 #7) ---
+f_min = -10565.902647
+ | iter = 17 | tempo = 1.80s
+rho ≈ 1.9997
+
+
+--- Test 8 (x0 #8) ---
+f_min = -55573.799000
+ | iter = 16 | tempo = 1.59s
+rho ≈ 2.7811
+
+
+--- Test 9 (x0 #9) ---
+f_min = -15478.838705
+ | iter = 15 | tempo = 1.59s
+rho ≈ 1.2201
+
+
+--- Test 10 (x0 #10) ---
+f_min = -47215.877165
+ | iter = 15 | tempo = 1.68s
+rho ≈ 1.3923
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-04*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 2298595601.801018
+ | iter = 1 | tempo = 0.05s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -38793.515974
+ | iter = 15 | tempo = 1.63s
+rho ≈ 2.2085
+
+
+--- Test 2 (x0 #2) ---
+f_min = -2546.317704
+ | iter = 16 | tempo = 1.75s
+rho ≈ 2.4612
+
+
+--- Test 3 (x0 #3) ---
+f_min = -7493.726932
+ | iter = 18 | tempo = 2.02s
+rho ≈ 1.4658
+
+
+--- Test 4 (x0 #4) ---
+f_min = -2484.099861
+ | iter = 15 | tempo = 1.65s
+rho ≈ 2.6643
+
+
+--- Test 5 (x0 #5) ---
+f_min = -2032.217303
+ | iter = 15 | tempo = 1.66s
+rho ≈ 2.4032
+
+
+--- Test 6 (x0 #6) ---
+f_min = -12621.101638
+ | iter = 17 | tempo = 1.97s
+rho ≈ 2.5714
+
+
+--- Test 7 (x0 #7) ---
+f_min = -4127.648052
+ | iter = 13 | tempo = 1.42s
+rho ≈ 0.9256
+
+
+--- Test 8 (x0 #8) ---
+f_min = -53240.558469
+ | iter = 21 | tempo = 2.34s
+rho ≈ 2.2996
+
+
+--- Test 9 (x0 #9) ---
+f_min = -14042.330830
+ | iter = 17 | tempo = 1.77s
+rho ≈ 2.5009
+
+
+--- Test 10 (x0 #10) ---
+f_min = -32481.394715
+ | iter = 13 | tempo = 1.37s
+rho ≈ 1.0007
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-06 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -70697.297012
+ | iter = 3 | tempo = 0.14s
+rho ≈ 3.8291
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -25222.388109
+ | iter = 14 | tempo = 1.51s
+rho ≈ 0.9860
+
+
+--- Test 2 (x0 #2) ---
+f_min = -12950.288007
+ | iter = 20 | tempo = 2.09s
+rho ≈ 2.7360
+
+
+--- Test 3 (x0 #3) ---
+f_min = -12425.282568
+ | iter = 15 | tempo = 1.57s
+rho ≈ 1.1529
+
+
+--- Test 4 (x0 #4) ---
+f_min = -326.702888
+ | iter = 14 | tempo = 1.52s
+rho ≈ 1.0232
+
+
+--- Test 5 (x0 #5) ---
+f_min = -14781.832999
+ | iter = 18 | tempo = 1.94s
+rho ≈ 2.6711
+
+
+--- Test 6 (x0 #6) ---
+f_min = -4046.391698
+ | iter = 13 | tempo = 1.36s
+rho ≈ 2.4959
+
+
+--- Test 7 (x0 #7) ---
+f_min = -18789.244119
+ | iter = 14 | tempo = 1.47s
+rho ≈ 1.3266
+
+
+--- Test 8 (x0 #8) ---
+f_min = -1292.701086
+ | iter = 17 | tempo = 1.92s
+rho ≈ 2.1171
+
+
+--- Test 9 (x0 #9) ---
+f_min = -62594.715141
+ | iter = 17 | tempo = 1.85s
+rho ≈ 3.3959
+
+
+--- Test 10 (x0 #10) ---
+f_min = -53750.346176
+ | iter = 16 | tempo = 1.67s
+rho ≈ 3.3093
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-06*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 2298595601.801018
+ | iter = 1 | tempo = 0.04s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -28038.847511
+ | iter = 14 | tempo = 1.46s
+rho ≈ 0.9855
+
+
+--- Test 2 (x0 #2) ---
+f_min = -12955.402081
+ | iter = 20 | tempo = 2.14s
+rho ≈ 2.6510
+
+
+--- Test 3 (x0 #3) ---
+f_min = -4227.192215
+ | iter = 16 | tempo = 1.63s
+rho ≈ 0.5783
+
+
+--- Test 4 (x0 #4) ---
+f_min = -573.017684
+ | iter = 14 | tempo = 1.43s
+rho ≈ 1.1178
+
+
+--- Test 5 (x0 #5) ---
+f_min = -33920.299658
+ | iter = 17 | tempo = 1.74s
+rho ≈ 3.0811
+
+
+--- Test 6 (x0 #6) ---
+f_min = -4052.366022
+ | iter = 13 | tempo = 1.32s
+rho ≈ 2.4957
+
+
+--- Test 7 (x0 #7) ---
+f_min = -18788.090369
+ | iter = 14 | tempo = 1.42s
+rho ≈ 1.3271
+
+
+--- Test 8 (x0 #8) ---
+f_min = -50317.218533
+ | iter = 19 | tempo = 1.89s
+rho ≈ 2.8611
+
+
+--- Test 9 (x0 #9) ---
+f_min = -62595.708131
+ | iter = 17 | tempo = 1.74s
+rho ≈ 3.4311
+
+
+--- Test 10 (x0 #10) ---
+f_min = -51954.598155
+ | iter = 16 | tempo = 1.63s
+rho ≈ 3.0794
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-08 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -70697.300323
+ | iter = 3 | tempo = 0.13s
+rho ≈ 3.8291
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -22195.326889
+ | iter = 14 | tempo = 1.44s
+rho ≈ 0.9866
+
+
+--- Test 2 (x0 #2) ---
+f_min = -12875.374245
+ | iter = 20 | tempo = 2.04s
+rho ≈ 2.6125
+
+
+--- Test 3 (x0 #3) ---
+f_min = -8146.281576
+ | iter = 14 | tempo = 1.44s
+rho ≈ 1.1136
+
+
+--- Test 4 (x0 #4) ---
+f_min = -59989.472962
+ | iter = 19 | tempo = 2.00s
+rho ≈ 6.1608
+
+
+--- Test 5 (x0 #5) ---
+f_min = -647.659663
+ | iter = 17 | tempo = 1.81s
+rho ≈ 1.2148
+
+
+--- Test 6 (x0 #6) ---
+f_min = -4037.589239
+ | iter = 13 | tempo = 1.36s
+rho ≈ 2.4962
+
+
+--- Test 7 (x0 #7) ---
+f_min = -17134.790266
+ | iter = 17 | tempo = 1.85s
+rho ≈ 3.3868
+
+
+--- Test 8 (x0 #8) ---
+f_min = -55589.339860
+ | iter = 17 | tempo = 1.94s
+rho ≈ 2.8543
+
+
+--- Test 9 (x0 #9) ---
+f_min = -62593.390090
+ | iter = 17 | tempo = 1.88s
+rho ≈ 3.3497
+
+
+--- Test 10 (x0 #10) ---
+f_min = -5087.748883
+ | iter = 15 | tempo = 1.65s
+rho ≈ 1.2312
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-08*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 2298595601.801018
+ | iter = 1 | tempo = 0.04s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -21762.797498
+ | iter = 14 | tempo = 1.47s
+rho ≈ 0.9866
+
+
+--- Test 2 (x0 #2) ---
+f_min = -12875.758579
+ | iter = 20 | tempo = 2.10s
+rho ≈ 2.6136
+
+
+--- Test 3 (x0 #3) ---
+f_min = -20348.528759
+ | iter = 17 | tempo = 1.91s
+rho ≈ 1.9507
+
+
+--- Test 4 (x0 #4) ---
+f_min = -58583.207171
+ | iter = 18 | tempo = 2.00s
+rho ≈ 4.3108
+
+
+--- Test 5 (x0 #5) ---
+f_min = -33891.687470
+ | iter = 18 | tempo = 1.91s
+rho ≈ 2.4715
+
+
+--- Test 6 (x0 #6) ---
+f_min = -4037.648146
+ | iter = 13 | tempo = 1.42s
+rho ≈ 2.4962
+
+
+--- Test 7 (x0 #7) ---
+f_min = -16254.365098
+ | iter = 14 | tempo = 1.41s
+rho ≈ 2.9325
+
+
+--- Test 8 (x0 #8) ---
+f_min = -55589.339653
+ | iter = 17 | tempo = 1.67s
+rho ≈ 2.8539
+
+
+--- Test 9 (x0 #9) ---
+f_min = -62593.401186
+ | iter = 17 | tempo = 1.70s
+rho ≈ 3.3499
+
+
+--- Test 10 (x0 #10) ---
+f_min = -4981.895744
+ | iter = 15 | tempo = 1.51s
+rho ≈ 1.2306
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-10 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -70697.300356
+ | iter = 3 | tempo = 0.13s
+rho ≈ 3.8291
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -22804.352120
+ | iter = 14 | tempo = 1.42s
+rho ≈ 0.9866
+
+
+--- Test 2 (x0 #2) ---
+f_min = -12874.927802
+ | iter = 20 | tempo = 2.10s
+rho ≈ 2.6110
+
+
+--- Test 3 (x0 #3) ---
+f_min = -8139.296297
+ | iter = 14 | tempo = 1.41s
+rho ≈ 1.1136
+
+
+--- Test 4 (x0 #4) ---
+f_min = -2236.687540
+ | iter = 20 | tempo = 2.12s
+rho ≈ 1.1917
+
+
+--- Test 5 (x0 #5) ---
+f_min = -20750.953603
+ | iter = 15 | tempo = 1.72s
+rho ≈ 3.2757
+
+
+--- Test 6 (x0 #6) ---
+f_min = -5605.023031
+ | iter = 11 | tempo = 1.23s
+rho ≈ 2.0445
+
+
+--- Test 7 (x0 #7) ---
+f_min = -18789.870891
+ | iter = 14 | tempo = 1.39s
+rho ≈ 1.3256
+
+
+--- Test 8 (x0 #8) ---
+f_min = -55589.340848
+ | iter = 17 | tempo = 1.74s
+rho ≈ 2.8550
+
+
+--- Test 9 (x0 #9) ---
+f_min = -62593.376272
+ | iter = 17 | tempo = 1.72s
+rho ≈ 3.3494
+
+
+--- Test 10 (x0 #10) ---
+f_min = -5241.410158
+ | iter = 15 | tempo = 1.52s
+rho ≈ 1.2321
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-10*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 2298595601.801018
+ | iter = 1 | tempo = 0.04s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -22799.771532
+ | iter = 14 | tempo = 1.43s
+rho ≈ 0.9866
+
+
+--- Test 2 (x0 #2) ---
+f_min = -12874.931633
+ | iter = 20 | tempo = 2.05s
+rho ≈ 2.6110
+
+
+--- Test 3 (x0 #3) ---
+f_min = -8139.338448
+ | iter = 14 | tempo = 1.46s
+rho ≈ 1.1136
+
+
+--- Test 4 (x0 #4) ---
+f_min = -8965.348453
+ | iter = 20 | tempo = 2.07s
+rho ≈ 1.1942
+
+
+--- Test 5 (x0 #5) ---
+f_min = -20750.971238
+ | iter = 15 | tempo = 1.51s
+rho ≈ 3.2756
+
+
+--- Test 6 (x0 #6) ---
+f_min = -35422.334199
+ | iter = 18 | tempo = 1.83s
+rho ≈ 2.1171
+
+
+--- Test 7 (x0 #7) ---
+f_min = -50137.338429
+ | iter = 13 | tempo = 1.28s
+rho ≈ 1.6986
+
+
+--- Test 8 (x0 #8) ---
+f_min = -55589.340846
+ | iter = 17 | tempo = 1.70s
+rho ≈ 2.8550
+
+
+--- Test 9 (x0 #9) ---
+f_min = -62593.376384
+ | iter = 17 | tempo = 1.70s
+rho ≈ 3.3494
+
+
+--- Test 10 (x0 #10) ---
+f_min = -5240.384948
+ | iter = 15 | tempo = 1.53s
+rho ≈ 1.2321
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Default increment h = 1.000000e-12 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = -70697.300357
+ | iter = 3 | tempo = 0.13s
+rho ≈ 3.8291
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -22810.546953
+ | iter = 14 | tempo = 1.40s
+rho ≈ 0.9866
+
+
+--- Test 2 (x0 #2) ---
+f_min = -12874.923346
+ | iter = 20 | tempo = 2.02s
+rho ≈ 2.6110
+
+
+--- Test 3 (x0 #3) ---
+f_min = -8139.226397
+ | iter = 14 | tempo = 1.41s
+rho ≈ 1.1136
+
+
+--- Test 4 (x0 #4) ---
+f_min = -1386.803432
+ | iter = 21 | tempo = 2.14s
+rho ≈ 3.1618
+
+
+--- Test 5 (x0 #5) ---
+f_min = -20750.923510
+ | iter = 15 | tempo = 1.52s
+rho ≈ 3.2757
+
+
+--- Test 6 (x0 #6) ---
+f_min = -4037.500836
+ | iter = 13 | tempo = 1.31s
+rho ≈ 2.4962
+
+
+--- Test 7 (x0 #7) ---
+f_min = -19902.469343
+ | iter = 15 | tempo = 1.52s
+rho ≈ 2.2489
+
+
+--- Test 8 (x0 #8) ---
+f_min = -55589.340858
+ | iter = 17 | tempo = 1.68s
+rho ≈ 2.8550
+
+
+--- Test 9 (x0 #9) ---
+f_min = -62593.376134
+ | iter = 17 | tempo = 1.74s
+rho ≈ 3.3494
+
+
+--- Test 10 (x0 #10) ---
+f_min = -5242.928087
+ | iter = 15 | tempo = 1.53s
+rho ≈ 1.2321
+
+
+Successi: 0 su 10
+
+----------------------------------------------------
+Absolute value increment h = 1.000000e-12*|x| 
+----------------------------------------------------
+
+--- TEST SU VALORE X_BAR ---
+f_min = 2298595601.801018
+ | iter = 1 | tempo = 0.04s
+rho ≈ NaN
+
+
+--- TEST SU 10 PUNTI CASUALI ---
+
+--- Test 1 (x0 #1) ---
+f_min = -22810.501131
+ | iter = 14 | tempo = 1.42s
+rho ≈ 0.9866
+
+
+--- Test 2 (x0 #2) ---
+f_min = -12874.923384
+ | iter = 20 | tempo = 2.08s
+rho ≈ 2.6110
+
+
+--- Test 3 (x0 #3) ---
+f_min = -8139.226818
+ | iter = 14 | tempo = 1.47s
+rho ≈ 1.1136
+
+
+--- Test 4 (x0 #4) ---
+f_min = -913.181519
+ | iter = 21 | tempo = 2.18s
+rho ≈ 3.0920
+
+
+--- Test 5 (x0 #5) ---
+f_min = -20750.923686
+ | iter = 15 | tempo = 1.59s
+rho ≈ 3.2757
+
+
+--- Test 6 (x0 #6) ---
+f_min = -4037.500841
+ | iter = 13 | tempo = 1.51s
+rho ≈ 2.4962
+
+
+--- Test 7 (x0 #7) ---
+f_min = -12001.545531
+ | iter = 19 | tempo = 2.03s
+rho ≈ 1.3417
+
+
+--- Test 8 (x0 #8) ---
+f_min = -55589.340858
+ | iter = 17 | tempo = 1.70s
+rho ≈ 2.8550
+
+
+--- Test 9 (x0 #9) ---
+f_min = -62593.376135
+ | iter = 17 | tempo = 1.78s
+rho ≈ 3.3494
+
+
+--- Test 10 (x0 #10) ---
+f_min = -5242.917832
+ | iter = 15 | tempo = 1.63s
+rho ≈ 1.2321
+
+
+Successi: 0 su 10
+
+=================================================
+ TEST SU DERIVATE ESATTE 
+=================================================
+
+
+--- TEST SU VALORE X_BAR ---
+f_min = -41420.012314
+ | iter = 3 | tempo = 0.11s
+rho ≈ 3.8239
+
+--- Test 1 (x0 #1) ---
+f_min = -12667.703985
+ | iter = 18 | tempo = 1.81s
+rho ≈ 2.5433
+
+--- Test 2 (x0 #2) ---
+f_min = -29423.913723
+ | iter = 16 | tempo = 1.80s
+rho ≈ 3.2848
+
+--- Test 3 (x0 #3) ---
+f_min = -16540.327104
+ | iter = 18 | tempo = 1.96s
+rho ≈ 1.3984
+
+--- Test 4 (x0 #4) ---
+f_min = -21274.049395
+ | iter = 17 | tempo = 1.79s
+rho ≈ 2.8880
+
+--- Test 5 (x0 #5) ---
+f_min = -47050.453458
+ | iter = 15 | tempo = 1.52s
+rho ≈ 1.8740
+
+--- Test 6 (x0 #6) ---
+f_min = -12058.411944
+ | iter = 20 | tempo = 2.02s
+rho ≈ 1.1038
+
+--- Test 7 (x0 #7) ---
+f_min = 4513.064316
+ | iter = 37 | tempo = 2.83s
+rho ≈ 0.1828
+
+--- Test 8 (x0 #8) ---
+f_min = 33948.336796
+ | iter = 30 | tempo = 2.25s
+rho ≈ 0.0490
+
+--- Test 9 (x0 #9) ---
+f_min = 8535.324138
+ | iter = 28 | tempo = 2.03s
+rho ≈ 0.1698
+
+--- Test 10 (x0 #10) ---
+f_min = -18605.861973
+ | iter = 15 | tempo = 1.47s
+rho ≈ 1.1587
+
+Successi: 0 su 10
+
+Tempo (incl. plotting) per n = 100000   :  459.54  s
+
+=================================================
+ TABELLA TEMPISTICHE ALGORITMO BANDED TRIGONOMETRIC 
+=================================================
+
+
+Tempo (incl. plotting) per n = 1000     :  3.01  s
+
+Tempo (incl. plotting) per n = 10000    :  12.38  s
+
+Tempo (incl. plotting) per n = 100000   :  459.54  s
+
+Tempo TOTALE (tutte le dimensioni) :  474.93  s

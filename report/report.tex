@@ -683,29 +683,531 @@
 		\caption{Execution time of Nelder–Mead on Extended Rosenbrock for increasing dimensions $n=10$, $26$, and $50$. The cost grows sharply due to the increased simplex size.}
 		\label{fig:nelder_rosen_times}
 	\end{figure}
-	
+	\newpage
 	\section{Generalized Broyden Tridiagonal Function}
-	\subsection{Exact Gradient and Hessian}
-	\subsection{Finite Differences Gradient and Hessian}
+	
+	The Generalized Broyden Tridiagonal function is a classical benchmark used in unconstrained optimization, known for its nonlinear and tridiagonal structure. It is defined, for a vector \( x \in \mathbb{R}^{n+2} \), as:
+	\[
+	F(x) = \frac{1}{2} \sum_{i=2}^{n+1} \left[ (3 - 2x_i)x_i + 1 - x_{i-1} - x_{i+1} \right]^2
+	\]
+	This function combines:
+	\begin{itemize}[nosep]
+		\item a quadratic component in \( x_i \) (from \( (3 - 2x_i)x_i \)),
+		\item two linear coupling terms with the neighbors \( x_{i-1} \) and \( x_{i+1} \),
+		\item and a constant shift.
+	\end{itemize}
+	
+	The function is minimized when all terms inside the squared expression are zero, i.e., at:
+	\[
+	x_i = 1 \quad \text{for all } i
+	\]
+	This yields a global minimum value \( F(x^\star) = 0 \). The structure is tridiagonal in the sense that each term depends only on three consecutive components: \( x_{i-1} \), \( x_i \), and \( x_{i+1} \). This sparsity makes it attractive for large-scale testing while maintaining computational efficiency.
+	
+	The tridiagonal pattern implies that the gradient and Hessian are sparse, with the Hessian being symmetric and banded. As the dimension increases, the function remains computationally tractable but becomes harder to optimize due to increased conditioning and curvature variations.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.65\textwidth]{../immagini/broyden.png}
+		\caption{3D visualization of the Generalized Broyden Tridiagonal function for $n=2$.}
+		\label{fig:broyden3D}
+	\end{figure}
+	
+	
+	\subsection{Modified Newton Exact Gradient and Hessian}
+	
+	In this section we test the Modified Newton method on the Generalized Broyden Tridiagonal function using exact gradient and Hessian. Both were derived analytically and implemented exploiting the banded structure of the function.
+	
+	\paragraph{Gradient structure.}
+	The gradient \( \nabla f(x) \in \mathbb{R}^{n} \) is computed by assembling contributions from the tridiagonal structure of the function:
+	\[
+	\frac{\partial F}{\partial x_k} =
+	\begin{cases}
+		(3 - 4x_1)f_1(x) - f_2(x), & k = 1 \\
+		(3 - 4x_k)f_k(x) - f_{k+1}(x) - f_{k-1}(x), & 1 < k < n \\
+		(3 - 4x_n)f_n(x) - f_{n-1}(x), & k = n
+	\end{cases}
+	\]
+	with boundary padding for \( x_0 = x_{n+1} = 0 \). The expression accounts for contributions from terms involving \( x_{i-2}, x_{i-1}, x_i, x_{i+1}, x_{i+2} \).
+	
+	\paragraph{Hessian structure.}
+	The Hessian matrix has a pentadiagonal banded structure and is constructed using MATLAB’s \verb|spdiags|. It is composed of:
+	\begin{itemize}[nosep]
+		\item the main diagonal: second derivatives of each component,
+		\item the first codiagonals: cross terms with neighboring variables,
+		\item the second codiagonals: constant contributions from interactions two positions apart.
+	\end{itemize}
+	
+	This sparsity is crucial for reducing the computational cost in large dimensions.
+	The Hessian matrix has the following structure:
+	\[
+	\frac{\partial^2 F}{\partial x_k \partial x_j} =
+	\begin{cases}
+		(3 - 4x_1)^2 - 4f_1(x) + 1, & k = j = 1 \\
+		(3 - 4x_k)^2 - 4f_k(x) + 2, & 1 < k < n,\ k = j \\
+		(3 - 4x_n)^2 - 4f_n(x) + 1, & k = j = n \\
+		4x_k + 4x_{k+1} - 6, & |k - j| = 1 \\
+		1, & |k - j| = 2 \\
+		0, & \text{otherwise}
+	\end{cases}
+	\]
+	\newpage
+	\paragraph{Results.}
+	The following table summarizes the numerical results obtained using the Modified Newton method with exact gradient and Hessian on the Generalized Broyden function.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Results of Modified Newton method on Generalized Broyden function using exact derivatives.}
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			\textbf{Dim} & \textbf{Init.} & \textbf{$f_{\min}$} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} \\
+			\hline
+			$10^3$   & $\bar{x}$       & $0.000000$  & 5   & 0.02 & 1.93 \\
+			& Avg (10 pts)    & $<10^{-6}$  & 8.1 & 0.02 & 1.63 \\
+			\hline
+			$10^4$   & $\bar{x}$       & $0.000000$  & 5   & 0.17 & 1.93 \\
+			& Avg (10 pts)    & $<10^{-6}$  & 8.0 & 0.17 & 1.64 \\
+			\hline
+			$10^5$   & $\bar{x}$       & $0.000000$  & 5   & 2.01 & 1.93 \\
+			& Avg (10 pts)    & $<10^{-6}$  & 8.0 & 2.08 & 1.62 \\
+			\hline
+		\end{tabular}
+		\label{tab:gb_exact_all}
+	\end{table}
+	
+	\paragraph{Discussion.}
+	The Modified Newton method with exact derivatives proves to be extremely effective on the Generalized Broyden tridiagonal function. In all tested dimensions, convergence is achieved in very few iterations (5 for the reference starting point, around 8 on average from random initializations). Function values reach machine precision accuracy, and the convergence rate \(\rho\) consistently approaches the ideal quadratic rate of 2.
+	
+	Importantly, the computational time remains reasonable even for large dimensions, thanks to the efficient sparse implementation of the Hessian matrix. These results confirm that when second-order information is available and well-structured, Newton-type methods offer both precision and speed — outperforming derivative-free approaches by a large margin in terms of both accuracy and reliability.
+	\newpage
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_1k.png}
+		\caption{Convergence of the Modified Newton method on Generalized Broyden function with $n=1000$ using exact gradient and Hessian. The method converges in few iterations with a consistent superlinear rate.}
+		\label{fig:gb_1k_exact}
+	\end{figure}
+	\newpage
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_10k.png}
+		\caption{Convergence of the Modified Newton method on Generalized Broyden function with $n=10000$. The convergence behavior remains stable across all random initializations.}
+		\label{fig:gb_10k_exact}
+	\end{figure}
+	\newpage
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_100k.png}
+		\caption{Convergence of the Modified Newton method on Generalized Broyden function with $n=100000$. Even in high dimensions, the algorithm remains robust and fast.}
+		\label{fig:gb_100k_exact}
+	\end{figure}
+	\newpage
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{../immagini/broyden_time_exact.png}
+		\caption{Execution time of the Modified Newton method with exact derivatives on Generalized Broyden function for increasing dimensions. The computation scales efficiently due to sparse Hessian structure.}
+		\label{fig:gb_time_exact}
+	\end{figure}
+	
+	
+	\subsection{Newton Method Finite Differences Gradient and Hessian}
+	
+	In this experiment, we use the Modified Newton method on the Generalized Broyden Tridiagonal function with gradient and Hessian computed via finite differences. This approach avoids symbolic derivation, at the cost of numerical approximations and additional function evaluations.
+	
+	\paragraph{Finite difference formulas.}
+	The finite difference approximations used for gradient and Hessian follow centered formulas with adjustable step size \( h \). Two increment strategies were tested:
+	\begin{itemize}[nosep]
+		\item constant step size: \( h = 10^{-k} \)
+		\item variable step: \( h = 10^{-k} \cdot |x_k| \)
+	\end{itemize}
+	
+	The approximated gradient and Hessian components were expanded manually and implemented directly to avoid cancellation and redundancy. The sparsity pattern of the exact Hessian was preserved to limit computational cost.
+	
+	\vspace{1em}
+	
+	\newpage
+	\paragraph{Results.}
+	The following tables report the average results over 10 random initializations for each step size and increment strategy. Each row reports:
+	\begin{itemize}[nosep]
+		\item number of iterations,
+		\item total runtime (in seconds),
+		\item experimental convergence rate \( \rho \),
+		\item number of successful runs (defined by \( f_{\min} < 0.5 \)).
+	\end{itemize}
+	
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Finite difference results for $n=1000$ using different increments $h$ and strategies.}
+		\renewcommand{\arraystretch}{1.2}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
+				\hline
+				$10^{-2}$ & $\bar{x}$ & 11 & 0.04 & 0.0216 & 10/10 \\
+				$10^{-2}$ & Avg (10 pts) & 8.6 & 0.01 & 0.1495 & 10/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 11 & 0.01 & 1.0263 & 10/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 8.2 & 0.00 & 0.9274 & 10/10 \\
+				\hline
+				$10^{-4}$ & $\bar{x}$ & 10 & 0.00 & 1.6064 & 10/10 \\
+				$10^{-4}$ & Avg (10 pts) & 7.7 & 0.00 & 1.6201 & 10/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 10 & 0.00 & 1.6122 & 10/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-6}$ & $\bar{x}$ & 10 & 0.00 & 1.6112 & 10/10 \\
+				$10^{-6}$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 10 & 0.00 & 1.6113 & 10/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-8}$ & $\bar{x}$ & 10 & 0.00 & 1.6113 & 10/10 \\
+				$10^{-8}$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 10 & 0.00 & 1.6113 & 10/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-10}$ & $\bar{x}$ & 10 & 0.00 & 1.6113 & 10/10 \\
+				$10^{-10}$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 10 & 0.00 & 1.6113 & 10/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-12}$ & $\bar{x}$ & 10 & 0.00 & 1.6113 & 10/10 \\
+				$10^{-12}$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 10 & 0.00 & 1.6113 & 10/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.00 & 1.6200 & 10/10 \\
+				\hline
+			\end{tabular}%
+		}
+		\label{tab:gb_fd_1000_all}
+	\end{table}
+	\newpage
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_1k_h2.png}
+		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=1000$) with fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
+		\label{fig:fd_broyden_1k_h2}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_1k_h12.png}
+		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=1000$) with fixed increment $h = 10^{-12}$ (left) and scaled increment $h = 10^{-12}\cdot|x|$ (right).}
+		\label{fig:fd_broyden_1k_h12}
+	\end{figure}
+	\newpage
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Finite difference results for $n=10\,000$ using different increments $h$ and strategies.}
+		\renewcommand{\arraystretch}{1.2}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
+				\hline
+				$10^{-2}$ & $\bar{x}$ & 11 & 0.17 & 0.0216 & 10/10 \\
+				$10^{-2}$ & Avg (10 pts) & 8.6 & 0.03 & 0.1495 & 10/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 11 & 0.03 & 1.0263 & 10/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 8.2 & 0.03 & 0.9274 & 10/10 \\
+				\hline
+				$10^{-4}$ & $\bar{x}$ & 10 & 0.03 & 1.6064 & 10/10 \\
+				$10^{-4}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6201 & 10/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6122 & 10/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-6}$ & $\bar{x}$ & 10 & 0.03 & 1.6112 & 10/10 \\
+				$10^{-6}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-8}$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
+				$10^{-8}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-10}$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
+				$10^{-10}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-12}$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
+				$10^{-12}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				\hline
+			\end{tabular}%
+		}
+		\label{tab:gb_fd_10000}
+	\end{table}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_10k_h2.png}
+		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=10000$) with fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
+		\label{fig:fd_broyden_10k_h2}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_10k_h12.png}
+		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=10000$) with fixed increment $h = 10^{-12}$ (left) and scaled increment $h = 10^{-12}\cdot|x|$ (right).}
+		\label{fig:fd_broyden_10k_h12}
+	\end{figure}
+	\newpage
+	\begin{table}[htbp]
+		\centering
+		\caption{Finite difference results for $n=100\,000$ using different increments $h$ and strategies.}
+		\renewcommand{\arraystretch}{1.2}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
+				\hline
+				$10^{-2}$ & $\bar{x}$ & 11 & 2.21 & 0.0216 & 10/10 \\
+				$10^{-2}$ & Avg (10 pts) & 8.6 & 0.48 & 0.1495 & 10/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 11 & 0.47 & 1.0263 & 10/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 8.2 & 0.44 & 0.9274 & 10/10 \\
+				\hline
+				$10^{-4}$ & $\bar{x}$ & 10 & 0.48 & 1.6064 & 10/10 \\
+				$10^{-4}$ & Avg (10 pts) & 7.7 & 0.45 & 1.6201 & 10/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6122 & 10/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-6}$ & $\bar{x}$ & 10 & 0.48 & 1.6112 & 10/10 \\
+				$10^{-6}$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-8}$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
+				$10^{-8}$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-10}$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
+				$10^{-10}$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				\hline
+				$10^{-12}$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
+				$10^{-12}$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				\hline
+			\end{tabular}%
+		}
+		\label{tab:gb_fd_100000}
+	\end{table}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_100k_h2.png}
+		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=100000$) with fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
+		\label{fig:fd_broyden_100k_h2}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_100k_h12.png}
+		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=100000$) with fixed increment $h = 10^{-12}$ (left) and scaled increment $h = 10^{-12}\cdot|x|$ (right).}
+		\label{fig:fd_broyden_100k_h12}
+	\end{figure}
+	
+	\paragraph{Discussion.}
+	The finite difference approximation is remarkably stable on this problem. All tested step sizes yield convergence in under 30 iterations. Success rates remain at 100\% for all increments, confirming the robustness of the method even in the presence of approximation noise.
+	
+	However, when compared to exact derivatives, the convergence rate \( \rho \) is consistently lower, and runtime increases due to the extra evaluations required. For large-scale problems, this gap grows further due to the cost of computing full gradients and Hessians numerically.
+	
+	Overall, this shows that while finite differences can provide reliable optimization results, they are computationally expensive and less efficient than analytical derivatives when available.
+	\newpage
+	
+	\subsection{Nelder–Mead Results on Generalized Broyden Function}
+	
+	The Nelder–Mead method was applied to the Generalized Broyden Tridiagonal function using three problem sizes: $n = 10$, $n = 26$, and $n = 50$. For each case, the algorithm was tested on both the suggested initial point $\bar{x}$ and $10$ random perturbations of it. The following metrics were collected:
+	\begin{itemize}[noitemsep]
+		\item Number of iterations until convergence,
+		\item Total computational time,
+		\item Experimental convergence rate $\rho$,
+		\item Number of successful runs (\emph{success} defined as $f_{\min} < 3$).
+	\end{itemize}
+	
+	The convergence tolerance was set to $10^{-6}$ and the maximum number of iterations to $8 \cdot 10^4$. Below are the results:
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Results of Nelder–Mead on Generalized Broyden Tridiagonal function.}
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\textbf{Dim} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} \\
+			\hline
+			$10$   & $\bar{x}$       & 1510   & 0.02 & 2.9705 \\
+			& Avg (10 pts)    & 1383.2 & 0.17 & 1.3172 \\
+			\hline
+			$26$   & $\bar{x}$       & 7040   & 0.10 & 15.2816 \\
+			& Avg (10 pts)    & 11173.5 & 1.47 & 1.5274 \\
+			\hline
+			$50$   & $\bar{x}$       & 36027  & 0.97 & 9.5768 \\
+			& Avg (10 pts)    & 52719.7 & 13.98 & 15.9880 \\
+			\hline
+		\end{tabular}
+		\label{tab:neldermead_generalized_broyden}
+	\end{table}
+	
+	\paragraph{Discussion.}
+	The Nelder–Mead method performs reasonably well in very low dimensions, such as $n = 10$, where it achieves successful convergence in most runs and a moderate number of iterations. However, as the problem dimension increases, the method becomes significantly less effective. For $n = 26$ and $n = 50$, none of the runs achieved a function value below the target threshold, and both the number of iterations and runtime increase considerably. The convergence rate $\rho$ also becomes unstable, with values indicating erratic or oscillatory behavior. These results highlight the limitations of Nelder–Mead in structured, high-dimensional, non-separable optimization problems, especially when compared to Newton-type methods equipped with derivative information.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_10.png}
+		\caption{Convergence of Nelder-Mead method on Generalized Broyden function ($n=10$) for the reference point $\bar{x}$ (black) and $10$ randomly generated starting points.}
+		\label{fig:gb_nelder_10}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_26.png}
+		\caption{Convergence of Nelder-Mead method on Generalized Broyden function ($n=26$) for the reference point $\bar{x}$ (black) and $10$ randomly generated starting points.}
+		\label{fig:gb_nelder_26}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/broyden_50.png}
+		\caption{Convergence of Nelder-Mead method on Generalized Broyden function ($n=50$) for the reference point $\bar{x}$ (black) and $10$ randomly generated starting points.}
+		\label{fig:gb_nelder_50}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{../immagini/broyden_time_nelder.png}
+		\caption{Computational time (in seconds) for Nelder-Mead method applied to the Generalized Broyden function for increasing dimensions.}
+		\label{fig:gb_nelder_time}
+	\end{figure}
+	
 	
 	\section{Banded Trigonometric Function}
+	
+	The Banded Trigonometric function is a structured nonlinear objective function characterized by trigonometric dependencies among three consecutive variables. It is defined as:
+	
+	\[
+	f(x) = \sum_{i=1}^{n} i \left[ (1 - \cos(x_i)) + \sin(x_{i-1}) - \sin(x_{i+1}) \right],
+	\]
+	with boundary conditions \( x_0 = x_{n+1} = 0 \), where \( x \in \mathbb{R}^n \).
+	
+	This objective function arises in problems where local periodic variations influence adjacent terms. Its structure creates a banded dependency pattern, meaning each component interacts only with its two immediate neighbors. As a result, the gradient and Hessian inherit a sparse structure, which is beneficial for large-scale optimization, especially when using Newton-based methods with sparse linear algebra.
+	
+	The initial solution \( \bar{x} \in \mathbb{R}^n \) used in our experiments is chosen as:
+	\[
+	\bar{x} = [1, 1, \dots, 1]^\top,
+	\]
+	with added boundary values \( x_0 = 0 \) and \( x_{n+1} = 0 \).
+	
+		\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.65\textwidth]{../immagini/banded_3D.png}
+		\caption{3D visualization of the Banded Trigonometric function for $n=2$.}
+		\label{fig:broyden3D}
+	\end{figure}
+	
+	\newpage
 	\subsection{Exact Gradient and Hessian}
+	
+	The Banded Trigonometric function is defined as:
+	\[
+	f(x) = \sum_{i=1}^{n} i \left[ (1 - \cos(x_{i+1})) + \sin(x_i) - \sin(x_{i+2}) \right]
+	\]
+	where \(x \in \mathbb{R}^{n+2}\) with boundary conditions \(x_0 = x_{n+1} = 0\). The structure of this function introduces trigonometric dependencies over three consecutive variables, resulting in a banded pattern in the derivatives.
+	
+	The exact gradient is constructed analytically as:
+	\[
+	\nabla_i f = 
+	\begin{cases}
+		\sin(x_{i+1}) + 2\cos(x_{i+1}), & i = 1 \\
+		i\sin(x_{i+1}) + 2\cos(x_{i+1}), & 2 \le i \le n-1 \\
+		n\sin(x_n) - (n-1)\cos(x_n), & i = n
+	\end{cases}
+	\]
+	
+	The Hessian is a diagonal matrix built from the second derivatives of the trigonometric terms. Its sparse implementation uses \verb|spdiags| to store only the main diagonal, significantly reducing memory usage:
+	\[
+	H_{ii} = 
+	\begin{cases}
+		\cos(x_{2}) - 2\sin(x_{2}), & i = 1 \\
+		i\cos(x_{i+1}) - 2\sin(x_{i+1}), & 2 \le i \le n-1 \\
+		n\cos(x_n) + (n-1)\sin(x_n), & i = n
+	\end{cases}
+	\]
+	
+	\medskip
+	
+	Due to the complexity and non-linearity of the trigonometric interactions, the resulting Hessian matrices are often ill-conditioned, especially in higher dimensions. To address this, the Modified Newton method applies **preconditioning** through the \texttt{pcg} (Preconditioned Conjugate Gradient) solver. This choice enables efficient direction computation even when Cholesky factorization becomes unreliable or fails, particularly for large-scale sparse systems.
+	
+	The algorithm applies a **modified Cholesky approach (Algorithm 6.3)** to shift the Hessian until a positive definite approximation is obtained. Then, an incomplete Cholesky factorization is used to precondition the matrix, ensuring robust convergence even in the presence of large condition numbers.
+	
+	All experiments were carried out for \(n = 1000\), \(10\,000\), and \(100\,000\) with the initial vector:
+	\[
+	\bar{x} = (0, 1, 1, \dots, 1, 1, 0)^\top \in \mathbb{R}^{n+2}
+	\]
+	which enforces the required boundary values and initializes the internal values to 1.
+	
+	We report below the performance results obtained with exact derivatives.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Results of Modified Newton method on Banded Trigonometric function using exact derivatives.}
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+			\hline
+			\textbf{Dim} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$f_{\min}$} & \textbf{$\rho$} & \textbf{Successes} \\
+			\hline
+			$10^3$   & $\bar{x}$        & 3    & 0.01 & $-426.02$     & 4.32 & 0/1 \\
+			& Avg (10 pts)     & 10.8 & 0.10 & $-300.79$     & 1.53 & 0/10 \\
+			\hline
+			$10^4$   & $\bar{x}$        & 3    & 0.01 & $-4158.37$    & 3.86 & 0/1 \\
+			& Avg (10 pts)     & 15.2 & 1.33 & $-1381.99$    & 1.60 & 0/10 \\
+			\hline
+			$10^5$   & $\bar{x}$        & 3    & 0.11 & $-41420.01$   & 3.82 & 0/1 \\
+			& Avg (10 pts)     & 21.4 & 2.07 & $-12080.91$   & 1.53 & 0/10 \\
+			\hline
+		\end{tabular}
+		\label{tab:banded_exact}
+	\end{table}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_1k.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=1000$) using exact derivatives.}
+		\label{fig:bt_1k_exact}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_10k.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=10000$) using exact derivatives.}
+		\label{fig:bt_10k_exact}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_100k.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=100000$) using exact derivatives.}
+		\label{fig:bt_100k_exact}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.55\textwidth]{../immagini/banded_time.png}
+		\caption{Computational time required by the Modified Newton method on the Banded Trigonometric function with exact derivatives for each problem size.}
+		\label{fig:bt_time_exact}
+	\end{figure}
+	
+	
+	
+	
+	
 	\subsection{Finite Differences Gradient and Hessian}
 	
 	\section{Conclusions}
 	
 	% -------------------------------------------------
-	\appendix              % da qui in poi usa lettere (A, B…)
-	% -------------------------------------------------
-	\section{Code snippets}
-	\subsection{Code for Method Implementations}
-	\subsubsection{Modified Newton Method}
-	\subsubsection{Truncated Newton Method}
-	\subsection{Code for Objective Functions}
-	\subsubsection{Rosenbrock Function}
-	\subsubsection{Extended Rosenbrock Function}
-	\subsubsection{Generalized Broyden Tridiagonal Function}
-	\subsubsection{Banded Trigonometric Problem}
-	\subsection{Utility Code for Running Experiments}
+	
 	
 \end{document}
