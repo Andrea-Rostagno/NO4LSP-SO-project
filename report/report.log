@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.4)  21 MAY 2025 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.4)  22 MAY 2025 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,8 +365,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip55
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 19.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 22
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count302
+\float@exts=\toks27
+\float@box=\box57
+\@float@everytoks=\toks28
+\@floatcapt=\box58
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23
 .
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
@@ -375,8 +383,8 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count302
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count303
+\l__pdf_internal_box=\box59
 ) (report.aux
 
 LaTeX Warning: Label `fig:rosennewton' multiply defined.
@@ -390,39 +398,39 @@ LaTeX Warning: Label `fig:broyden3D' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
+\scratchcounter=\count304
 \scratchdimen=\dimen162
-\scratchbox=\box58
-\nofMPsegments=\count304
-\nofMParguments=\count305
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count306
+\scratchbox=\box60
+\nofMPsegments=\count305
+\nofMParguments=\count306
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count307
 \MPscratchDim=\dimen163
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks28
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
+\everyMPtoPDFconversion=\toks30
 )
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -434,49 +442,49 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count309
-Package hyperref Info: Link coloring ON on input line 22.
+\c@lstlisting=\count310
+Package hyperref Info: Link coloring ON on input line 23.
  (report.out) (report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-0.
+1.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-0.
+1.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-30.
+31.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-30.
+31.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 30.
+(Font)              <14.4> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 30.
+(Font)              <10> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 30.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+(Font)              <7> on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -501,34 +509,27 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 [1]
 
-LaTeX Warning: Citation `luksan1999' on page 1 undefined on input line 44.
-
-
-LaTeX Warning: Citation `luksan1999' on page 1 undefined on input line 46.
-
-
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 	\newpage
+l.59 	\newpage
                [1{C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
 lm/lm-mathit.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
 lm/lm-rm.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/l
 m-mathsy.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/l
 m-mathex.enc}]
 
-LaTeX Warning: Citation `nocedal1999' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `nocedal1999' on page 2 undefined on input line 68.
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-7.
+8.
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
-7.
+8.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -540,78 +541,127 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [3]
 
 [4]
-<../immagini/rosen3D_A.png, id=125, 578.16pt x 433.62pt>
+<../immagini/rosen3D_A.png, id=130, 578.16pt x 433.62pt>
 File: ../immagini/rosen3D_A.png Graphic file (type png)
 <use ../immagini/rosen3D_A.png>
-Package pdftex.def Info: ../immagini/rosen3D_A.png  used on input line 136.
+Package pdftex.def Info: ../immagini/rosen3D_A.png  used on input line 137.
 (pdftex.def)             Requested size: 272.99881pt x 204.74759pt.
 
 
-[5 <../immagini/rosen3D_A.png>]
-<../immagini/grafrosennewton.png, id=134, 1156.32pt x 650.43pt>
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.142 	\newpage
+                <../immagini/rosen3D_A.png>]
+<../immagini/grafrosennewton.png, id=139, 1156.32pt x 650.43pt>
 File: ../immagini/grafrosennewton.png Graphic file (type png)
 <use ../immagini/grafrosennewton.png>
 Package pdftex.def Info: ../immagini/grafrosennewton.png  used on input line 15
-8.
+9.
 (pdftex.def)             Requested size: 272.99881pt x 153.55573pt.
 
 
-[6 <../immagini/grafrosennewton.png (PNG copy)>]
-<../immagini/grafrosennelder.png, id=140, 421.575pt x 316.18124pt>
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.164 	\newpage
+                <../immagini/grafrosennewton.png (PNG copy)>]
+<../immagini/grafrosennelder.png, id=145, 421.575pt x 316.18124pt>
 File: ../immagini/grafrosennelder.png Graphic file (type png)
 <use ../immagini/grafrosennelder.png>
-Package pdftex.def Info: ../immagini/grafrosennelder.png  used on input line 17
-9.
+Package pdftex.def Info: ../immagini/grafrosennelder.png  used on input line 18
+0.
 (pdftex.def)             Requested size: 272.99881pt x 204.75308pt.
 
 
-[7 <../immagini/grafrosennelder.png (PNG copy)>]
-<../immagini/ext_rosen_3d.png, id=146, 433.62pt x 361.35pt>
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 	\newpage
+                <../immagini/grafrosennelder.png (PNG copy)>]
+<../immagini/ext_rosen_3d.png, id=151, 433.62pt x 361.35pt>
 File: ../immagini/ext_rosen_3d.png Graphic file (type png)
 <use ../immagini/ext_rosen_3d.png>
-Package pdftex.def Info: ../immagini/ext_rosen_3d.png  used on input line 214.
+Package pdftex.def Info: ../immagini/ext_rosen_3d.png  used on input line 215.
 (pdftex.def)             Requested size: 234.00238pt x 195.00479pt.
 
 
-[8 <../immagini/ext_rosen_3d.png>]
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.224 	
+        <../immagini/ext_rosen_3d.png>]
 
 [9]
-<../immagini/ext_1k.png, id=159, 1156.32pt x 650.43pt>
+<../immagini/ext_1k.png, id=164, 1156.32pt x 650.43pt>
 File: ../immagini/ext_1k.png Graphic file (type png)
 <use ../immagini/ext_1k.png>
-Package pdftex.def Info: ../immagini/ext_1k.png  used on input line 308.
+Package pdftex.def Info: ../immagini/ext_1k.png  used on input line 309.
 (pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
-<../immagini/ext_10k.png, id=160, 1156.32pt x 650.43pt>
+<../immagini/ext_10k.png, id=165, 1156.32pt x 650.43pt>
 File: ../immagini/ext_10k.png Graphic file (type png)
 <use ../immagini/ext_10k.png>
-Package pdftex.def Info: ../immagini/ext_10k.png  used on input line 315.
+Package pdftex.def Info: ../immagini/ext_10k.png  used on input line 316.
 (pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
-<../immagini/ext_100k.png, id=161, 1156.32pt x 650.43pt>
+<../immagini/ext_100k.png, id=166, 1156.32pt x 650.43pt>
 File: ../immagini/ext_100k.png Graphic file (type png)
 <use ../immagini/ext_100k.png>
-Package pdftex.def Info: ../immagini/ext_100k.png  used on input line 322.
+Package pdftex.def Info: ../immagini/ext_100k.png  used on input line 323.
 (pdftex.def)             Requested size: 331.50238pt x 186.46619pt.
-<../immagini/ext_time.png, id=162, 421.575pt x 316.18124pt>
+<../immagini/ext_time.png, id=167, 421.575pt x 316.18124pt>
 File: ../immagini/ext_time.png Graphic file (type png)
 <use ../immagini/ext_time.png>
-Package pdftex.def Info: ../immagini/ext_time.png  used on input line 329.
+Package pdftex.def Info: ../immagini/ext_time.png  used on input line 330.
 (pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
 
 
 [10]
 
-[11 <../immagini/ext_1k.png (PNG copy)> <../immagini/ext_10k.png (PNG copy)>]
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.338 	
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.338 	
+        <../immagini/ext_1k.png (PNG copy)> <../immagini/ext_10k.png (PNG copy)
+>]
 
-[12 <../immagini/ext_100k.png (PNG copy)> <../immagini/ext_time.png (PNG copy)>
-]
-Overfull \hbox (12.95001pt too wide) detected at line 364
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.338 	
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.338 	
+        <../immagini/ext_100k.png (PNG copy)> <../immagini/ext_time.png (PNG co
+py)>]
+Overfull \hbox (12.95001pt too wide) detected at line 365
 [] \OMS/lmsy/m/n/12 ^^Y []
  []
 
 
 
 [13]
-Overfull \hbox (49.00887pt too wide) in paragraph at lines 393--394
+Overfull \hbox (49.00887pt too wide) in paragraph at lines 394--395
 \T1/lmr/m/n/12 tion us-ing fi-nite dif-fer-ence deriva-tives across six in-cre-
 ment val-ues $\OML/lmm/m/it/12 h \OMS/lmsy/m/n/12 2 f\OT1/lmr/m/n/12 10[]\OML/l
 mm/m/it/12 ; \OT1/lmr/m/n/12 10[]\OML/lmm/m/it/12 ; \OT1/lmr/m/n/12 10[]\OML/lm
@@ -622,100 +672,193 @@ m/m/it/12 ; []
 
 [14]
 
-[15]
-<../immagini/ext_1k_h2.png, id=202, 1503.36656pt x 672.26157pt>
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.455 	\newpage
+               ]
+<../immagini/ext_1k_h2.png, id=207, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_1k_h2.png Graphic file (type png)
 <use ../immagini/ext_1k_h2.png>
-Package pdftex.def Info: ../immagini/ext_1k_h2.png  used on input line 457.
+Package pdftex.def Info: ../immagini/ext_1k_h2.png  used on input line 458.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/ext_1k_h12.png, id=203, 1503.36656pt x 672.26157pt>
+<../immagini/ext_1k_h12.png, id=208, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_1k_h12.png Graphic file (type png)
 <use ../immagini/ext_1k_h12.png>
-Package pdftex.def Info: ../immagini/ext_1k_h12.png  used on input line 464.
+Package pdftex.def Info: ../immagini/ext_1k_h12.png  used on input line 465.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
 
 
-[16 <../immagini/ext_1k_h2.png (PNG copy)>]
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.470 	\newpage
+               
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.470 	\newpage
+                <../immagini/ext_1k_h2.png (PNG copy)> <../immagini/ext_1k_h12.
+png (PNG copy)>]
 
-[17 <../immagini/ext_1k_h12.png (PNG copy)>]
+[17]
 
-[18]
-<../immagini/ext_10k_h2.png, id=221, 1503.36656pt x 672.26157pt>
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.523 	\newpage
+               ]
+<../immagini/ext_10k_h2.png, id=226, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_10k_h2.png Graphic file (type png)
 <use ../immagini/ext_10k_h2.png>
-Package pdftex.def Info: ../immagini/ext_10k_h2.png  used on input line 524.
+Package pdftex.def Info: ../immagini/ext_10k_h2.png  used on input line 526.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/ext_10k_h12.png, id=222, 1503.36656pt x 672.26157pt>
+<../immagini/ext_10k_h12.png, id=227, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_10k_h12.png Graphic file (type png)
 <use ../immagini/ext_10k_h12.png>
-Package pdftex.def Info: ../immagini/ext_10k_h12.png  used on input line 531.
+Package pdftex.def Info: ../immagini/ext_10k_h12.png  used on input line 533.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
 
 
-[19 <../immagini/ext_10k_h2.png (PNG copy)>]
-<../immagini/ext_100k_h2.png, id=228, 1503.36656pt x 672.26157pt>
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.537 	\newpage
+               
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.537 	\newpage
+                <../immagini/ext_10k_h2.png (PNG copy)> <../immagini/ext_10k_h1
+2.png (PNG copy)>]
+
+[20]
+
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.592 	\newpage
+               ]
+<../immagini/ext_100k_h2.png, id=244, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_100k_h2.png Graphic file (type png)
 <use ../immagini/ext_100k_h2.png>
-Package pdftex.def Info: ../immagini/ext_100k_h2.png  used on input line 591.
+Package pdftex.def Info: ../immagini/ext_100k_h2.png  used on input line 595.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/ext_100k_h12.png, id=229, 1503.36656pt x 672.26157pt>
+<../immagini/ext_100k_h12.png, id=245, 1503.36656pt x 672.26157pt>
 File: ../immagini/ext_100k_h12.png Graphic file (type png)
 <use ../immagini/ext_100k_h12.png>
-Package pdftex.def Info: ../immagini/ext_100k_h12.png  used on input line 598.
+Package pdftex.def Info: ../immagini/ext_100k_h12.png  used on input line 602.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
 
 
-[20 <../immagini/ext_10k_h12.png (PNG copy)>]
-
-[21]
-
-[22 <../immagini/ext_100k_h2.png (PNG copy)> <../immagini/ext_100k_h12.png (PNG
- copy)>]
-Overfull \hbox (21.59277pt too wide) in paragraph at lines 603--603
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.606 	\newpage
+               
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.606 	\newpage
+                <../immagini/ext_100k_h2.png (PNG copy)> <../immagini/ext_100k_
+h12.png (PNG copy)>]
+Overfull \hbox (21.59277pt too wide) in paragraph at lines 607--607
 []\T1/lmr/bx/n/14.4 Nelder^^UMead Method on Ex-tended Rosen-brock Func-
  []
 
 
 
 [23]
-<../immagini/ext_10.png, id=253, 1156.32pt x 650.43pt>
+<../immagini/ext_10.png, id=258, 1156.32pt x 650.43pt>
 File: ../immagini/ext_10.png Graphic file (type png)
 <use ../immagini/ext_10.png>
-Package pdftex.def Info: ../immagini/ext_10.png  used on input line 661.
+Package pdftex.def Info: ../immagini/ext_10.png  used on input line 665.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/ext_26.png, id=254, 1156.32pt x 650.43pt>
+<../immagini/ext_26.png, id=259, 1156.32pt x 650.43pt>
 File: ../immagini/ext_26.png Graphic file (type png)
 <use ../immagini/ext_26.png>
-Package pdftex.def Info: ../immagini/ext_26.png  used on input line 668.
+Package pdftex.def Info: ../immagini/ext_26.png  used on input line 672.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/ext_50.png, id=255, 1156.32pt x 650.43pt>
+<../immagini/ext_50.png, id=260, 1156.32pt x 650.43pt>
 File: ../immagini/ext_50.png Graphic file (type png)
 <use ../immagini/ext_50.png>
-Package pdftex.def Info: ../immagini/ext_50.png  used on input line 675.
+Package pdftex.def Info: ../immagini/ext_50.png  used on input line 679.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/ext_time_nelder.png, id=256, 421.575pt x 316.18124pt>
+<../immagini/ext_time_nelder.png, id=261, 421.575pt x 316.18124pt>
 File: ../immagini/ext_time_nelder.png Graphic file (type png)
 <use ../immagini/ext_time_nelder.png>
 Package pdftex.def Info: ../immagini/ext_time_nelder.png  used on input line 68
-2.
+6.
 (pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
 
 
-[24]
+[24
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 	\newpage
+               ]
 
-[25 <../immagini/ext_10.png (PNG copy)> <../immagini/ext_26.png (PNG copy)>]
+[25
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 	\newpage
+               
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 	\newpage
+                <../immagini/ext_10.png (PNG copy)> <../immagini/ext_26.png (PN
+G copy)>]
 
-[26 <../immagini/ext_50.png (PNG copy)> <../immagini/ext_time_nelder.png (PNG c
-opy)>]
-<../immagini/broyden.png, id=276, 462.528pt x 346.896pt>
+[26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 	\newpage
+               
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 	\newpage
+                <../immagini/ext_50.png (PNG copy)> <../immagini/ext_time_nelde
+r.png (PNG copy)>]
+<../immagini/broyden.png, id=281, 462.528pt x 346.896pt>
 File: ../immagini/broyden.png Graphic file (type png)
 <use ../immagini/broyden.png>
-Package pdftex.def Info: ../immagini/broyden.png  used on input line 710.
+Package pdftex.def Info: ../immagini/broyden.png  used on input line 717.
 (pdftex.def)             Requested size: 253.49762pt x 190.12643pt.
 
 
-[27 <../immagini/broyden.png>]
-Overfull \hbox (0.80878pt too wide) in paragraph at lines 733--734
+[27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.726 	
+        <../immagini/broyden.png>]
+Overfull \hbox (0.80878pt too wide) in paragraph at lines 740--741
  []\T1/lmr/bx/n/12 Hessian struc-ture.[] \T1/lmr/m/n/12 The Hes-sian ma-trix ha
 s a pen-ta-di-ag-o-nal banded struc-
  []
@@ -724,168 +867,506 @@ s a pen-ta-di-ag-o-nal banded struc-
 
 [28]
 
-[29]
-<../immagini/broyden_1k.png, id=297, 1156.32pt x 650.43pt>
+[29
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.789 	\newpage
+               ]
+<../immagini/broyden_1k.png, id=303, 1156.32pt x 650.43pt>
 File: ../immagini/broyden_1k.png Graphic file (type png)
 <use ../immagini/broyden_1k.png>
-Package pdftex.def Info: ../immagini/broyden_1k.png  used on input line 785.
+Package pdftex.def Info: ../immagini/broyden_1k.png  used on input line 792.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-
-
-[30 <../immagini/broyden_1k.png (PNG copy)>]
-<../immagini/broyden_10k.png, id=303, 1156.32pt x 650.43pt>
+<../immagini/broyden_10k.png, id=304, 1156.32pt x 650.43pt>
 File: ../immagini/broyden_10k.png Graphic file (type png)
 <use ../immagini/broyden_10k.png>
-Package pdftex.def Info: ../immagini/broyden_10k.png  used on input line 792.
+Package pdftex.def Info: ../immagini/broyden_10k.png  used on input line 799.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-
-
-[31 <../immagini/broyden_10k.png (PNG copy)>]
-<../immagini/broyden_100k.png, id=309, 1156.32pt x 650.43pt>
+<../immagini/broyden_100k.png, id=305, 1156.32pt x 650.43pt>
 File: ../immagini/broyden_100k.png Graphic file (type png)
 <use ../immagini/broyden_100k.png>
-Package pdftex.def Info: ../immagini/broyden_100k.png  used on input line 799.
+Package pdftex.def Info: ../immagini/broyden_100k.png  used on input line 806.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
 
 
-[32 <../immagini/broyden_100k.png (PNG copy)>]
-<../immagini/broyden_time_exact.png, id=315, 421.575pt x 316.18124pt>
+[30
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.810 	
+        <../immagini/broyden_1k.png (PNG copy)>]
+
+[31
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.810 	
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.810 	
+        <../immagini/broyden_10k.png (PNG copy)> <../immagini/broyden_100k.png 
+(PNG copy)>]
+<../immagini/broyden_time_exact.png, id=317, 421.575pt x 316.18124pt>
 File: ../immagini/broyden_time_exact.png Graphic file (type png)
 <use ../immagini/broyden_time_exact.png>
 Package pdftex.def Info: ../immagini/broyden_time_exact.png  used on input line
- 806.
+ 813.
 (pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
 
 
-[33 <../immagini/broyden_time_exact.png (PNG copy)>]
+[32
+pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.834 	\newpage
+                <../immagini/broyden_time_exact.png (PNG copy)>]
 
-[34]
+[33]
 
-[35]
-<../immagini/broyden_1k_h2.png, id=333, 1503.36656pt x 672.26157pt>
+[34
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.888 	\newpage
+               ]
+<../immagini/broyden_1k_h2.png, id=334, 1503.36656pt x 672.26157pt>
 File: ../immagini/broyden_1k_h2.png Graphic file (type png)
 <use ../immagini/broyden_1k_h2.png>
-Package pdftex.def Info: ../immagini/broyden_1k_h2.png  used on input line 884.
+Package pdftex.def Info: ../immagini/broyden_1k_h2.png  used on input line 891.
 
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/broyden_1k_h12.png, id=334, 1503.36656pt x 672.26157pt>
+<../immagini/broyden_1k_h12.png, id=335, 1503.36656pt x 672.26157pt>
 File: ../immagini/broyden_1k_h12.png Graphic file (type png)
 <use ../immagini/broyden_1k_h12.png>
-Package pdftex.def Info: ../immagini/broyden_1k_h12.png  used on input line 891
+Package pdftex.def Info: ../immagini/broyden_1k_h12.png  used on input line 898
 .
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
 
 
-[36 <../immagini/broyden_1k_h2.png (PNG copy)>]
-<../immagini/broyden_10k_h2.png, id=340, 1503.36656pt x 672.26157pt>
+[35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.902 	\newpage
+               
+pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.902 	\newpage
+                <../immagini/broyden_1k_h2.png (PNG copy)> <../immagini/broyden
+_1k_h12.png (PNG copy)>]
+<../immagini/broyden_10k_h2.png, id=343, 1503.36656pt x 672.26157pt>
 File: ../immagini/broyden_10k_h2.png Graphic file (type png)
 <use ../immagini/broyden_10k_h2.png>
-Package pdftex.def Info: ../immagini/broyden_10k_h2.png  used on input line 943
+Package pdftex.def Info: ../immagini/broyden_10k_h2.png  used on input line 951
 .
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/broyden_10k_h12.png, id=341, 1503.36656pt x 672.26157pt>
+<../immagini/broyden_10k_h12.png, id=344, 1503.36656pt x 672.26157pt>
 File: ../immagini/broyden_10k_h12.png Graphic file (type png)
 <use ../immagini/broyden_10k_h12.png>
 Package pdftex.def Info: ../immagini/broyden_10k_h12.png  used on input line 95
-0.
+8.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/broyden_100k_h2.png, id=342, 1503.36656pt x 672.26157pt>
+
+
+[36
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.962 	\newpage
+               ]
+
+[37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.962 	\newpage
+               
+pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.962 	\newpage
+                <../immagini/broyden_10k_h2.png (PNG copy)> <../immagini/broyde
+n_10k_h12.png (PNG copy)>]
+
+[38
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1007 	\newpage
+                ]
+<../immagini/broyden_100k_h2.png, id=361, 1503.36656pt x 672.26157pt>
 File: ../immagini/broyden_100k_h2.png Graphic file (type png)
 <use ../immagini/broyden_100k_h2.png>
 Package pdftex.def Info: ../immagini/broyden_100k_h2.png  used on input line 10
-01.
+10.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
-<../immagini/broyden_100k_h12.png, id=343, 1503.36656pt x 672.26157pt>
+<../immagini/broyden_100k_h12.png, id=362, 1503.36656pt x 672.26157pt>
 File: ../immagini/broyden_100k_h12.png Graphic file (type png)
 <use ../immagini/broyden_100k_h12.png>
 Package pdftex.def Info: ../immagini/broyden_100k_h12.png  used on input line 1
-008.
+017.
 (pdftex.def)             Requested size: 390.0pt x 174.39407pt.
 
 
-[37 <../immagini/broyden_1k_h12.png (PNG copy)>]
-
-[38]
-
-[39 <../immagini/broyden_10k_h2.png (PNG copy)> <../immagini/broyden_10k_h12.pn
-g (PNG copy)>]
+[39
+pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1021 	\newpage
+                
+pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1021 	\newpage
+                 <../immagini/broyden_100k_h2.png (PNG copy)> <../immagini/broy
+den_100k_h12.png (PNG copy)>]
 
 [40]
-
-[41 <../immagini/broyden_100k_h2.png (PNG copy)> <../immagini/broyden_100k_h12.
-png (PNG copy)>]
-Overfull \hbox (12.11577pt too wide) in paragraph at lines 1021--1021
+Overfull \hbox (12.11577pt too wide) in paragraph at lines 1030--1030
 []\T1/lmr/bx/n/14.4 Nelder^^UMead Re-sults on Gen-er-al-ized Broy-den Func-
  []
 
-<../immagini/broyden_10.png, id=373, 1156.32pt x 650.43pt>
+<../immagini/broyden_10.png, id=374, 1156.32pt x 650.43pt>
 File: ../immagini/broyden_10.png Graphic file (type png)
 <use ../immagini/broyden_10.png>
-Package pdftex.def Info: ../immagini/broyden_10.png  used on input line 1059.
+Package pdftex.def Info: ../immagini/broyden_10.png  used on input line 1068.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/broyden_26.png, id=374, 1156.32pt x 650.43pt>
+<../immagini/broyden_26.png, id=375, 1156.32pt x 650.43pt>
 File: ../immagini/broyden_26.png Graphic file (type png)
 <use ../immagini/broyden_26.png>
-Package pdftex.def Info: ../immagini/broyden_26.png  used on input line 1066.
+Package pdftex.def Info: ../immagini/broyden_26.png  used on input line 1075.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/broyden_50.png, id=375, 1156.32pt x 650.43pt>
+<../immagini/broyden_50.png, id=376, 1156.32pt x 650.43pt>
 File: ../immagini/broyden_50.png Graphic file (type png)
 <use ../immagini/broyden_50.png>
-Package pdftex.def Info: ../immagini/broyden_50.png  used on input line 1073.
+Package pdftex.def Info: ../immagini/broyden_50.png  used on input line 1082.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/broyden_time_nelder.png, id=376, 421.575pt x 316.18124pt>
+<../immagini/broyden_time_nelder.png, id=377, 421.575pt x 316.18124pt>
 File: ../immagini/broyden_time_nelder.png Graphic file (type png)
 <use ../immagini/broyden_time_nelder.png>
 Package pdftex.def Info: ../immagini/broyden_time_nelder.png  used on input lin
-e 1080.
+e 1089.
 (pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
 
 
-[42]
+[41
+pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1098 	
+        ]
 
-[43 <../immagini/broyden_10.png (PNG copy)> <../immagini/broyden_26.png (PNG co
-py)>]
+[42
+pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1098 	
+        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1098 	
+         <../immagini/broyden_10.png (PNG copy)> <../immagini/broyden_26.png (P
+NG copy)>]
 
-[44 <../immagini/broyden_50.png (PNG copy)> <../immagini/broyden_time_nelder.pn
-g (PNG copy)>]
-<../immagini/banded_3D.png, id=396, 722.7pt x 433.62pt>
+[43
+pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1098 	
+        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1098 	
+         <../immagini/broyden_50.png (PNG copy)> <../immagini/broyden_time_neld
+er.png (PNG copy)>]
+<../immagini/banded_3D.png, id=398, 722.7pt x 433.62pt>
 File: ../immagini/banded_3D.png Graphic file (type png)
 <use ../immagini/banded_3D.png>
-Package pdftex.def Info: ../immagini/banded_3D.png  used on input line 1105.
+Package pdftex.def Info: ../immagini/banded_3D.png  used on input line 1114.
 (pdftex.def)             Requested size: 253.49762pt x 152.1001pt.
 
 
-[45 <../immagini/banded_3D.png>]
-<../immagini/banded_1k.png, id=403, 1156.32pt x 650.43pt>
+[44
+pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1119 	\newpage
+                 <../immagini/banded_3D.png>]
+<../immagini/banded_1k.png, id=405, 1156.32pt x 650.43pt>
 File: ../immagini/banded_1k.png Graphic file (type png)
 <use ../immagini/banded_1k.png>
-Package pdftex.def Info: ../immagini/banded_1k.png  used on input line 1176.
+Package pdftex.def Info: ../immagini/banded_1k.png  used on input line 1185.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/banded_10k.png, id=404, 1156.32pt x 650.43pt>
+<../immagini/banded_10k.png, id=406, 1156.32pt x 650.43pt>
 File: ../immagini/banded_10k.png Graphic file (type png)
 <use ../immagini/banded_10k.png>
-Package pdftex.def Info: ../immagini/banded_10k.png  used on input line 1183.
+Package pdftex.def Info: ../immagini/banded_10k.png  used on input line 1192.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/banded_100k.png, id=405, 1156.32pt x 650.43pt>
+<../immagini/banded_100k.png, id=407, 1156.32pt x 650.43pt>
 File: ../immagini/banded_100k.png Graphic file (type png)
 <use ../immagini/banded_100k.png>
-Package pdftex.def Info: ../immagini/banded_100k.png  used on input line 1190.
+Package pdftex.def Info: ../immagini/banded_100k.png  used on input line 1199.
 (pdftex.def)             Requested size: 390.0pt x 219.36674pt.
-<../immagini/banded_time.png, id=406, 421.575pt x 316.18124pt>
+<../immagini/banded_time.png, id=408, 421.575pt x 316.18124pt>
 File: ../immagini/banded_time.png Graphic file (type png)
 <use ../immagini/banded_time.png>
-Package pdftex.def Info: ../immagini/banded_time.png  used on input line 1197.
+Package pdftex.def Info: ../immagini/banded_time.png  used on input line 1206.
 (pdftex.def)             Requested size: 214.50119pt x 160.8788pt.
 
 
-[46]
+[45]
 
-[47 <../immagini/banded_1k.png (PNG copy)>]
+[46
+pdfTeX warning (ext4): destination with the same identifier (name{table.10}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1216 		\item \textbf
+                      {Fixed increment}: $h$
+pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1216 		\item \textbf
+                      {Fixed increment}: $h$ <../immagini/banded_1k.png (PNG co
+py)>]
 
-[48 <../immagini/banded_10k.png (PNG copy)> <../immagini/banded_100k.png (PNG c
-opy)>]
+[47
+pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1216 		\item \textbf
+                      {Fixed increment}: $h$
+pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1216 		\item \textbf
+                      {Fixed increment}: $h$ <../immagini/banded_10k.png (PNG c
+opy)> <../immagini/banded_100k.png (PNG copy)>]
 
-[49 <../immagini/banded_time.png (PNG copy)>] (report.aux)
+[48
+pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1289 	\newpage
+                 <../immagini/banded_time.png (PNG copy)>]
+
+[49
+pdfTeX warning (ext4): destination with the same identifier (name{table.11}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1289 	\newpage
+                ]
+<../immagini/banded_1k_h2.png, id=439, 1503.36656pt x 672.26157pt>
+File: ../immagini/banded_1k_h2.png Graphic file (type png)
+<use ../immagini/banded_1k_h2.png>
+Package pdftex.def Info: ../immagini/banded_1k_h2.png  used on input line 1292.
+
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/banded_1k_h12.png, id=440, 1503.36656pt x 672.26157pt>
+File: ../immagini/banded_1k_h12.png Graphic file (type png)
+<use ../immagini/banded_1k_h12.png>
+Package pdftex.def Info: ../immagini/banded_1k_h12.png  used on input line 1299
+.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+
+
+[50
+pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1303 	\newpage
+                
+pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1303 	\newpage
+                 <../immagini/banded_1k_h2.png (PNG copy)> <../immagini/banded_
+1k_h12.png (PNG copy)>]
+
+[51
+pdfTeX warning (ext4): destination with the same identifier (name{table.12}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1348 	\newpage
+                ]
+<../immagini/banded_10k_h2.png, id=452, 1503.36656pt x 672.26157pt>
+File: ../immagini/banded_10k_h2.png Graphic file (type png)
+<use ../immagini/banded_10k_h2.png>
+Package pdftex.def Info: ../immagini/banded_10k_h2.png  used on input line 1352
+.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/banded_10k_h12.png, id=453, 1503.36656pt x 672.26157pt>
+File: ../immagini/banded_10k_h12.png Graphic file (type png)
+<use ../immagini/banded_10k_h12.png>
+Package pdftex.def Info: ../immagini/banded_10k_h12.png  used on input line 135
+9.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+
+
+[52
+pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1363 	\newpage
+                \
+pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1363 	\newpage
+                \ <../immagini/banded_10k_h2.png (PNG copy)> <../immagini/bande
+d_10k_h12.png (PNG copy)>]
+
+[53
+pdfTeX warning (ext4): destination with the same identifier (name{table.13}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1407 	\newpage
+                ]
+<../immagini/banded_100k_h2.png, id=466, 1503.36656pt x 672.26157pt>
+File: ../immagini/banded_100k_h2.png Graphic file (type png)
+<use ../immagini/banded_100k_h2.png>
+Package pdftex.def Info: ../immagini/banded_100k_h2.png  used on input line 141
+0.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+<../immagini/banded_100k_h12.png, id=467, 1503.36656pt x 672.26157pt>
+File: ../immagini/banded_100k_h12.png Graphic file (type png)
+<use ../immagini/banded_100k_h12.png>
+Package pdftex.def Info: ../immagini/banded_100k_h12.png  used on input line 14
+17.
+(pdftex.def)             Requested size: 390.0pt x 174.39407pt.
+
+
+[54
+pdfTeX warning (ext4): destination with the same identifier (name{figure.43}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1427 	\]
+          
+pdfTeX warning (ext4): destination with the same identifier (name{figure.44}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1427 	\]
+           <../immagini/banded_100k_h2.png (PNG copy)> <../immagini/banded_100k
+_h12.png (PNG copy)>]
+
+[55
+pdfTeX warning (ext4): destination with the same identifier (name{table.14}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1463 	\newpage
+                ]
+<../immagini/banded_10.png, id=479, 1156.32pt x 650.43pt>
+File: ../immagini/banded_10.png Graphic file (type png)
+<use ../immagini/banded_10.png>
+Package pdftex.def Info: ../immagini/banded_10.png  used on input line 1466.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/banded_26.png, id=480, 1156.32pt x 650.43pt>
+File: ../immagini/banded_26.png Graphic file (type png)
+<use ../immagini/banded_26.png>
+Package pdftex.def Info: ../immagini/banded_26.png  used on input line 1473.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/banded_50.png, id=481, 1156.32pt x 650.43pt>
+File: ../immagini/banded_50.png Graphic file (type png)
+<use ../immagini/banded_50.png>
+Package pdftex.def Info: ../immagini/banded_50.png  used on input line 1480.
+(pdftex.def)             Requested size: 390.0pt x 219.36674pt.
+<../immagini/banded_time_nelder.png, id=482, 421.575pt x 316.18124pt>
+File: ../immagini/banded_time_nelder.png Graphic file (type png)
+<use ../immagini/banded_time_nelder.png>
+Package pdftex.def Info: ../immagini/banded_time_nelder.png  used on input line
+ 1487.
+(pdftex.def)             Requested size: 234.00238pt x 175.50195pt.
+
+Overfull \hbox (10.74155pt too wide) in paragraph at lines 1493--1494
+ []\T1/lmr/bx/n/12 Discussion.[] \T1/lmr/m/n/12 The Nelder^^UMead al-go-rithm w
+as ap-plied to the Banded Trigono-
+ []
+
+
+
+[56
+pdfTeX warning (ext4): destination with the same identifier (name{figure.45}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1494 	
+        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.46}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1494 	
+         <../immagini/banded_10.png (PNG copy)> <../immagini/banded_26.png (PNG
+ copy)>]
+
+[57
+pdfTeX warning (ext4): destination with the same identifier (name{figure.47}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1494 	
+        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.48}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1494 	
+         <../immagini/banded_50.png (PNG copy)> <../immagini/banded_time_nelder
+.png (PNG copy)>]
+Overfull \hbox (13.76543pt too wide) in paragraph at lines 1497--1498
+[]\T1/lmr/m/n/12 Despite its sim-plic-ity and low com-pu-ta-tional cost per it-
+er-a-tion, Nelder^^UMead
+ []
+
+
+Overfull \hbox (3.74622pt too wide) in paragraph at lines 1504--1505
+[]\T1/lmr/m/n/12 The Mod-i-fied New-ton method con-sis-tently de-liv-ered su-pe
+-rior re-sults across
+ []
+
+
+
+[58] (report.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -898,16 +1379,16 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E5CC9CBA32424895318889C4AC099056;3856.
+(rerunfilecheck)             Checksum: 58DED11DF9FEF78E794884C91939CF68;4141.
  ) 
 Here is how much of TeX's memory you used:
- 12776 strings out of 473904
- 199898 string characters out of 5726601
- 1968908 words of memory out of 5000000
- 35327 multiletter control sequences out of 15000+600000
+ 12963 strings out of 473904
+ 204121 string characters out of 5726601
+ 1953908 words of memory out of 5000000
+ 35481 multiletter control sequences out of 15000+600000
  619037 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,807b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,807b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pf
 b><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pf
@@ -923,9 +1404,9 @@ ers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Use
 rs/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Use
 rs/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb>
-Output written on report.pdf (51 pages, 4031478 bytes).
+Output written on report.pdf (60 pages, 5064879 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
- 327 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 606 PDF objects out of 1000 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 

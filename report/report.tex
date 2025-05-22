@@ -11,6 +11,7 @@
 \usepackage{listings,xcolor}
 \usepackage{enumitem}
 \usepackage{hyperref}
+\usepackage{float}
 \hypersetup{
 	colorlinks=true,
 	linkcolor=blue,
@@ -41,9 +42,9 @@
 	% =================================================
 	\section{Introduction}
 	
-	The goal of this project is to implement and compare two numerical methods for unconstrained optimization: the Modified Newton method and the Nelder-Mead method. These algorithms are first tested on the standard 2-dimensional Rosenbrock function, using two different initial conditions, in order to validate their implementation. Subsequently, they are applied to three benchmark problems selected from the test set proposed in \cite{luksan1999}, which includes high-dimensional unconstrained optimization functions.
+	The goal of this project is to implement and compare two numerical methods for unconstrained optimization: the Modified Newton method and the Nelder-Mead method. These algorithms are first tested on the standard 2-dimensional Rosenbrock function, using two different initial conditions, in order to validate their implementation. Subsequently, they are applied to three benchmark problems selected from the test set , which includes high-dimensional unconstrained optimization functions.
 	
-	In accordance with the assignment instructions, the Nelder-Mead method is tested in low dimensions \( n = 10, 25, 50 \), while the Modified Newton method is evaluated on larger problems with \( n = 10^3, 10^4, 10^5 \). For each function and each method, a fixed starting point suggested in \cite{luksan1999} is used, together with 10 randomly generated starting points uniformly sampled in a hypercube of radius 1 centered around the reference point.
+	In accordance with the assignment instructions, the Nelder-Mead method is tested in low dimensions \( n = 10, 25, 50 \), while the Modified Newton method is evaluated on larger problems with \( n = 10^3, 10^4, 10^5 \). For each function and each method, a fixed starting point suggested is used, together with 10 randomly generated starting points uniformly sampled in a hypercube of radius 1 centered around the reference point.
 	
 	A run is considered successful when the algorithm satisfies the stopping criterion \( \|\nabla f(x^{(k)})\| \leq 10^{-6} \) within a maximum of 5000 iterations. Performance is assessed in terms of number of successful runs, total iterations, CPU time, and experimental convergence rate. The latter is computed using the following formula:
 	\[
@@ -410,49 +411,49 @@
 	
 	\begin{table}[htbp]
 		\centering
-		\caption{Results for $n = 1000$ using finite difference derivatives.}
+		\caption{Finite difference results for $n=1\,000$ using different increments $h$ and strategies.}
 		\renewcommand{\arraystretch}{1.2}
 		\resizebox{\textwidth}{!}{%
 			\begin{tabular}{|c|c|c|c|c|c|}
 				\hline
-				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{\(\rho\)} & \textbf{Successi} \\
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
 				\hline
-				$10^{-2}$            & $\bar{x}$       & 27.0  & 0.02 & 1.37 & --     \\
-				$10^{-2}$            & Avg (10 pts)    & 30.3  & 0.02 & 1.29 & 0/10   \\
-				$10^{-2}\cdot|x|$    & $\bar{x}$       & 21.0  & 0.01 & 1.89 & --     \\
-				$10^{-2}\cdot|x|$    & Avg (10 pts)    & 26.8  & 0.01 & 1.45 & 0/10   \\
+				$10^{-2}$ & $\bar{x}$ & 118 & 0.03 & 0.8856 & 10/10 \\
+				$10^{-2}$ & Avg (10 pts) & 122.5 & 0.038 & 0.8856 & 10/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 110 & 0.03 & 0.8794 & 10/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 113.6 & 0.03 & 0.8794 & 10/10 \\
 				\hline
-				$10^{-4}$            & $\bar{x}$       & 22.0  & 0.01 & 1.94 & --     \\
-				$10^{-4}$            & Avg (10 pts)    & 27.4  & 0.01 & 1.61 & 10/10 \\
-				$10^{-4}\cdot|x|$    & $\bar{x}$       & 21.0  & 0.01 & 2.00 & --     \\
-				$10^{-4}\cdot|x|$    & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
+				$10^{-4}$ & $\bar{x}$ & 21 & 0.01 & 1.1640 & 10/10 \\
+				$10^{-4}$ & Avg (10 pts) & 26 & 0.01 & 1.3972 & 10/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 21 & 0.01 & 1.1476 & 10/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 26 & 0.01 & 1.4166 & 10/10 \\
 				\hline
-				$10^{-6}$            & $\bar{x}$       & 21.0  & 0.01 & 2.01 & --     \\
-				$10^{-6}$            & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
-				$10^{-6}\cdot|x|$    & $\bar{x}$       & 21.0  & 0.01 & 2.00 & --     \\
-				$10^{-6}\cdot|x|$    & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
+				$10^{-6}$ & $\bar{x}$ & 20 & 0.01 & 2.4144 & 10/10 \\
+				$10^{-6}$ & Avg (10 pts) & 25.2 & 0.01 & 2.1933 & 10/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 20 & 0.01 & 2.4464 & 10/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 25.2 & 0.01 & 2.2105 & 10/10 \\
 				\hline
-				$10^{-8}$            & $\bar{x}$       & 21.0  & 0.01 & 2.00 & --     \\
-				$10^{-8}$            & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
-				$10^{-8}\cdot|x|$    & $\bar{x}$       & 21.0  & 0.01 & 2.00 & --     \\
-				$10^{-8}\cdot|x|$    & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
+				$10^{-8}$ & $\bar{x}$ & 20 & 0.01 & 2.1463 & 10/10 \\
+				$10^{-8}$ & Avg (10 pts) & 25.2 & 0.01 & 2.2284 & 10/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 20 & 0.01 & 2.1468 & 10/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 25.2 & 0.01 & 2.2284 & 10/10 \\
 				\hline
-				$10^{-10}$           & $\bar{x}$       & 21.0  & 0.01 & 2.00 & --     \\
-				$10^{-10}$           & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
-				$10^{-10}\cdot|x|$   & $\bar{x}$       & 21.0  & 0.01 & 2.00 & --     \\
-				$10^{-10}\cdot|x|$   & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
+				$10^{-10}$ & $\bar{x}$ & 20 & 0.01 & 2.1432 & 10/10 \\
+				$10^{-10}$ & Avg (10 pts) & 25.2 & 0.01 & 2.2278 & 10/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 20 & 0.01 & 2.1432 & 10/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 25.2 & 0.01 & 2.2278 & 10/10 \\
 				\hline
-				$10^{-12}$           & $\bar{x}$       & 21.0  & 0.01 & 2.00 & --     \\
-				$10^{-12}$           & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
-				$10^{-12}\cdot|x|$   & $\bar{x}$       & 21.0  & 0.01 & 2.00 & --     \\
-				$10^{-12}\cdot|x|$   & Avg (10 pts)    & 26.5  & 0.01 & 1.51 & 10/10 \\
+				$10^{-12}$ & $\bar{x}$ & 20 & 0.01 & 2.1432 & 10/10 \\
+				$10^{-12}$ & Avg (10 pts) & 25.2 & 0.01 & 2.2278 & 10/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 20 & 0.01 & 2.1432 & 10/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 25.2 & 0.01 & 2.2278 & 10/10 \\
 				\hline
-			\end{tabular}%
-		}
-		\label{tab:fd_results_1k}
+		\end{tabular}}%
+		\label{tab:fd_ext_1000}
 	\end{table}
+	
 	\newpage
-	\begin{figure}[htbp]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{../immagini/ext_1k_h2.png}
 		\caption{Convergence of Modified Newton method on Extended Rosenbrock function ($n=1000$) with fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
@@ -477,49 +478,50 @@
 	
 	\begin{table}[htbp]
 		\centering
-		\caption{Results for $n = 10\,000$ using finite difference derivatives.}
+		\caption{Finite difference results for $n=10\,000$ using different increments $h$ and strategies.}
 		\renewcommand{\arraystretch}{1.2}
 		\resizebox{\textwidth}{!}{%
 			\begin{tabular}{|c|c|c|c|c|c|}
 				\hline
-				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{\(\rho\)} & \textbf{Successi} \\
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
 				\hline
-				$10^{-2}$            & $\bar{x}$       & 27.0  & 0.10 & 1.37 & --     \\
-				$10^{-2}$            & Avg (10 pts)    & 30.3  & 0.14 & 1.29 & 0/10   \\
-				$10^{-2}\cdot|x|$    & $\bar{x}$       & 21.0  & 0.06 & 1.89 & --     \\
-				$10^{-2}\cdot|x|$    & Avg (10 pts)    & 26.8  & 0.10 & 1.45 & 0/10   \\
+				$10^{-2}$ & $\bar{x}$ & 118 & 0.23 & 0.8856 & 0/10 \\
+				$10^{-2}$ & Avg (10 pts) & 125.3 & 2.66 & 0.8856 & 0/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 110 & 0.21 & 0.8794 & 0/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 114.3 & 2.44 & 0.8794 & 0/10 \\
 				\hline
-				$10^{-4}$            & $\bar{x}$       & 22.0  & 0.06 & 1.94 & --     \\
-				$10^{-4}$            & Avg (10 pts)    & 27.4  & 0.10 & 1.61 & 10/10 \\
-				$10^{-4}\cdot|x|$    & $\bar{x}$       & 21.0  & 0.06 & 2.00 & --     \\
-				$10^{-4}\cdot|x|$    & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
+				$10^{-4}$ & $\bar{x}$ & 21 & 0.04 & 1.1640 & 10/10 \\
+				$10^{-4}$ & Avg (10 pts) & 27.0 & 0.92 & 1.2708 & 10/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 21 & 0.04 & 1.1476 & 10/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 27.0 & 0.91 & 1.2298 & 10/10 \\
 				\hline
-				$10^{-6}$            & $\bar{x}$       & 21.0  & 0.06 & 2.01 & --     \\
-				$10^{-6}$            & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
-				$10^{-6}\cdot|x|$    & $\bar{x}$       & 21.0  & 0.06 & 2.00 & --     \\
-				$10^{-6}\cdot|x|$    & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
+				$10^{-6}$ & $\bar{x}$ & 20 & 0.04 & 2.4144 & 10/10 \\
+				$10^{-6}$ & Avg (10 pts) & 25.6 & 0.89 & 1.3572 & 10/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 20 & 0.04 & 2.4464 & 10/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 25.6 & 0.89 & 1.3581 & 10/10 \\
 				\hline
-				$10^{-8}$            & $\bar{x}$       & 21.0  & 0.06 & 2.00 & --     \\
-				$10^{-8}$            & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
-				$10^{-8}\cdot|x|$    & $\bar{x}$       & 21.0  & 0.06 & 2.00 & --     \\
-				$10^{-8}\cdot|x|$    & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
+				$10^{-8}$ & $\bar{x}$ & 20 & 0.04 & 2.1463 & 10/10 \\
+				$10^{-8}$ & Avg (10 pts) & 25.6 & 0.90 & 1.3626 & 10/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 20 & 0.04 & 2.1468 & 10/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 25.6 & 0.90 & 1.3626 & 10/10 \\
 				\hline
-				$10^{-10}$           & $\bar{x}$       & 21.0  & 0.06 & 2.00 & --     \\
-				$10^{-10}$           & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
-				$10^{-10}\cdot|x|$   & $\bar{x}$       & 21.0  & 0.06 & 2.00 & --     \\
-				$10^{-10}\cdot|x|$   & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
+				$10^{-10}$ & $\bar{x}$ & 20 & 0.04 & 2.1432 & 10/10 \\
+				$10^{-10}$ & Avg (10 pts) & 25.6 & 0.90 & 1.3626 & 10/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 20 & 0.04 & 2.1432 & 10/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 25.6 & 0.90 & 1.3626 & 10/10 \\
 				\hline
-				$10^{-12}$           & $\bar{x}$       & 21.0  & 0.06 & 2.00 & --     \\
-				$10^{-12}$           & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
-				$10^{-12}\cdot|x|$   & $\bar{x}$       & 21.0  & 0.06 & 2.00 & --     \\
-				$10^{-12}\cdot|x|$   & Avg (10 pts)    & 26.5  & 0.10 & 1.51 & 10/10 \\
+				$10^{-12}$ & $\bar{x}$ & 20 & 0.04 & 2.1432 & 10/10 \\
+				$10^{-12}$ & Avg (10 pts) & 25.6 & 0.90 & 1.3626 & 10/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 20 & 0.04 & 2.1432 & 10/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 25.6 & 0.90 & 1.3626 & 10/10 \\
 				\hline
 			\end{tabular}%
 		}
-		\label{tab:fd_results_10k}
+		\label{tab:fd_er_10000}
 	\end{table}
+	
 	\newpage
-	\begin{figure}[htbp]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{../immagini/ext_10k_h2.png}
 		\caption{Convergence of Modified Newton method on Extended Rosenbrock function ($n=10\,000$) with fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
@@ -542,51 +544,53 @@
 	The table below summarizes the results.
 	
 	\vspace{1em}
-	
-	\begin{table}[htbp]
+	\newpage
+	\begin{table}[H]
 		\centering
-		\caption{Results for $n = 100\,000$ using finite difference derivatives.}
+		\caption{Finite difference results for $n=100\,000$ using different increments $h$ and strategies.}
 		\renewcommand{\arraystretch}{1.2}
 		\resizebox{\textwidth}{!}{%
 			\begin{tabular}{|c|c|c|c|c|c|}
 				\hline
-				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{\(\rho\)} & \textbf{Successi} \\
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
 				\hline
-				$10^{-2}$            & $\bar{x}$       & 27.0  & 1.72  & 1.37 & --     \\
-				$10^{-2}$            & Avg (10 pts)    & 30.3  & 2.41  & 1.29 & 0/10   \\
-				$10^{-2}\cdot|x|$    & $\bar{x}$       & 21.0  & 1.09  & 1.89 & --     \\
-				$10^{-2}\cdot|x|$    & Avg (10 pts)    & 26.8  & 1.85  & 1.45 & 0/10   \\
+				$10^{-2}$ & $\bar{x}$ & 118 & 2.66 & 0.8856 & 0/10 \\
+				$10^{-2}$ & Avg (10 pts) & 126.0 & 3.26 & 0.8856 & 0/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 110 & 2.41 & 0.8794 & 0/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 114.2 & 2.94 & 0.8794 & 0/10 \\
 				\hline
-				$10^{-4}$            & $\bar{x}$       & 22.0  & 1.09  & 1.94 & --     \\
-				$10^{-4}$            & Avg (10 pts)    & 27.4  & 1.90  & 1.61 & 10/10 \\
-				$10^{-4}\cdot|x|$    & $\bar{x}$       & 21.0  & 1.06  & 2.00 & --     \\
-				$10^{-4}\cdot|x|$    & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
+				$10^{-4}$ & $\bar{x}$ & 22 & 0.49 & 0.9324 & 10/10 \\
+				$10^{-4}$ & Avg (10 pts) & 27.0 & 0.92 & 1.2738 & 10/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 22 & 0.49 & 0.9453 & 10/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 27.0 & 0.91 & 1.2309 & 10/10 \\
 				\hline
-				$10^{-6}$            & $\bar{x}$       & 21.0  & 1.06  & 2.01 & --     \\
-				$10^{-6}$            & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
-				$10^{-6}\cdot|x|$    & $\bar{x}$       & 21.0  & 1.06  & 2.00 & --     \\
-				$10^{-6}\cdot|x|$    & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
+				$10^{-6}$ & $\bar{x}$ & 20 & 0.44 & 2.4144 & 10/10 \\
+				$10^{-6}$ & Avg (10 pts) & 26.0 & 0.89 & 1.3622 & 10/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 20 & 0.44 & 2.4464 & 10/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 26.0 & 0.89 & 1.3620 & 10/10 \\
 				\hline
-				$10^{-8}$            & $\bar{x}$       & 21.0  & 1.06  & 2.00 & --     \\
-				$10^{-8}$            & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
-				$10^{-8}\cdot|x|$    & $\bar{x}$       & 21.0  & 1.06  & 2.00 & --     \\
-				$10^{-8}\cdot|x|$    & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
+				$10^{-8}$ & $\bar{x}$ & 20 & 0.44 & 2.1463 & 10/10 \\
+				$10^{-8}$ & Avg (10 pts) & 26.0 & 0.90 & 1.3633 & 10/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 20 & 0.44 & 2.1468 & 10/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 26.0 & 0.90 & 1.3633 & 10/10 \\
 				\hline
-				$10^{-10}$           & $\bar{x}$       & 21.0  & 1.06  & 2.00 & --     \\
-				$10^{-10}$           & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
-				$10^{-10}\cdot|x|$   & $\bar{x}$       & 21.0  & 1.06  & 2.00 & --     \\
-				$10^{-10}\cdot|x|$   & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
+				$10^{-10}$ & $\bar{x}$ & 20 & 0.45 & 2.1432 & 10/10 \\
+				$10^{-10}$ & Avg (10 pts) & 26.0 & 0.90 & 1.3632 & 10/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 20 & 0.44 & 2.1432 & 10/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 26.0 & 0.90 & 1.3632 & 10/10 \\
 				\hline
-				$10^{-12}$           & $\bar{x}$       & 21.0  & 1.06  & 2.00 & --     \\
-				$10^{-12}$           & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
-				$10^{-12}\cdot|x|$   & $\bar{x}$       & 21.0  & 1.06  & 2.00 & --     \\
-				$10^{-12}\cdot|x|$   & Avg (10 pts)    & 26.5  & 1.85  & 1.51 & 10/10 \\
+				$10^{-12}$ & $\bar{x}$ & 20 & 0.44 & 2.1432 & 10/10 \\
+				$10^{-12}$ & Avg (10 pts) & 26.0 & 0.89 & 1.3632 & 10/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 20 & 0.44 & 2.1432 & 10/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 26.0 & 0.89 & 1.3632 & 10/10 \\
 				\hline
 			\end{tabular}%
 		}
-		\label{tab:fd_results_100k}
+		\label{tab:fd_rosenbrock_100000}
 	\end{table}
-	\begin{figure}[htbp]
+	
+	\newpage
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{../immagini/ext_100k_h2.png}
 		\caption{Convergence of Modified Newton method on Extended Rosenbrock function ($n=100\,000$) with fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
@@ -687,9 +691,12 @@
 	\section{Generalized Broyden Tridiagonal Function}
 	
 	The Generalized Broyden Tridiagonal function is a classical benchmark used in unconstrained optimization, known for its nonlinear and tridiagonal structure. It is defined, for a vector \( x \in \mathbb{R}^{n+2} \), as:
-	\[
-	F(x) = \frac{1}{2} \sum_{i=2}^{n+1} \left[ (3 - 2x_i)x_i + 1 - x_{i-1} - x_{i+1} \right]^2
-	\]
+	\begin{equation}
+		F(x) = \frac{1}{2} \sum_{i=1}^{n} f_i^2(x)
+		\qquad\qquad
+		f_k(x) = (3 - 2x_k)x_k + 1 - x_{k-1} - x_{k+1}
+	\end{equation}
+	
 	This function combines:
 	\begin{itemize}[nosep]
 		\item a quadratic component in \( x_i \) (from \( (3 - 2x_i)x_i \)),
@@ -780,27 +787,27 @@
 	
 	Importantly, the computational time remains reasonable even for large dimensions, thanks to the efficient sparse implementation of the Hessian matrix. These results confirm that when second-order information is available and well-structured, Newton-type methods offer both precision and speed — outperforming derivative-free approaches by a large margin in terms of both accuracy and reliability.
 	\newpage
-	\begin{figure}[htbp]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{../immagini/broyden_1k.png}
 		\caption{Convergence of the Modified Newton method on Generalized Broyden function with $n=1000$ using exact gradient and Hessian. The method converges in few iterations with a consistent superlinear rate.}
 		\label{fig:gb_1k_exact}
 	\end{figure}
-	\newpage
+	
 	\begin{figure}[htbp]
 		\centering
 		\includegraphics[width=\textwidth]{../immagini/broyden_10k.png}
 		\caption{Convergence of the Modified Newton method on Generalized Broyden function with $n=10000$. The convergence behavior remains stable across all random initializations.}
 		\label{fig:gb_10k_exact}
 	\end{figure}
-	\newpage
-	\begin{figure}[htbp]
+	
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{../immagini/broyden_100k.png}
 		\caption{Convergence of the Modified Newton method on Generalized Broyden function with $n=100000$. Even in high dimensions, the algorithm remains robust and fast.}
 		\label{fig:gb_100k_exact}
 	\end{figure}
-	\newpage
+	
 	\begin{figure}[htbp]
 		\centering
 		\includegraphics[width=0.6\textwidth]{../immagini/broyden_time_exact.png}
@@ -879,7 +886,7 @@
 		\label{tab:gb_fd_1000_all}
 	\end{table}
 	\newpage
-	\begin{figure}[htbp]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{../immagini/broyden_1k_h2.png}
 		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=1000$) with fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
@@ -894,7 +901,7 @@
 	\end{figure}
 	\newpage
 	
-	\begin{table}[htbp]
+	\begin{table}[H]
 		\centering
 		\caption{Finite difference results for $n=10\,000$ using different increments $h$ and strategies.}
 		\renewcommand{\arraystretch}{1.2}
@@ -903,40 +910,41 @@
 				\hline
 				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
 				\hline
-				$10^{-2}$ & $\bar{x}$ & 11 & 0.17 & 0.0216 & 10/10 \\
-				$10^{-2}$ & Avg (10 pts) & 8.6 & 0.03 & 0.1495 & 10/10 \\
-				$10^{-2}\cdot|x|$ & $\bar{x}$ & 11 & 0.03 & 1.0263 & 10/10 \\
-				$10^{-2}\cdot|x|$ & Avg (10 pts) & 8.2 & 0.03 & 0.9274 & 10/10 \\
+				$10^{-2}$ & $\bar{x}$ & 12 & 0.04 & 0.0014 & 10/10 \\
+				$10^{-2}$ & Avg (10 pts) & 9.4 & 0.04 & 0.0629 & 10/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 11 & 0.03 & 0.5256 & 10/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 9.4 & 0.04 & 0.4660 & 10/10 \\
 				\hline
 				$10^{-4}$ & $\bar{x}$ & 10 & 0.03 & 1.6064 & 10/10 \\
-				$10^{-4}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6201 & 10/10 \\
+				$10^{-4}$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				$10^{-4}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6122 & 10/10 \\
-				$10^{-4}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				\hline
 				$10^{-6}$ & $\bar{x}$ & 10 & 0.03 & 1.6112 & 10/10 \\
-				$10^{-6}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-6}$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				$10^{-6}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
-				$10^{-6}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				\hline
 				$10^{-8}$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
-				$10^{-8}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-8}$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				$10^{-8}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
-				$10^{-8}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				\hline
 				$10^{-10}$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
-				$10^{-10}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-10}$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				$10^{-10}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
-				$10^{-10}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				\hline
 				$10^{-12}$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
-				$10^{-12}$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-12}$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				$10^{-12}\cdot|x|$ & $\bar{x}$ & 10 & 0.03 & 1.6113 & 10/10 \\
-				$10^{-12}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.03 & 1.6200 & 10/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 8.5 & 0.03 & 1.5916 & 10/10 \\
 				\hline
 			\end{tabular}%
 		}
 		\label{tab:gb_fd_10000}
 	\end{table}
+	
 	
 	\begin{figure}[htbp]
 		\centering
@@ -952,7 +960,7 @@
 		\label{fig:fd_broyden_10k_h12}
 	\end{figure}
 	\newpage
-	\begin{table}[htbp]
+	\begin{table}[H]
 		\centering
 		\caption{Finite difference results for $n=100\,000$ using different increments $h$ and strategies.}
 		\renewcommand{\arraystretch}{1.2}
@@ -961,42 +969,43 @@
 				\hline
 				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
 				\hline
-				$10^{-2}$ & $\bar{x}$ & 11 & 2.21 & 0.0216 & 10/10 \\
-				$10^{-2}$ & Avg (10 pts) & 8.6 & 0.48 & 0.1495 & 10/10 \\
-				$10^{-2}\cdot|x|$ & $\bar{x}$ & 11 & 0.47 & 1.0263 & 10/10 \\
-				$10^{-2}\cdot|x|$ & Avg (10 pts) & 8.2 & 0.44 & 0.9274 & 10/10 \\
+				$10^{-2}$ & $\bar{x}$ & 14 & 0.51 & 0.0031 & 10/10 \\
+				$10^{-2}$ & Avg (10 pts) & 10.9 & 0.56 & 0.0424 & 10/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 11 & 0.47 & 0.1670 & 10/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 9.6 & 0.49 & 0.1538 & 10/10 \\
 				\hline
-				$10^{-4}$ & $\bar{x}$ & 10 & 0.48 & 1.6064 & 10/10 \\
-				$10^{-4}$ & Avg (10 pts) & 7.7 & 0.45 & 1.6201 & 10/10 \\
-				$10^{-4}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6122 & 10/10 \\
-				$10^{-4}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-4}$ & $\bar{x}$ & 10 & 0.36 & 1.6064 & 10/10 \\
+				$10^{-4}$ & Avg (10 pts) & 8.7 & 0.43 & 1.6182 & 10/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 10 & 0.34 & 1.6122 & 10/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 8.7 & 0.43 & 1.6173 & 10/10 \\
 				\hline
-				$10^{-6}$ & $\bar{x}$ & 10 & 0.48 & 1.6112 & 10/10 \\
-				$10^{-6}$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
-				$10^{-6}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
-				$10^{-6}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-6}$ & $\bar{x}$ & 10 & 0.35 & 1.6112 & 10/10 \\
+				$10^{-6}$ & Avg (10 pts) & 8.7 & 0.43 & 1.6171 & 10/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 10 & 0.35 & 1.6113 & 10/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 8.7 & 0.43 & 1.6170 & 10/10 \\
 				\hline
-				$10^{-8}$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
-				$10^{-8}$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
-				$10^{-8}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
-				$10^{-8}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-8}$ & $\bar{x}$ & 10 & 0.35 & 1.6113 & 10/10 \\
+				$10^{-8}$ & Avg (10 pts) & 8.7 & 0.43 & 1.6170 & 10/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 10 & 0.35 & 1.6113 & 10/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 8.7 & 0.43 & 1.6170 & 10/10 \\
 				\hline
-				$10^{-10}$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
-				$10^{-10}$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
-				$10^{-10}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
-				$10^{-10}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-10}$ & $\bar{x}$ & 10 & 0.35 & 1.6113 & 10/10 \\
+				$10^{-10}$ & Avg (10 pts) & 8.7 & 0.43 & 1.6170 & 10/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 10 & 0.35 & 1.6113 & 10/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 8.7 & 0.43 & 1.6170 & 10/10 \\
 				\hline
-				$10^{-12}$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
-				$10^{-12}$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
-				$10^{-12}\cdot|x|$ & $\bar{x}$ & 10 & 0.48 & 1.6113 & 10/10 \\
-				$10^{-12}\cdot|x|$ & Avg (10 pts) & 7.7 & 0.44 & 1.6200 & 10/10 \\
+				$10^{-12}$ & $\bar{x}$ & 10 & 0.36 & 1.6113 & 10/10 \\
+				$10^{-12}$ & Avg (10 pts) & 8.7 & 0.43 & 1.6170 & 10/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 10 & 0.35 & 1.6113 & 10/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 8.7 & 0.43 & 1.6170 & 10/10 \\
 				\hline
 			\end{tabular}%
 		}
 		\label{tab:gb_fd_100000}
 	\end{table}
 	
-	\begin{figure}[htbp]
+	\newpage
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{../immagini/broyden_100k_h2.png}
 		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=100000$) with fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
@@ -1009,7 +1018,7 @@
 		\caption{Convergence of Modified Newton method on Generalized Broyden function ($n=100000$) with fixed increment $h = 10^{-12}$ (left) and scaled increment $h = 10^{-12}\cdot|x|$ (right).}
 		\label{fig:fd_broyden_100k_h12}
 	\end{figure}
-	
+	\newpage
 	\paragraph{Discussion.}
 	The finite difference approximation is remarkably stable on this problem. All tested step sizes yield convergence in under 30 iterations. Success rates remain at 100\% for all increments, confirming the robustness of the method even in the presence of approximation noise.
 	
@@ -1200,12 +1209,303 @@
 	\end{figure}
 	
 	
-	
-	
-	
 	\subsection{Finite Differences Gradient and Hessian}
 	
-	\section{Conclusions}
+	To evaluate the Banded Trigonometric function using finite difference approximations, we implemented two schemes:
+	\begin{itemize}
+		\item \textbf{Fixed increment}: $h$
+		\item \textbf{Scaled increment}: $h \cdot |x|$
+	\end{itemize}
+	
+	The expressions used for approximating the gradient and the Hessian are reported below, following the same structure adopted in previous sections.
+	
+	\begin{equation}
+		\frac{\partial F}{\partial x_k} \approx
+		\begin{cases}
+			k \sin x_k + 2 \cos x_k, & 1 \leq k < n \\
+			n \sin x_n - (n - 1) \cos x_n, & k = n
+		\end{cases}
+	\end{equation}
+	
+	\begin{equation}
+		\frac{\partial^2 F}{\partial x_k \partial x_j} \approx
+		\begin{cases}
+			k \cos x_k - 2 \sin(x_k), & 1 \leq k = j < n \\
+			n \cos x_n + (n - 1) \sin x_n, & k = j = n \\
+			0, & \text{otherwise}
+		\end{cases}
+	\end{equation}
+	
+	These formulas were evaluated using both $h$ and $h \cdot |x|$ for multiple values of $h = 10^{-k}$, with $k = 2, 4, \dots, 12$.
+	
+	\vspace{1em}
+	
+	\paragraph{\textbf{Results.}}
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Finite difference results for $n=1\,000$ using different increments $h$ and strategies.}
+		\renewcommand{\arraystretch}{1.2}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
+				\hline
+				$10^{-2}$ & $\bar{x}$ & 3 & 0.08 & 5.6355 & 0/10 \\
+				$10^{-2}$ & Avg (10 pts) & 9.0 & 0.10 & 2.5248 & 0/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 9.0 & 0.09 & 2.4306 & 0/10 \\
+				\hline
+				$10^{-4}$ & $\bar{x}$ & 3 & 0.00 & 5.9620 & 0/10 \\
+				$10^{-4}$ & Avg (10 pts) & 8.3 & 0.10 & 2.3844 & 0/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 9.0 & 0.10 & 3.7015 & 0/10 \\
+				\hline
+				$10^{-6}$ & $\bar{x}$ & 3 & 0.00 & 5.9690 & 0/10 \\
+				$10^{-6}$ & Avg (10 pts) & 9.1 & 0.10 & 2.7417 & 0/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 9.0 & 0.10 & 3.3539 & 0/10 \\
+				\hline
+				$10^{-8}$ & $\bar{x}$ & 3 & 0.00 & 5.9690 & 0/10 \\
+				$10^{-8}$ & Avg (10 pts) & 9.1 & 0.10 & 2.5697 & 0/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 9.0 & 0.10 & 2.5694 & 0/10 \\
+				\hline
+				$10^{-10}$ & $\bar{x}$ & 3 & 0.00 & 5.9690 & 0/10 \\
+				$10^{-10}$ & Avg (10 pts) & 9.1 & 0.10 & 2.8327 & 0/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 9.0 & 0.10 & 3.0622 & 0/10 \\
+				\hline
+				$10^{-12}$ & $\bar{x}$ & 3 & 0.00 & 5.9690 & 0/10 \\
+				$10^{-12}$ & Avg (10 pts) & 9.1 & 0.10 & 2.8612 & 0/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 9.0 & 0.10 & 3.0699 & 0/10 \\
+				\hline
+			\end{tabular}%
+		}
+		\label{tab:banded_fd_1000}
+	\end{table}
+	
+	\newpage
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_1k_h2.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=1000$) using fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
+		\label{fig:bt_fd_1k_h2}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_1k_h12.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=1000$) using fixed increment $h = 10^{-12}$ (left) and scaled increment $h = 10^{-12}\cdot|x|$ (right).}
+		\label{fig:bt_fd_1k_h12}
+	\end{figure}
+	\newpage
+	\begin{table}[H]
+		\centering
+		\caption{Finite difference results for $n=10\,000$ using different increments $h$ and strategies.}
+		\renewcommand{\arraystretch}{1.2}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
+				\hline
+				$10^{-2}$ & $\bar{x}$ & 3 & 0.01 & 4.1395 & 0/10 \\
+				$10^{-2}$ & Avg (10 pts) & 11.3 & 0.09 & 2.4396 & 0/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 1 & 0.01 & NaN & 0/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 9.6 & 0.09 & 4.0091 & 0/10 \\
+				\hline
+				$10^{-4}$ & $\bar{x}$ & 3 & 0.01 & 3.9149 & 0/10 \\
+				$10^{-4}$ & Avg (10 pts) & 10.4 & 0.10 & 2.0537 & 0/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 11.0 & 0.10 & 2.3381 & 0/10 \\
+				\hline
+				$10^{-6}$ & $\bar{x}$ & 3 & 0.01 & 3.9128 & 0/10 \\
+				$10^{-6}$ & Avg (10 pts) & 11.0 & 0.09 & 2.3797 & 0/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 11.0 & 0.09 & 2.5370 & 0/10 \\
+				\hline
+				$10^{-8}$ & $\bar{x}$ & 3 & 0.01 & 3.9128 & 0/10 \\
+				$10^{-8}$ & Avg (10 pts) & 11.0 & 0.09 & 2.4257 & 0/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 11.0 & 0.09 & 2.5717 & 0/10 \\
+				\hline
+				$10^{-10}$ & $\bar{x}$ & 3 & 0.01 & 3.9128 & 0/10 \\
+				$10^{-10}$ & Avg (10 pts) & 11.0 & 0.09 & 2.5486 & 0/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 11.0 & 0.09 & 2.5743 & 0/10 \\
+				\hline
+				$10^{-12}$ & $\bar{x}$ & 3 & 0.01 & 3.9128 & 0/10 \\
+				$10^{-12}$ & Avg (10 pts) & 11.0 & 0.09 & 2.5742 & 0/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 1 & 0.00 & NaN & 0/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 11.0 & 0.09 & 2.5742 & 0/10 \\
+				\hline
+			\end{tabular}%
+		}
+		\label{tab:bt_fd_10000}
+	\end{table}
+	
+	\newpage
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_10k_h2.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=10000$) using fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
+		\label{fig:bt_fd_10k_h2}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_10k_h12.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=10000$) using fixed increment $h = 10^{-12}$ (left) and scaled increment $h = 10^{-12}\cdot|x|$ (right).}
+		\label{fig:bt_fd_10k_h12}
+	\end{figure}
+	\newpage\
+	\begin{table}[H]
+		\centering
+		\caption{Finite difference results for $n=100\,000$ using different increments $h$ and strategies.}
+		\renewcommand{\arraystretch}{1.2}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\textbf{Increment} & \textbf{Init.} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} & \textbf{Successes} \\
+				\hline
+				$10^{-2}$ & $\bar{x}$ & 3 & 0.13 & 4.0595 & 0/10 \\
+				$10^{-2}$ & Avg (10 pts) & 17.3 & 1.64 & 2.7381 & 0/10 \\
+				$10^{-2}\cdot|x|$ & $\bar{x}$ & 1 & 0.04 & NaN & 0/10 \\
+				$10^{-2}\cdot|x|$ & Avg (10 pts) & 17.1 & 1.82 & 2.2606 & 0/10 \\
+				\hline
+				$10^{-4}$ & $\bar{x}$ & 3 & 0.15 & 3.8313 & 0/10 \\
+				$10^{-4}$ & Avg (10 pts) & 15.4 & 1.59 & 2.0368 & 0/10 \\
+				$10^{-4}\cdot|x|$ & $\bar{x}$ & 1 & 0.05 & NaN & 0/10 \\
+				$10^{-4}\cdot|x|$ & Avg (10 pts) & 15.6 & 1.68 & 2.0852 & 0/10 \\
+				\hline
+				$10^{-6}$ & $\bar{x}$ & 3 & 0.14 & 3.8291 & 0/10 \\
+				$10^{-6}$ & Avg (10 pts) & 15.3 & 1.75 & 2.3666 & 0/10 \\
+				$10^{-6}\cdot|x|$ & $\bar{x}$ & 1 & 0.04 & NaN & 0/10 \\
+				$10^{-6}\cdot|x|$ & Avg (10 pts) & 15.5 & 1.72 & 2.4160 & 0/10 \\
+				\hline
+				$10^{-8}$ & $\bar{x}$ & 3 & 0.13 & 3.8291 & 0/10 \\
+				$10^{-8}$ & Avg (10 pts) & 15.6 & 1.66 & 2.4994 & 0/10 \\
+				$10^{-8}\cdot|x|$ & $\bar{x}$ & 1 & 0.04 & NaN & 0/10 \\
+				$10^{-8}\cdot|x|$ & Avg (10 pts) & 15.6 & 1.68 & 2.5042 & 0/10 \\
+				\hline
+				$10^{-10}$ & $\bar{x}$ & 3 & 0.13 & 3.8291 & 0/10 \\
+				$10^{-10}$ & Avg (10 pts) & 15.6 & 1.65 & 2.4979 & 0/10 \\
+				$10^{-10}\cdot|x|$ & $\bar{x}$ & 1 & 0.04 & NaN & 0/10 \\
+				$10^{-10}\cdot|x|$ & Avg (10 pts) & 15.6 & 1.65 & 2.4985 & 0/10 \\
+				\hline
+				$10^{-12}$ & $\bar{x}$ & 3 & 0.13 & 3.8291 & 0/10 \\
+				$10^{-12}$ & Avg (10 pts) & 15.6 & 1.66 & 2.4975 & 0/10 \\
+				$10^{-12}\cdot|x|$ & $\bar{x}$ & 1 & 0.04 & NaN & 0/10 \\
+				$10^{-12}\cdot|x|$ & Avg (10 pts) & 15.6 & 1.66 & 2.4979 & 0/10 \\
+				\hline
+			\end{tabular}%
+		}
+		\label{tab:banded_fd_100000}
+	\end{table}
+	\newpage
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_100k_h2.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=100000$) using fixed increment $h = 10^{-2}$ (left) and scaled increment $h = 10^{-2}\cdot|x|$ (right).}
+		\label{fig:bt_fd_100k_h2}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_100k_h12.png}
+		\caption{Convergence of the Modified Newton method on the Banded Trigonometric function ($n=100000$) using fixed increment $h = 10^{-12}$ (left) and scaled increment $h = 10^{-12}\cdot|x|$ (right).}
+		\label{fig:bt_fd_100k_h12}
+	\end{figure}
+	
+	\subsection{Nelder-Mead on Banded Trigonometric Function}
+	
+	We tested the Nelder-Mead algorithm on the Banded Trigonometric function for increasing dimensions $n \in \{10, 26, 50\}$. The starting point $\bar{x}$ was set to:
+	\[
+	x_0 = \begin{bmatrix} 0 \\ 1 \\ \dots \\ 1 \\ 0 \end{bmatrix} \in \mathbb{R}^{n+2}
+	\]
+	and 10 additional random initial points were generated around it with small perturbations.
+	
+	Nelder-Mead does not exploit derivative information and therefore struggles more with ill-conditioned landscapes and high-dimensional domains. As expected, the performance worsens as the dimension increases.
+	
+	\vspace{1em}
+	\textbf{Observations:}
+	\begin{itemize}
+		\item For $n=10$, the method shows modest convergence, with 6 out of 10 runs being successful.
+		\item At $n=26$, only 5 out of 10 runs reached the objective threshold, and some runs hit the iteration limit.
+		\item In dimension $n=50$, performance improves again slightly with 8 out of 10 successes, though the convergence rates $\rho$ are generally inconsistent and highly sensitive to initialization.
+		\item The computational times remain low thanks to the derivative-free nature, but the method does not scale well in precision or reliability.
+	\end{itemize}
+	
+	\begin{table}[H]
+		\centering
+		\caption{Results of Nelder–Mead on Banded Trigonometric function.}
+		\renewcommand{\arraystretch}{1.2}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				\textbf{Dim} & \textbf{Init.} & \textbf{$f_{\min}$} & \textbf{Iter} & \textbf{Time (s)} & \textbf{$\rho$} \\
+				\hline
+				10  & $\bar{x}$ & -2.1802 & 187  & 0.01 & 1.16 \\
+				& Avg (10 pts) & -9.05  & 1297.5 & 0.02 & 8.07 \\
+				\hline
+				26  & $\bar{x}$ & -6.7317 & 1376  & 0.04 & 0.22 \\
+				& Avg (10 pts) & 1.06   & 25408.7 & 1.42 & 19.76 \\
+				\hline
+				50  & $\bar{x}$ & -5.9955 & 4955  & 0.29 & 0.70 \\
+				& Avg (10 pts) & -1.41  & 7470.7 & 0.49 & 1.52 \\
+				\hline
+			\end{tabular}%
+		}
+		\label{tab:nelder_banded}
+	\end{table}
+	\newpage
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_10.png}
+		\caption{Convergence of Nelder-Mead on the Banded Trigonometric function with $n = 10$.}
+		\label{fig:bt_nelder_10}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_26.png}
+		\caption{Convergence of Nelder-Mead on the Banded Trigonometric function with $n = 26$.}
+		\label{fig:bt_nelder_26}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\textwidth]{../immagini/banded_50.png}
+		\caption{Convergence of Nelder-Mead on the Banded Trigonometric function with $n = 50$.}
+		\label{fig:bt_nelder_50}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{../immagini/banded_time_nelder.png}
+		\caption{Computation time of Nelder-Mead on the Banded Trigonometric function for $n \in \{10, 26, 50\}$.}
+		\label{fig:bt_nelder_time}
+	\end{figure}
+	
+	\paragraph{Discussion.}
+	The Nelder–Mead algorithm was applied to the Banded Trigonometric function for dimensions $n = 10, 26, 50$. The reference point $\bar{x}$ was initialized with 1's in the internal positions and fixed boundaries $x_0 = x_{n+1} = 0$. For each dimension, 10 additional random starting points were tested.
+	
+	The results show a moderate performance for $n=10$, with function values not far from the optimal region and manageable iteration counts. However, as the dimensionality increases, the method exhibits severe limitations. The number of iterations increases rapidly, function values remain far from zero, and convergence rates become unstable, particularly for the randomly initialized cases.
+	
+	Despite its simplicity and low computational cost per iteration, Nelder–Mead lacks robustness in structured and highly nonlinear problems such as this, highlighting the necessity of derivative information and second-order methods in large-scale optimization tasks.
+	
+	
+	\section{Conclusion}
+	
+	In this project, we implemented and compared the performance of two numerical optimization methods—Modified Newton and Nelder–Mead—on three benchmark problems: the Extended Rosenbrock function, the Generalized Broyden tridiagonal function, and the Banded Trigonometric function.
+	
+	The Modified Newton method consistently delivered superior results across all tested functions and dimensions. When exact derivatives were available, the method achieved rapid convergence—often in fewer than 10 iterations—and scaled efficiently even in high-dimensional settings ($n = 10^5$), thanks to sparse linear algebra and preconditioning techniques. Finite difference approximations, although more computationally expensive and slightly less accurate, proved to be reliable when properly tuned, particularly with smaller step sizes ($h \leq 10^{-6}$).
+	
+	In contrast, the Nelder–Mead method showed acceptable performance only in low-dimensional cases. While easy to implement and free of derivative requirements, its convergence became erratic and inefficient as the dimension increased. The algorithm often failed to reach low objective values, especially in problems with ill-conditioned or structured landscapes, such as the Banded Trigonometric function.
+	
+	Overall, this study highlights the importance of leveraging second-order information and exploiting problem structure—such as sparsity or tridiagonality—for scalable and reliable optimization. Derivative-free methods may still be useful in small-scale or noisy settings, but for large, structured problems, Newton-type algorithms remain the preferred choice.
 	
 	% -------------------------------------------------
 	
