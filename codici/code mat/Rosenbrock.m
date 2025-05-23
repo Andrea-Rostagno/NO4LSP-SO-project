@@ -16,18 +16,15 @@ function [x_min, f_min, iter, min_history] = modified_newton(f, grad_f, hess_f, 
 %   min_history: Sequence of function values (for plot)
 
     x = x0;
-    %n = length(x);
     min_history = zeros(1, max_iter);
 
     rho = 0.5;     % Reduction factor for backtracking
     c = 1e-4;      % Armijo condition constant
-    
-
     iter = 1;
+
     while iter <= max_iter
         g = grad_f(x);
         H = hess_f(x);
-        
 
         % Store current function value
         min_history(iter) = f(x);
@@ -35,17 +32,20 @@ function [x_min, f_min, iter, min_history] = modified_newton(f, grad_f, hess_f, 
         % Modified Hessian (ensure positive definiteness)
         %tao = max(0, sqrt(1) - min(eig(H)));
         %H_mod = H + tao * eye(n);  % Adds diagonal damping if needed
+
         [L, ~] = alg63_cholesky(H,50); 
 
         % Compute Newton direction
         %p = -H_mod \ g;
+
         p = - L'\(L\g);
 
         % Backtracking line search (Armijo rule)
         alpha = 1;
         f_curr = f(x);
-        max_backtracking_iter = 40; % Limita la ricerca lineare
+        max_backtracking_iter = 40; 
         backtracking_iter = 0;
+
         if name == "bt" || name == "gb"
 
             p=[0;p;0];
@@ -62,10 +62,10 @@ function [x_min, f_min, iter, min_history] = modified_newton(f, grad_f, hess_f, 
         x = x + alpha * p;
 
         f_old = f_curr;
-        f_curr = f(x);           % nuovo valore
-        g      = grad_f(x);      % nuovo gradiente
+        f_curr = f(x);           
+        g      = grad_f(x);      
     
-        % criteri di uscita
+        % Check stopping criterion
         if norm(g,inf) <= tol
             break
         end
@@ -73,9 +73,6 @@ function [x_min, f_min, iter, min_history] = modified_newton(f, grad_f, hess_f, 
         if abs(f_curr - f_old) <= tol*max(1,abs(f_old))
             break
         end
-
-
-        % Check stopping criterion
 
         if f(x) <= tol
             break;
@@ -106,22 +103,22 @@ function [L, tau] = alg63_cholesky(A, maxIter)
     % end
 
     % Step 2: τ iniziale
-    tau0 = 1e-3;       % valore minimo consigliato
-    tau  = 0;          % prova prima senza shift
+    tau0 = 1e-3;       
+    tau  = 0;          
 
-    I = speye(n);                 % mantiene la struttura sparsa
+    I = speye(n);                 
 
-    % Step 3 – tentativi di Cholesky
+    % Step 3
     for k = 0:maxIter
         [L,flag] = chol(A + tau*I,'lower');   % L*L' = A+τI
-        if flag == 0                          % fattorizzazione OK
+        if flag == 0                          % OK
             return
         end
-        %tau = max(2*tau, beta/2);             % regola del libro
+        %tau = max(2*tau, beta/2);             
         if tau == 0
-            tau = max(tau0, min(beta/2, 1e-1));   % primo salto cauto
+            tau = max(tau0, min(beta/2, 1e-1));   
         else
-            tau = 2 * tau;                        % raddoppia ai tentativi successivi
+            tau = 2 * tau;                        
         end
 
     end

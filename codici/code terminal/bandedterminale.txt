@@ -2898,3 +2898,6 @@ Tempo (incl. plotting) per n = 10000    :  12.38  s
 Tempo (incl. plotting) per n = 100000   :  459.54  s
 
 Tempo TOTALE (tutte le dimensioni) :  474.93  s
+render process terminated: TS_PROCESS_WAS_KILLED
+render process terminated: TS_PROCESS_WAS_KILLED
+render process terminated: TS_PROCESS_WAS_KILLED
